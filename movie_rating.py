@@ -9,23 +9,6 @@ from os import listdir
 import os
 from os.path import isfile, join, isdir
 
-
-# name = 
-name_list = [
-    # "Fist.Fight.2017.720p.BluRay.x264-DRONES[rarbg]",
-    # "The.Wizard.of.Lies.2017.1080p.WEBRip.DD5.1.x264-monkee",
-    # "War.Machine.2017.1080p.NF.WEBRip.DD5.1.x264-SB",
-    # "John.Wick.Chapter.2.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-    # "Colossal.2016.1080p.WEB-DL.AAC2.0.H264-FGT",
-    # "The.Shack.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-    # "The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-    # "The.Boss.Baby.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-    # "Logan.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-    # "Gifted.2017.1080p.HC.WEBRip.x264.AAC2.0-STUTTERSHIT",
-    # "xXx.Return.of.Xander.Cage.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-    "War.Machine.2017.1080p.NF.WEBRip.DD5.1.x264-SB"
-]
-
 def get_movies(folder_path):
     """
     Get a list of movies from the given folder
@@ -33,7 +16,6 @@ def get_movies(folder_path):
     # mypath = os.path.dirname(os.path.realpath(__file__))
     files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))]
     return files
-
 
 def get_movie_name_and_year(name):
     """
