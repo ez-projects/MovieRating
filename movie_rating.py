@@ -14,7 +14,11 @@ def get_movies(folder_path):
     Get a list of movies from the given folder
     """
     # mypath = os.path.dirname(os.path.realpath(__file__))
-    files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))]
+    files = []
+    try:
+        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))]
+    except OSError as msg:
+        print("No movies were found in: {}".format(folder_path))
     return files
 
 def get_movie_name_and_year(name):
@@ -72,7 +76,7 @@ def get_movie_url(movie_title, year):
     for tr in rows:
         cols = tr.findAll('td')
         for col in cols:
-            col_text = str(col.text)
+            col_text = col.text.encode('utf-8').strip()
             col_text = col_text.replace(":", "")
             col_text_titled = []
             for s in col_text.split(" "):
@@ -107,6 +111,11 @@ def get_movie_rating(url):
 
 path = "/run/media/nathan/DATA/Movies/"
 movies = get_movies(path)
+if not movies:
+    movies = [
+        "DieHard.4.720p"
+    ]
+    print("Using testing movie list: {}".format(movies))
 for name in movies:
     movie_title, year = get_movie_name_and_year(name)
 
