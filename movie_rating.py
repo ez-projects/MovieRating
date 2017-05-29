@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python
-import re
+import re, pprint
+from bson.json_util import dumps
 from bs4 import BeautifulSoup
 import requests
 from pyquery import PyQuery as pq
@@ -113,9 +114,14 @@ path = "/run/media/nathan/DATA/Movies/"
 movies = get_movies(path)
 if not movies:
     movies = [
-        "DieHard.4.720p"
+        "The.Boss.Baby.2017.1080p.WEB-DL.DD5.1.H264-FGT",
+        "Logan.2017.1080p.WEB-DL.DD5.1.H264-FGT",
+        "Gifted.2017.1080p.HC.WEBRip.x264.AAC2.0-STUTTERSHIT",
+        "xXx.Return.of.Xander.Cage.2017.1080p.WEB-DL.DD5.1.H264-FGT",
+        "War.Machine.2017.1080p.NF.WEBRip.DD5.1.x264-SB"
     ]
-    print("Using testing movie list: {}".format(movies))
+    print("Using testing movie list: \n")
+    print(dumps(movies, indent=4))
 for name in movies:
     movie_title, year = get_movie_name_and_year(name)
 
