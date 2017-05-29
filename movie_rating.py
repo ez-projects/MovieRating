@@ -77,7 +77,7 @@ def get_movie_url(movie_title, year):
     for tr in rows:
         cols = tr.findAll('td')
         for col in cols:
-            col_text = col.text.encode('utf-8').strip()
+            col_text = str(col.text.encode('utf-8').strip())
             col_text = col_text.replace(":", "")
             col_text_titled = []
             for s in col_text.split(" "):
