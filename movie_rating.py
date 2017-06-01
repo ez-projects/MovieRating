@@ -109,16 +109,17 @@ def get_movie_rating(url):
     rating = rating_str.replace('</span>', "").split(">")[-1]
     return rating
 
-
-path = "/run/media/nathan/DATA/Movies/"
-movies = get_movies(path)
+movies = []
+#path = "/run/media/nathan/DATA/Movies/"
+#movies = get_movies(path)
 if not movies:
     movies = [
         "The.Boss.Baby.2017.1080p.WEB-DL.DD5.1.H264-FGT",
         "Logan.2017.1080p.WEB-DL.DD5.1.H264-FGT",
         "Gifted.2017.1080p.HC.WEBRip.x264.AAC2.0-STUTTERSHIT",
         "xXx.Return.of.Xander.Cage.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-        "War.Machine.2017.1080p.NF.WEBRip.DD5.1.x264-SB"
+        "War.Machine.2017.1080p.NF.WEBRip.DD5.1.x264-SB",
+        "Colossal.2016.1080p.WEB-DL.AAC2.0.H264-FGT.mkv"
     ]
     print("Using testing movie list: \n")
     print(dumps(movies, indent=4))
