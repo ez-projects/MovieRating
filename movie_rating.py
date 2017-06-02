@@ -122,8 +122,9 @@ def get_movie_details_by_id(imdb_id):
     
     # TODO: 
     # 1. create mongo query based on this information
-    #       a. query {original_title: "", title: "", release_date: "", }
+    #       a. query {original_title: "", title: "", release_date: "", imdb_id:, id:""}
     # 2. Create Media DB with a collection called Movies
+    # 3. Get poster: https://image.tmdb.org/t/p/w500/{poster_path}
     data = json.loads(response.content)
     production_countries = [country["name"] for country in data["production_countries"]]
     refined_data = {
@@ -132,7 +133,8 @@ def get_movie_details_by_id(imdb_id):
         "release_date": "",
         "vote_average": 0,
         "original_language": "",
-        "revenue": 0
+        "revenue": 0,
+        "imdb_id": ""
     }
     for key in refined_data.keys():
         refined_data[key] = data.get(key)
