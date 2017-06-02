@@ -119,6 +119,11 @@ def get_movie_details_by_id(imdb_id):
     """
     url = "https://api.themoviedb.org/3/movie/{}?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json".format(imdb_id)
     response = requests.get(url)
+    
+    # TODO: 
+    # 1. create mongo query based on this information
+    #       a. query {original_title: "", title: "", release_date: "", }
+    # 2. Create Media DB with a collection called Movies
     data = json.loads(response.content)
     production_countries = [country["name"] for country in data["production_countries"]]
     refined_data = {
