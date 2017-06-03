@@ -4,13 +4,13 @@ import re, pprint, json
 import pudb
 from bson.json_util import dumps
 from bs4 import BeautifulSoup
-import requests
 from pyquery import PyQuery as pq
 import sys
 from os import listdir
 import os
 from os.path import isfile, join, isdir
 
+BLACKLISTED_STR = ["(TV Movie)", ":", "(Short)"]
 
 def get_movies(folder_path):
     """
@@ -85,16 +85,23 @@ def get_movie_url(movie_title, year):
     found = False
     for tr in rows:
         cols = tr.findAll('td')
-        # pudb.set_trace()
+        pudb.set_trace()
         for col in cols:
-            col_text = str(col.text.encode('utf-8').strip())
-            col_text = col_text.replace(":", "").replace("(TV Movie)", "").strip().lower()
-            # NB: identify movie in there
-            if col_text.startswith(expected_title) and col_text.endswith(expected_year):
-            # if expected_result == col_text.lower():
-                movie_href = cols[1].find('a').get("href")
-                found = True
-                break
+            col_text = str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
+            # if col_text.startswith("b'") or col_text.endswith("b'") or col_text.startswith("'") or col_text.endswith("'"):
+            #     col_text = col_text.replace("b'", "").replace("'", "")
+            
+            # col_text = col_text.replace(":", "").replace("()", "")
+            if col_text:
+                for s in BLACKLISTED_STR:
+                    col_text = col_text.replace(s, "")
+                col_text = col_text.strip().lower()
+                # NB: identify movie in there
+                if col_text.startswith(expected_title) and col_text.endswith(expected_year):
+                # if expected_result == col_text.lower():
+                    movie_href = cols[1].find('a').get("href")
+                    found = True
+                    break
         if found:
             break
     movie_url += movie_href
@@ -105,7 +112,10 @@ def get_imdb_id_by_url(url):
     http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
     """
     imdb_id = url.split("/")[-2]
-    return imdb_id
+    if imdb_id.startswith("tt"):
+        return imdb_id
+    else:
+        return None
 
 def get_movie_details_by_id(imdb_id):
     """
@@ -117,16 +127,16 @@ def get_movie_details_by_id(imdb_id):
     production_countries: list of dictionary
     original_language: string
     """
+    import requests
     url = "https://api.themoviedb.org/3/movie/{}?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json".format(imdb_id)
     response = requests.get(url)
-    
     # TODO: 
     # 1. create mongo query based on this information
     #       a. query {original_title: "", title: "", release_date: "", imdb_id:, id:""}
     # 2. Create Media DB with a collection called Movies
     # 3. Get poster: https://image.tmdb.org/t/p/w500/{poster_path}
     data = json.loads(response.content)
-    production_countries = [country["name"] for country in data["production_countries"]]
+    assert response.status_code == 200, "Expected response code: 200, but got {}".format(dumps(data, indent=4))
     refined_data = {
         "original_title": "",
         "title": "",
@@ -134,11 +144,14 @@ def get_movie_details_by_id(imdb_id):
         "vote_average": 0,
         "original_language": "",
         "revenue": 0,
-        "imdb_id": ""
+        "imdb_id": "",
+        "poster_path": ""
     }
-    for key in refined_data.keys():
-        refined_data[key] = data.get(key)
-    refined_data["production_countries"] = production_countries
+    if data:
+        production_countries = [country["name"] for country in data["production_countries"]]
+        for key in refined_data.keys():
+            refined_data[key] = data.get(key)
+        refined_data["production_countries"] = production_countries
     return refined_data
     # print(dumps(refined_data, indent=4))
 
@@ -162,11 +175,10 @@ def verify_searched_results(url, soup_html):
     Verify movie title and year find on IMDB against themoviedb.org
     """
     print("Verifying... ...")
-    print(url)
     imdb_id = get_imdb_id_by_url(url)
     verified_data = get_movie_details_by_id(imdb_id)
-    title_div = soup_html.find("h1", {"itemprop":"name"}).get_text()
-    title_str = str(title_div.lower().encode('utf-8'))
+    title_div = soup_html.find("h1", {"itemprop":"name"}).get_text().encode('utf-8').decode('ascii', 'ignore')
+    title_str = title_div.lower()
     # Verify movie title and year
     release_year = get_release_year_by_date(verified_data.get("release_date"))
     try:
@@ -178,6 +190,7 @@ def verify_searched_results(url, soup_html):
         print("\tFailed: {}".format(msg))
     else:
         print("\tPASSED!!!")
+    print(url)
 
 def get_release_year_by_date(release_date):
     """
@@ -185,23 +198,34 @@ def get_release_year_by_date(release_date):
     """
     return release_date.split("-")[0]
 
+def get_movie_poster_by_poster_path(poster_path):
+    """
+    """
+    poster_url = "https://image.tmdb.org/t/p/w500/{}".format(poster_path)
+    if sys.version_info[0] < 3:
+        import urllib
+        urllib.urlretrieve(poster_url, "local-filename2.jpg")
+    else:
+        import urllib.request
+        urllib.request.urlretrieve(poster_url, "local-filename3.jpg")
 
 def main():
     movies = []
     verify = False
+    path = "/run/media/nathan/DATA/Movies/"
     # A movie name from command line
     if len(sys.argv) == 2:
         if sys.argv[1] == '--verify':
             verify = True
+            movies = get_movies(path)
         else:
             movies = [sys.argv[-1]]
     elif len(sys.argv) == 3:
-        assert sys.argv[1] == "--verify", "Incorrect option entered, looking for [--verify]"
-        verify = True
+        if sys.argv[1] == "--verify":
+            verify = True
         movies = [sys.argv[-1]]
     # A directory of movies
     else:
-        path = "/run/media/nathan/DATA/Moviess/"
         movies = get_movies(path)
     # No movies were found/given, use these movies for testing
     if not movies:
@@ -211,25 +235,32 @@ def main():
             # "Logan.2017.1080p.WEB-DL.DD5.1.H264-FGT",
             # "Gifted.2017.1080p.HC.WEBRip.x264.AAC2.0-STUTTERSHIT",
             # "War.Machine.2017.1080p.NF.WEBRip.DD5.1.x264-SB",
-            "Colossal.2016.1080p.WEB-DL.AAC2.0.H264-FGT.mkv",
-            "Gold.2016.1080p.WEB-DL.DD5.1.H264-FGT",
-            "The.Wizard.of.Lies.2017.1080p.WEBRip.DD5.1.x264-monkee",
-            "Jackie.2016.1080p.WEB-DL.DD5.1.H264-FGT",
-            "Manchester.by.the.Sea.2016.1080p.WEB-DL.DD5.1.H264-FGT",
-            "Moonlight.(I).2016.720p.BluRay.x264-SPARKS[rarbg]",
-            "The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT"
+            # "Colossal.2016.1080p.WEB-DL.AAC2.0.H264-FGT.mkv",
+            # "Gold.2016.1080p.WEB-DL.DD5.1.H264-FGT",
+            # "The.Wizard.of.Lies.2017.1080p.WEBRip.DD5.1.x264-monkee",
+            # "Jackie.2016.1080p.WEB-DL.DD5.1.H264-FGT",
+            # "Manchester.by.the.Sea.2016.1080p.WEB-DL.DD5.1.H264-FGT",
+            "Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]",
+            "Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]",
+            "The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT",
+            "Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT"
         ]
         print("Using testing movie list: \n")
         print(dumps(movies, indent=4))
     
     # Lookup movies
     for name in movies:
+        print(name)
         movie_title, year = get_movie_name_and_year(name)
-
         movie_url = get_movie_url(movie_title, year)
         imdb_id = get_imdb_id_by_url(movie_url)
+        if not imdb_id:
+            sys.exit("No IMDB ID found.")
+        if set(sys.argv) & set(["--poster"]):
+            poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
+            get_movie_poster_by_poster_path(poster_path)
         rating = get_movie_rating_by_url(movie_url, verify)
-        print(name)
+        
         print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
 
 if __name__ == '__main__':
