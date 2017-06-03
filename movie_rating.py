@@ -1,16 +1,18 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#!/usr/bin/python
-import re, pprint, json
+
+import json
 import pudb
+import ipdb
 from bson.json_util import dumps
 from bs4 import BeautifulSoup
 from pyquery import PyQuery as pq
 import sys
 from os import listdir
-import os
-from os.path import isfile, join, isdir
+from os.path import join, isdir
 
 BLACKLISTED_STR = ["(TV Movie)", ":", "(Short)"]
+
 
 def get_movies(folder_path):
     """
@@ -23,6 +25,7 @@ def get_movies(folder_path):
     except OSError as msg:
         print("No movies were found in: {}".format(folder_path))
     return files
+
 
 def get_movie_name_and_year(name):
     """
@@ -50,6 +53,7 @@ def get_movie_name_and_year(name):
     
     return " ".join(title), year
 
+
 def create_query(movie_title, year):
     """
     movie_name: dotted notation name
@@ -63,7 +67,8 @@ def create_query(movie_title, year):
     # add year separately
     query.append(year)
     return " ".join(query)
-    
+
+
 def get_movie_url(movie_title, year):
     """
     """
@@ -85,20 +90,15 @@ def get_movie_url(movie_title, year):
     found = False
     for tr in rows:
         cols = tr.findAll('td')
-        pudb.set_trace()
+        # pudb.set_trace()
         for col in cols:
             col_text = str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
-            # if col_text.startswith("b'") or col_text.endswith("b'") or col_text.startswith("'") or col_text.endswith("'"):
-            #     col_text = col_text.replace("b'", "").replace("'", "")
-            
-            # col_text = col_text.replace(":", "").replace("()", "")
             if col_text:
                 for s in BLACKLISTED_STR:
                     col_text = col_text.replace(s, "")
                 col_text = col_text.strip().lower()
                 # NB: identify movie in there
                 if col_text.startswith(expected_title) and col_text.endswith(expected_year):
-                # if expected_result == col_text.lower():
                     movie_href = cols[1].find('a').get("href")
                     found = True
                     break
@@ -106,6 +106,7 @@ def get_movie_url(movie_title, year):
             break
     movie_url += movie_href
     return movie_url
+
 
 def get_imdb_id_by_url(url):
     """
@@ -116,6 +117,7 @@ def get_imdb_id_by_url(url):
         return imdb_id
     else:
         return None
+
 
 def get_movie_details_by_id(imdb_id):
     """
@@ -130,12 +132,12 @@ def get_movie_details_by_id(imdb_id):
     import requests
     url = "https://api.themoviedb.org/3/movie/{}?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json".format(imdb_id)
     response = requests.get(url)
-    # TODO: 
-    # 1. create mongo query based on this information
-    #       a. query {original_title: "", title: "", release_date: "", imdb_id:, id:""}
-    # 2. Create Media DB with a collection called Movies
-    # 3. Get poster: https://image.tmdb.org/t/p/w500/{poster_path}
-    data = json.loads(response.content)
+    # TODO: 1. create mongo query based on this information
+    # TODO:      a. query {original_title: "", title: "", release_date: "", imdb_id:, id:""}
+    # TODO: 2. Create Media DB with a collection called Movies
+    # TODO: 3. Get poster: https://image.tmdb.org/t/p/w500/{poster_path}
+    ipdb.set_trace()
+    data = response.json()
     assert response.status_code == 200, "Expected response code: 200, but got {}".format(dumps(data, indent=4))
     refined_data = {
         "original_title": "",
@@ -155,6 +157,7 @@ def get_movie_details_by_id(imdb_id):
     return refined_data
     # print(dumps(refined_data, indent=4))
 
+
 def get_movie_rating_by_url(url, verify=False):
     """
     Get movie title to confirm
@@ -169,6 +172,7 @@ def get_movie_rating_by_url(url, verify=False):
     # Get rating
     rating = rating_str.replace('</span>', "").split(">")[-1]
     return rating
+
 
 def verify_searched_results(url, soup_html):
     """
@@ -192,11 +196,13 @@ def verify_searched_results(url, soup_html):
         print("\tPASSED!!!")
     print(url)
 
+
 def get_release_year_by_date(release_date):
     """
     release_date: 2016-05-14 accepted format
     """
     return release_date.split("-")[0]
+
 
 def get_movie_poster_by_poster_path(poster_path):
     """
@@ -208,6 +214,7 @@ def get_movie_poster_by_poster_path(poster_path):
     else:
         import urllib.request
         urllib.request.urlretrieve(poster_url, "local-filename3.jpg")
+
 
 def main():
     movies = []
