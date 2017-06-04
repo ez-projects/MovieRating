@@ -136,7 +136,6 @@ def get_movie_details_by_id(imdb_id):
     # TODO:      a. query {original_title: "", title: "", release_date: "", imdb_id:, id:""}
     # TODO: 2. Create Media DB with a collection called Movies
     # TODO: 3. Get poster: https://image.tmdb.org/t/p/w500/{poster_path}
-    ipdb.set_trace()
     data = response.json()
     assert response.status_code == 200, "Expected response code: 200, but got {}".format(dumps(data, indent=4))
     refined_data = {
@@ -267,7 +266,7 @@ def main():
             poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
             get_movie_poster_by_poster_path(poster_path)
         rating = get_movie_rating_by_url(movie_url, verify)
-        
+        from IPython import embed; embed()
         print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
 
 if __name__ == '__main__':
