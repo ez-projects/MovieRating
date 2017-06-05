@@ -11,6 +11,21 @@ import sys
 from os import listdir
 from os.path import join, isdir
 
+import logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# create a file handler
+handler = logging.FileHandler('./movie_rating.log')
+handler.setLevel(logging.INFO)
+
+# create a logging format
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+# add the handlers to the logger
+logger.addHandler(handler)
+
 BLACKLISTED_STR = ["(TV Movie)", ":", "(Short)"]
 
 
@@ -30,7 +45,7 @@ def get_movies(folder_path):
 def get_movie_name_and_year(name):
     """
     name: original folder name contains the movie
-    return: movie name with year in dotted notation
+    return: movie name and year in a tuple
     """
     movie_name = ""
     year = ""
@@ -40,17 +55,16 @@ def get_movie_name_and_year(name):
     elif "1080p" in name:
         movie_name = name.split("1080p")[0].strip(".").replace(".", " ")
     else: 
-        movie_name = name
+        movie_name = name.replace(".", " ")
     title = []
     for x in movie_name.split(" ")[:-1]:
-        if not set(x) & set(["(", ")"]):
+        if not set(x) & set(["(", ")", "'"]):
             title.append(x.title())
         else:
             title.append(x)
-    # print(title)
     year = movie_name.split(" ")[-1]
-    # print(year)
-    
+    year = year if year.isdigit() else ""
+
     return " ".join(title), year
 
 
@@ -131,6 +145,7 @@ def get_movie_details_by_id(imdb_id):
     """
     import requests
     url = "https://api.themoviedb.org/3/movie/{}?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json".format(imdb_id)
+    logger.info("Send GET request: {}".format(url))
     response = requests.get(url)
     # TODO: 1. create mongo query based on this information
     # TODO:      a. query {original_title: "", title: "", release_date: "", imdb_id:, id:""}
@@ -153,8 +168,9 @@ def get_movie_details_by_id(imdb_id):
         for key in refined_data.keys():
             refined_data[key] = data.get(key)
         refined_data["production_countries"] = production_countries
+    print(dumps(refined_data, indent=4))
     return refined_data
-    # print(dumps(refined_data, indent=4))
+
 
 
 def get_movie_rating_by_url(url, verify=False):
