@@ -266,7 +266,6 @@ def main():
             poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
             get_movie_poster_by_poster_path(poster_path)
         rating = get_movie_rating_by_url(movie_url, verify)
-        from IPython import embed; embed()
         print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
 
 if __name__ == '__main__':
