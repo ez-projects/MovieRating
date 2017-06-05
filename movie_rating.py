@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from bson.json_util import dumps
+# from bson.json_util import dumps
 from bs4 import BeautifulSoup
 from pyquery import PyQuery as pq
 import sys
@@ -149,7 +149,7 @@ def get_movie_details_by_id(imdb_id):
     # TODO: 2. Create Media DB with a collection called Movies
     # TODO: 3. Get poster: https://image.tmdb.org/t/p/w500/{poster_path}
     data = response.json()
-    assert response.status_code == 200, "Expected response code: 200, but got {}".format(dumps(data, indent=4))
+    assert response.status_code == 200, "Expected response code: 200, but got {}".format(data, indent=4)
     refined_data = {
         "original_title": "",
         "title": "",
@@ -165,7 +165,7 @@ def get_movie_details_by_id(imdb_id):
         for key in refined_data.keys():
             refined_data[key] = data.get(key)
         refined_data["production_countries"] = production_countries
-    print(dumps(refined_data, indent=4))
+    # print(dumps(refined_data, indent=4))
     return refined_data
 
 
@@ -264,8 +264,8 @@ def main():
             "The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT",
             "Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT"
         ]
-        print("Using testing movie list: \n")
-        print(dumps(movies, indent=4))
+        # print("Using testing movie list: \n")
+        # print(dumps(movies, indent=4))
     
     # Lookup movies
     for name in movies:
