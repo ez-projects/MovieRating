@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import json
-import pudb
-import ipdb
 from bson.json_util import dumps
 from bs4 import BeautifulSoup
 from pyquery import PyQuery as pq
