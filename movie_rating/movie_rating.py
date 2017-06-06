@@ -4,16 +4,19 @@
 # from bson.json_util import dumps
 from bs4 import BeautifulSoup
 from pyquery import PyQuery as pq
+from bson.json_util import dumps
 import sys
+
 from os import listdir
 from os.path import join, isdir
+import urllib.request
 
 import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # create a file handler
-handler = logging.FileHandler('./movie_rating.log')
+handler = logging.FileHandler('./log/movie_rating.log')
 handler.setLevel(logging.INFO)
 
 # create a logging format
@@ -30,12 +33,12 @@ def get_movies(folder_path):
     """
     Get a list of movies from the given folder
     """
-    # mypath = os.path.dirname(os.path.realpath(__file__))
     files = []
     try:
         files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))]
     except OSError as msg:
         print("No movies were found in: {}".format(folder_path))
+    logger.info("Get movies in directory: {}".format(folder_path))
     return files
 
 
@@ -48,12 +51,12 @@ def get_movie_name_and_year(name):
     year = ""
     if "720p" in name:
         movie_name = name.split("720p")[0].strip(".").replace(".", " ")
-        # print(movie_name)
     elif "1080p" in name:
         movie_name = name.split("1080p")[0].strip(".").replace(".", " ")
     else: 
         movie_name = name.replace(".", " ")
     title = []
+    logger.info("File name: {}".format(name))
     for x in movie_name.split(" ")[:-1]:
         if not set(x) & set(["(", ")", "'"]):
             title.append(x.title())
@@ -77,6 +80,7 @@ def create_query(movie_title, year):
             query.append(i)
     # add year separately
     query.append(year)
+    logger.info("Created query: {}".format(query))
     return " ".join(query)
 
 
@@ -84,6 +88,7 @@ def get_movie_url(movie_title, year):
     """
     """
     movie_url = "http://www.imdb.com"
+    logger.info("Get movie url from {}".format(movie_url))
     movie_href = ""
     query = create_query(movie_title, year)
 
@@ -101,7 +106,6 @@ def get_movie_url(movie_title, year):
     found = False
     for tr in rows:
         cols = tr.findAll('td')
-        # pudb.set_trace()
         for col in cols:
             col_text = str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
             if col_text:
@@ -123,6 +127,7 @@ def get_imdb_id_by_url(url):
     """
     http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
     """
+    logger.info("Get movie id from: {}".format(url))
     imdb_id = url.split("/")[-2]
     if imdb_id.startswith("tt"):
         return imdb_id
@@ -149,6 +154,7 @@ def get_movie_details_by_id(imdb_id):
     # TODO: 2. Create Media DB with a collection called Movies
     # TODO: 3. Get poster: https://image.tmdb.org/t/p/w500/{poster_path}
     data = response.json()
+    logger.info(dumps(data, indent=4))
     assert response.status_code == 200, "Expected response code: 200, but got {}".format(data, indent=4)
     refined_data = {
         "original_title": "",
@@ -165,9 +171,8 @@ def get_movie_details_by_id(imdb_id):
         for key in refined_data.keys():
             refined_data[key] = data.get(key)
         refined_data["production_countries"] = production_countries
-    # print(dumps(refined_data, indent=4))
+    logger.info(dumps(refined_data, indent=4))
     return refined_data
-
 
 
 def get_movie_rating_by_url(url, verify=False):
@@ -175,6 +180,7 @@ def get_movie_rating_by_url(url, verify=False):
     Get movie title to confirm
     Get movie rating
     """
+    logger.info("Get movie rating from: {}".format(url))
     doc=pq(url, method="get", verify=True)
     soup = BeautifulSoup(doc.html(), "html.parser")
     rating_div = soup.find('span', {"itemprop": 'ratingValue'})
@@ -183,6 +189,7 @@ def get_movie_rating_by_url(url, verify=False):
         verify_searched_results(url, soup)
     # Get rating
     rating = rating_str.replace('</span>', "").split(">")[-1]
+    logger.info("Movie Rating: {}".format(rating))
     return rating
 
 
@@ -220,12 +227,7 @@ def get_movie_poster_by_poster_path(poster_path):
     """
     """
     poster_url = "https://image.tmdb.org/t/p/w500/{}".format(poster_path)
-    if sys.version_info[0] < 3:
-        import urllib
-        urllib.urlretrieve(poster_url, "local-filename2.jpg")
-    else:
-        import urllib.request
-        urllib.request.urlretrieve(poster_url, "local-filename3.jpg")
+    urllib.request.urlretrieve(poster_url, "local-filename3.jpg")
 
 
 def main():
@@ -264,9 +266,7 @@ def main():
             "The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT",
             "Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT"
         ]
-        # print("Using testing movie list: \n")
-        # print(dumps(movies, indent=4))
-    
+
     # Lookup movies
     for name in movies:
         print(name)
