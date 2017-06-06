@@ -3,6 +3,33 @@
 from movie_rating import get_imdb_id_by_url
 from movie_rating import get_movie_details_by_id
 from movie_rating import get_movie_name_and_year
+from movie_rating import create_query
+
+
+def test_create_query():
+    """
+    """
+    test_cases = [
+        {
+            "title": "The Lego Batman Movie",
+            "year": "2017",
+            "expected_query": "The Lego Batman Movie 2017"
+        },
+        {
+            "title": "Assassin's Creed",
+            "year": "2016",
+            "expected_query": "Assassin's Creed 2016"
+        },
+        {
+            "title": "Moonlight",
+            "year": "2016",
+            "expected_query": "Moonlight 2016"
+        }
+    ]
+    for test in test_cases:
+        actual_query = create_query(test["title"], test["year"])
+        assert actual_query == test["expected_query"], \
+            "Expected query: [{}], but got: [{}]".format(test["expected_query"], actual_query)
 
 def test_get_imdb_id_by_url():
     """
