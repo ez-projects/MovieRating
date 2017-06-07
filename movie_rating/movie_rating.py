@@ -118,7 +118,6 @@ def get_movie_url(movie_title, year):
                 # NB: identify movie in there
                 # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
                 res = set(col_text.split(" ")) - set(expected_title.split(" ") + [expected_year])
-                import pudb; pudb.set_trace()
                 if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
                     movie_href = cols[1].find('a').get("href")
                     found = True
