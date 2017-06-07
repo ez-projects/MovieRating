@@ -1485,3 +1485,151 @@
 2017-06-07 01:57:36,920 - movie_rating.movie_rating - INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
 2017-06-07 01:57:36,920 - movie_rating.movie_rating - INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
 2017-06-07 01:57:36,920 - movie_rating.movie_rating - INFO - File name: Some.Name.Without.Resolution.WEB-DL.DD5.1.H264-FGT
+2017-06-07 02:26:19,224 - __main__ - INFO - No movies were found in: /run/media/nathan/DATA/Movies/
+2017-06-07 02:26:19,224 - __main__ - INFO - Get movies in directory: /run/media/nathan/DATA/Movies/
+2017-06-07 02:26:19,225 - __main__ - INFO - File name: Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]
+2017-06-07 02:26:19,225 - __main__ - INFO - Get movie url from http://www.imdb.com
+2017-06-07 02:26:19,225 - __main__ - INFO - Created query: ['Inner', 'Workings', '2016']
+2017-06-07 02:26:21,587 - __main__ - INFO - Get movie id from: http://www.imdb.com/title/tt5807512/?ref_=fn_tt_tt_1
+2017-06-07 02:26:21,587 - __main__ - INFO - Get movie rating from: http://www.imdb.com/title/tt5807512/?ref_=fn_tt_tt_1
+2017-06-07 02:26:27,112 - __main__ - INFO - Movie Rating: 7.8
+2017-06-07 02:26:27,112 - __main__ - INFO - File name: Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]
+2017-06-07 02:26:27,113 - __main__ - INFO - Get movie url from http://www.imdb.com
+2017-06-07 02:26:27,113 - __main__ - INFO - Created query: ['Moonlight', '2016']
+2017-06-07 02:26:29,190 - __main__ - INFO - Get movie id from: http://www.imdb.com/title/tt4975722/?ref_=fn_ft_tt_1
+2017-06-07 02:26:29,191 - __main__ - INFO - Get movie rating from: http://www.imdb.com/title/tt4975722/?ref_=fn_ft_tt_1
+2017-06-07 02:26:30,759 - __main__ - INFO - Movie Rating: 7.5
+2017-06-07 02:26:30,760 - __main__ - INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
+2017-06-07 02:26:30,761 - __main__ - INFO - Get movie url from http://www.imdb.com
+2017-06-07 02:26:30,761 - __main__ - INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+2017-06-07 02:26:31,698 - __main__ - INFO - Get movie id from: http://www.imdb.com/title/tt4116284/?ref_=fn_ft_tt_1
+2017-06-07 02:26:31,698 - __main__ - INFO - Get movie rating from: http://www.imdb.com/title/tt4116284/?ref_=fn_ft_tt_1
+2017-06-07 02:26:34,257 - __main__ - INFO - Movie Rating: 7.5
+2017-06-07 02:26:34,258 - __main__ - INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
+2017-06-07 02:26:34,259 - __main__ - INFO - Get movie url from http://www.imdb.com
+2017-06-07 02:26:34,259 - __main__ - INFO - Created query: ["Assassin's", 'Creed', '2016']
+2017-06-07 02:26:35,333 - __main__ - INFO - Get movie id from: http://www.imdb.com/title/tt2094766/?ref_=fn_ft_tt_1
+2017-06-07 02:26:35,333 - __main__ - INFO - Get movie rating from: http://www.imdb.com/title/tt2094766/?ref_=fn_ft_tt_1
+2017-06-07 02:26:36,937 - __main__ - INFO - Movie Rating: 5.9
+2017-06-07 02:27:03,167 - movie_rating.movie_rating - INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+2017-06-07 02:27:03,167 - movie_rating.movie_rating - INFO - Created query: ["Assassin's", 'Creed', '2016']
+2017-06-07 02:27:03,167 - movie_rating.movie_rating - INFO - Created query: ['Moonlight', '2016']
+2017-06-07 02:27:03,169 - movie_rating.movie_rating - INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+2017-06-07 02:27:03,170 - movie_rating.movie_rating - INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+2017-06-07 02:27:05,439 - movie_rating.movie_rating - INFO - Movie Rating: 7.0
+2017-06-07 02:27:05,441 - movie_rating.movie_rating - INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+2017-06-07 02:27:06,584 - movie_rating.movie_rating - INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 30.028137,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 752
+}
+2017-06-07 02:27:06,585 - movie_rating.movie_rating - INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+2017-06-07 02:27:06,586 - movie_rating.movie_rating - INFO - File name: Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]
+2017-06-07 02:27:06,586 - movie_rating.movie_rating - INFO - File name: Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]
+2017-06-07 02:27:06,587 - movie_rating.movie_rating - INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
+2017-06-07 02:27:06,587 - movie_rating.movie_rating - INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
+2017-06-07 02:27:06,587 - movie_rating.movie_rating - INFO - File name: Some.Name.Without.Resolution.WEB-DL.DD5.1.H264-FGT
