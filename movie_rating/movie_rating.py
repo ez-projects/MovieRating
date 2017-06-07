@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 # create a file handler
-handler = logging.FileHandler('./log/movie_rating.log')
+handler = logging.FileHandler('../log/movie_rating.log')
 handler.setLevel(logging.INFO)
 
 # create a logging format
