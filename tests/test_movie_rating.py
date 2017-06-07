@@ -8,16 +8,6 @@ from movie_rating.movie_rating import get_movie_rating_by_url
 from movie_rating.movie_rating import get_movies
 
 
-# def test_get_movies():
-#     """
-#     """
-#     test_path = "test_movies_dir/"
-#     expected_movies = ["The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT"]
-#     actual_movies = get_movies(test_path)
-#     assert actual_movies, "Movie [{}] was NOT found in path []".format(actual_movies, test_path)
-#     assert expected_movies == actual_movies, \
-#         "Expected to found movie: [{}], but found: [{}]".format(expected_movies, actual_movies)
-
 def test_create_query():
     """
     """

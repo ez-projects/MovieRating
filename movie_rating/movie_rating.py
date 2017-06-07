@@ -29,7 +29,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 BLACKLISTED_STR = ["(TV Movie)", ":", "(Short)"]
-
+ALLOWED_CHAR = ["(II)"]
 
 def get_movies(folder_path):
     """
@@ -95,6 +95,7 @@ def get_movie_url(movie_title, year):
     query = create_query(movie_title, year)
 
     url = "http://www.imdb.com/find?ref_=nv_sr_fn&q={}&s=tt&ttype=ft&ref_=fn_ft".format(query)
+    logger.info("Searching for movie: {}".format(url))
     expected_title = "{}".format(movie_title.lower())
     expected_year = "({})".format(year)
     doc=pq(url, method="get", verify=True)
@@ -115,7 +116,10 @@ def get_movie_url(movie_title, year):
                     col_text = col_text.replace(s, "")
                 col_text = col_text.strip().lower()
                 # NB: identify movie in there
-                if col_text.startswith(expected_title) and col_text.endswith(expected_year):
+                # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
+                res = set(col_text.split(" ")) - set(expected_title.split(" ") + [expected_year])
+                import pudb; pudb.set_trace()
+                if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
                     movie_href = cols[1].find('a').get("href")
                     found = True
                     break
@@ -225,21 +229,30 @@ def get_release_year_by_date(release_date):
     return release_date.split("-")[0]
 
 
-def get_movie_poster_by_poster_path(poster_path):
+def get_movie_poster_by_poster_path(poster_path, movie_path):
     """
     """
+    if movie_path.endswith("/"):
+         movie_path = movie_path[:-1]
+    movie_folder_name = movie_path.split("/")[-1]
     poster_url = "https://image.tmdb.org/t/p/w500/{}".format(poster_path)
-    urllib.request.urlretrieve(poster_url, "local-filename3.jpg")
+    logger.info("Get movie poster from: {}".format(poster_url))
+    poster = "{}/{}.jpg".format(movie_path, movie_folder_name)
+    urllib.request.urlretrieve(poster_url, poster)
+    logger.info("Movie poster was saved in: {}".format(poster))
 
 
 def main():
     movies = []
     verify = False
-    path = "/run/media/nathan/DATA/Movies/"
+    path = "./tests/test_movies_dir"
+    logger.info("Scanning movies in: {}".format(path))
     # A movie name from command line
     if len(sys.argv) == 2:
         if sys.argv[1] == '--verify':
             verify = True
+            movies = get_movies(path)
+        elif sys.argv[1] == "--poster":
             movies = get_movies(path)
         else:
             movies = [sys.argv[-1]]
@@ -250,24 +263,6 @@ def main():
     # A directory of movies
     else:
         movies = get_movies(path)
-    # No movies were found/given, use these movies for testing
-    if not movies:
-        movies = [
-            # "Arrival.(II).2016.1080p.WEB-DL.DD5.1.H264-FGT",
-            # "The.Boss.Baby.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-            # "Logan.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-            # "Gifted.2017.1080p.HC.WEBRip.x264.AAC2.0-STUTTERSHIT",
-            # "War.Machine.2017.1080p.NF.WEBRip.DD5.1.x264-SB",
-            # "Colossal.2016.1080p.WEB-DL.AAC2.0.H264-FGT.mkv",
-            # "Gold.2016.1080p.WEB-DL.DD5.1.H264-FGT",
-            # "The.Wizard.of.Lies.2017.1080p.WEBRip.DD5.1.x264-monkee",
-            # "Jackie.2016.1080p.WEB-DL.DD5.1.H264-FGT",
-            # "Manchester.by.the.Sea.2016.1080p.WEB-DL.DD5.1.H264-FGT",
-            "Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]",
-            "Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]",
-            "The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-            "Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT"
-        ]
 
     # Lookup movies
     for name in movies:
@@ -278,8 +273,10 @@ def main():
         if not imdb_id:
             sys.exit("No IMDB ID found.")
         if set(sys.argv) & set(["--poster"]):
-            poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
-            get_movie_poster_by_poster_path(poster_path)
+            if path and movies:
+                poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
+                movie_path = "{}/{}".format(path, name)
+                get_movie_poster_by_poster_path(poster_path, movie_path)
         rating = get_movie_rating_by_url(movie_url, verify)
         print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
 
