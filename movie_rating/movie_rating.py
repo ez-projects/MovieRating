@@ -37,7 +37,7 @@ def get_movies(folder_path):
     try:
         files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))]
     except OSError as msg:
-        print("No movies were found in: {}".format(folder_path))
+        logger.info("No movies were found in: {}".format(folder_path))
     logger.info("Get movies in directory: {}".format(folder_path))
     return files
 

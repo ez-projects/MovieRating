@@ -3,7 +3,20 @@ from movie_rating.movie_rating import get_imdb_id_by_url
 from movie_rating.movie_rating import get_movie_details_by_id
 from movie_rating.movie_rating import get_movie_name_and_year
 from movie_rating.movie_rating import create_query
+from movie_rating.movie_rating import get_release_year_by_date
+from movie_rating.movie_rating import get_movie_rating_by_url
+from movie_rating.movie_rating import get_movies
 
+
+# def test_get_movies():
+#     """
+#     """
+#     test_path = "test_movies_dir/"
+#     expected_movies = ["The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT"]
+#     actual_movies = get_movies(test_path)
+#     assert actual_movies, "Movie [{}] was NOT found in path []".format(actual_movies, test_path)
+#     assert expected_movies == actual_movies, \
+#         "Expected to found movie: [{}], but found: [{}]".format(expected_movies, actual_movies)
 
 def test_create_query():
     """
@@ -39,6 +52,15 @@ def test_get_imdb_id_by_url():
     actual_id = get_imdb_id_by_url(movie_url)
     assert expected_id == actual_id, "Expected movie id: [{}], but got: [{}]".format(expected_id, actual_id)
 
+def test_get_movie_rating_by_url():
+    """
+    """
+    movie_url = "http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1"
+    actual_rating = get_movie_rating_by_url(movie_url)
+    expected_rating = "7.0"
+    assert actual_rating, "Expected movie rating is a digit, but got: [{}]".format(actual_rating)
+    assert expected_rating == actual_rating, "Expected rating: [{}], but got: [{}]".format(expected_rating, actual_rating)
+
 def test_get_movie_details_by_id():
     """
     Test get_movie_details_by_id()
@@ -65,7 +87,6 @@ def test_get_movie_details_by_id():
 
 def test_get_movie_name_and_year():
     """
-    :return:
     """
     filenames = [
         "Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]",
@@ -106,3 +127,17 @@ def test_get_movie_name_and_year():
     assert expected_name == actual_name, \
         "Expected name: [{}], but got: [{}]".format(expected_name, actual_name)
     assert not actual_year, "Expected year was None, but got: [{}]".format(actual_year)
+
+def test_get_release_year_by_date():
+    """
+    :return:
+    """
+    test_dates = [
+        "2016-01-25",
+        "2015-12-12",
+        "0000-00-00"
+    ]
+    for date in test_dates:
+        actual_year = get_release_year_by_date(date)
+        expected_year = date.split("-")[0]
+        assert expected_year == actual_year, "Expected year: [{}], but got: [{}]".format(expected_year, actual_year)
