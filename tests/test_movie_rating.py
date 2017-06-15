@@ -61,7 +61,7 @@ def test_get_movie_details_by_id():
         "original_title": "The Lego Batman Movie",
         "title": "The Lego Batman Movie",
         "release_date": "2017-02-08",
-        "vote_average": 7.2,
+        "vote_average": 7.1,
         "original_language": "en",
         "revenue": 310032902,
         "imdb_id": "tt4116284",
@@ -72,8 +72,9 @@ def test_get_movie_details_by_id():
         ]
     }
     actual_details = get_movie_details_by_id(movie_id)
-    assert expected_movie_details == actual_details, \
-        "Expected movie details: [{}], but got: [{}]".format(expected_movie_details, actual_details)
+    for key, expected_value in expected_movie_details.items():
+        assert expected_value == actual_details.get(key), \
+            "Expected movie details: [{}] is [{}], but got: [{}]".format(key, expected_value, actual_details.get(key))
 
 def test_get_movie_name_and_year():
     """

@@ -1,1 +1,883 @@
 
+[06-10 00:34:22] p15007 {movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-10 00:34:22] p15007 {movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Altitude.2017.720p.BluRay.x264-ROVERS
+[06-10 00:34:22] p15007 {movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-10 00:34:22] p15007 {movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Altitude', '2017']
+[06-10 00:34:22] p15007 {movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Altitude 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-10 00:34:24] p15007 {movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4556370/?ref_=fn_ft_tt_1
+[06-10 00:34:24] p15007 {movie_rating/movie_rating.py:188 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4556370/?ref_=fn_ft_tt_1
+[06-10 00:34:25] p15007 {movie_rating/movie_rating.py:197 [get_movie_rating_by_url]} INFO - Movie Rating: 5.7
+[06-10 00:34:36] p15038 {movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-10 00:34:36] p15038 {movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Altitude.2017.720p.BluRay.x264-ROVERS
+[06-10 00:34:36] p15038 {movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-10 00:34:36] p15038 {movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Altitude', '2017']
+[06-10 00:34:36] p15038 {movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Altitude 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-10 00:34:37] p15038 {movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4556370/?ref_=fn_ft_tt_1
+[06-10 00:34:37] p15038 {movie_rating/movie_rating.py:188 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4556370/?ref_=fn_ft_tt_1
+[06-10 00:34:38] p15038 {movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4556370/?ref_=fn_ft_tt_1
+[06-10 00:34:38] p15038 {movie_rating/movie_rating.py:155 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4556370?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-10 00:34:39] p15038 {movie_rating/movie_rating.py:162 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/dXNMCsOCfRwpmMGwQXBLqiuKih3.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "",
+    "id": 443700,
+    "imdb_id": "tt4556370",
+    "original_language": "en",
+    "original_title": "Altitude",
+    "overview": "A female FBI agent is offered millions to help a thief escape from a hijacked airplane.",
+    "popularity": 0.933579,
+    "poster_path": "/iGNq8xjOz2Lt1QQ3xcMwRhoiFwU.jpg",
+    "production_companies": [
+        {
+            "name": "Switzer Entertainment Group",
+            "id": 87065
+        },
+        {
+            "name": "Safier Entertainment",
+            "id": 87066
+        },
+        {
+            "name": "Taylor & Dodge",
+            "id": 87067
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-04-14",
+    "revenue": 0,
+    "runtime": 86,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Altitude",
+    "video": false,
+    "vote_average": 5.0,
+    "vote_count": 2
+}
+[06-10 00:34:39] p15038 {movie_rating/movie_rating.py:179 [get_movie_details_by_id]} INFO - {
+    "original_title": "Altitude",
+    "title": "Altitude",
+    "release_date": "2017-04-14",
+    "vote_average": 5.0,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt4556370",
+    "poster_path": "/iGNq8xjOz2Lt1QQ3xcMwRhoiFwU.jpg",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[06-10 00:34:39] p15038 {movie_rating/movie_rating.py:197 [get_movie_rating_by_url]} INFO - Movie Rating: 5.7
+[06-13 01:04:43] p729 {movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-13 01:04:43] p729 {movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Weiner.2016.1080p.WEBRip.DD5.1.x264-monkee
+[06-13 01:04:43] p729 {movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-13 01:04:43] p729 {movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Weiner', '2016']
+[06-13 01:04:43] p729 {movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Weiner 2016&s=tt&ttype=ft&ref_=fn_ft
+[06-13 01:04:44] p729 {movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5278596/?ref_=fn_ft_tt_1
+[06-13 01:04:44] p729 {movie_rating/movie_rating.py:188 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5278596/?ref_=fn_ft_tt_1
+[06-13 01:04:46] p729 {movie_rating/movie_rating.py:197 [get_movie_rating_by_url]} INFO - Movie Rating: 7.6
+[06-13 01:05:25] p762 {./movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-13 01:05:25] p762 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Weiner.2016.1080p.WEBRip.DD5.1.x264-monkee
+[06-13 01:05:25] p762 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-13 01:05:25] p762 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Weiner', '2016']
+[06-13 01:05:25] p762 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Weiner 2016&s=tt&ttype=ft&ref_=fn_ft
+[06-13 01:05:26] p762 {./movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5278596/?ref_=fn_ft_tt_1
+[06-13 01:05:26] p762 {./movie_rating/movie_rating.py:188 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5278596/?ref_=fn_ft_tt_1
+[06-13 01:05:27] p762 {./movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5278596/?ref_=fn_ft_tt_1
+[06-13 01:05:27] p762 {./movie_rating/movie_rating.py:155 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5278596?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-13 01:05:29] p762 {./movie_rating/movie_rating.py:162 [get_movie_details_by_id]} INFO - {
+    "poster_path": "/9JL6O7srbkOPUO6o9avV9JC1VSn.jpg",
+    "backdrop_path": "/b3h6CST4MV5xXM10dVv96uiLkQA.jpg",
+    "budget": 0,
+    "status": "Released",
+    "original_title": "Weiner",
+    "tagline": "",
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "adult": false,
+    "homepage": "",
+    "revenue": 0,
+    "title": "Weiner",
+    "production_countries": [
+        {
+            "name": "United States of America",
+            "iso_3166_1": "US"
+        }
+    ],
+    "video": false,
+    "runtime": 96,
+    "original_language": "en",
+    "imdb_id": "tt5278596",
+    "vote_average": 7.7,
+    "release_date": "2016-05-20",
+    "overview": "Documentary featuring a jaw-dropping, behind-the-scenes look at the attempted comeback of Anthony Weiner in 2013 as he mounts a campaign for New York City mayor in the wake of his sexting scandal. Featuring unfettered access to the candidate and his campaign.",
+    "popularity": 0.215679,
+    "production_companies": [
+        {
+            "name": "Motto Pictures",
+            "id": 10978
+        },
+        {
+            "name": "Edgeline Films",
+            "id": 80862
+        }
+    ],
+    "genres": [
+        {
+            "name": "Documentary",
+            "id": 99
+        }
+    ],
+    "vote_count": 44,
+    "belongs_to_collection": null,
+    "id": 376261
+}
+[06-13 01:05:29] p762 {./movie_rating/movie_rating.py:179 [get_movie_details_by_id]} INFO - {
+    "poster_path": "/9JL6O7srbkOPUO6o9avV9JC1VSn.jpg",
+    "title": "Weiner",
+    "production_countries": [
+        "United States of America"
+    ],
+    "release_date": "2016-05-20",
+    "original_title": "Weiner",
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt5278596",
+    "vote_average": 7.7
+}
+[06-13 01:05:29] p762 {./movie_rating/movie_rating.py:197 [get_movie_rating_by_url]} INFO - Movie Rating: 7.6
+[06-13 01:23:45] p4505 {./movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-13 01:23:45] p4505 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: The.Shack.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-13 01:23:45] p4505 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-13 01:23:45] p4505 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['The', 'Shack', '2017']
+[06-13 01:23:45] p4505 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Shack 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-13 01:23:46] p4505 {./movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2872518/?ref_=fn_ft_tt_1
+[06-13 01:23:46] p4505 {./movie_rating/movie_rating.py:188 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2872518/?ref_=fn_ft_tt_1
+[06-13 01:23:48] p4505 {./movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2872518/?ref_=fn_ft_tt_1
+[06-13 01:23:48] p4505 {./movie_rating/movie_rating.py:155 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt2872518?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-13 01:23:49] p4505 {./movie_rating/movie_rating.py:162 [get_movie_details_by_id]} INFO - {
+    "backdrop_path": "/un7pVnJC2el8YxdIOg6YrSmBTlO.jpg",
+    "tagline": "You're never as alone as you think.",
+    "id": 345938,
+    "runtime": 132,
+    "revenue": 56706948,
+    "vote_count": 157,
+    "release_date": "2017-03-03",
+    "imdb_id": "tt2872518",
+    "overview": "After suffering a family tragedy, Mack Phillips spirals into a deep depression causing him to question his innermost beliefs. Facing a crisis of faith, he receives a mysterious letter urging him to an abandoned shack deep in the Oregon wilderness. Despite his doubts, Mack journeys to the shack and encounters an enigmatic trio of strangers led by a woman named Papa. Through this meeting, Mack finds important truths that will transform his understanding of his tragedy and change his life forever.",
+    "vote_average": 6.5,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "production_companies": [
+        {
+            "name": "Summit Entertainment",
+            "id": 491
+        },
+        {
+            "name": "Netter Productions",
+            "id": 32555
+        }
+    ],
+    "popularity": 6.327086,
+    "original_language": "en",
+    "original_title": "The Shack",
+    "adult": false,
+    "budget": 20000000,
+    "status": "Released",
+    "title": "The Shack",
+    "video": false,
+    "poster_path": "/doAzav9kfdtsoSdw1MDFvjKq3J4.jpg",
+    "genres": [
+        {
+            "name": "Drama",
+            "id": 18
+        },
+        {
+            "name": "Fantasy",
+            "id": 14
+        }
+    ],
+    "belongs_to_collection": null,
+    "homepage": "http://www.theshack.movie",
+    "production_countries": [
+        {
+            "name": "United States of America",
+            "iso_3166_1": "US"
+        }
+    ]
+}
+[06-13 01:23:49] p4505 {./movie_rating/movie_rating.py:179 [get_movie_details_by_id]} INFO - {
+    "title": "The Shack",
+    "imdb_id": "tt2872518",
+    "vote_average": 6.5,
+    "production_countries": [
+        "United States of America"
+    ],
+    "poster_path": "/doAzav9kfdtsoSdw1MDFvjKq3J4.jpg",
+    "revenue": 56706948,
+    "release_date": "2017-03-03",
+    "original_language": "en",
+    "original_title": "The Shack"
+}
+[06-13 01:23:49] p4505 {./movie_rating/movie_rating.py:197 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[06-14 22:54:42] p14675 {./movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-14 22:54:42] p14675 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Band.of.Brothers.2001.PACK.720p.HDDVD.DTS.x264-ESiR
+[06-14 22:54:42] p14675 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-14 22:54:42] p14675 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Band', 'Of', 'Brothers', '2001', '']
+[06-14 22:54:42] p14675 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Band Of Brothers 2001 &s=tt&ttype=ft&ref_=fn_ft
+[06-14 22:54:44] p14675 {./movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[06-14 22:54:52] p14704 {./movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-14 22:54:52] p14704 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Band.of.Brothers.2001.720p.HDDVD.DTS.x264-ESiR
+[06-14 22:54:52] p14704 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-14 22:54:52] p14704 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Band', 'Of', 'Brothers', '2001']
+[06-14 22:54:52] p14704 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Band Of Brothers 2001&s=tt&ttype=ft&ref_=fn_ft
+[06-14 22:54:54] p14704 {./movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[06-16 01:04:06] p9850 {./movie_rating/movie_rating.py:248 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-16 01:04:06] p9850 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Life.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:04:06] p9850 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-16 01:04:06] p9850 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Life', '2017']
+[06-16 01:04:06] p9850 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-16 01:04:08] p9850 {./movie_rating/movie_rating.py:135 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6897484/?ref_=fn_ft_tt_40
+[06-16 01:04:08] p9850 {./movie_rating/movie_rating.py:188 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6897484/?ref_=fn_ft_tt_40
+[06-16 01:04:10] p9850 {./movie_rating/movie_rating.py:197 [get_movie_rating_by_url]} INFO - Movie Rating: None
+[06-16 01:13:05] p18250 {./movie_rating/movie_rating.py:249 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-16 01:13:05] p18250 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Life.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:13:05] p18250 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-16 01:13:05] p18250 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Life', '2017']
+[06-16 01:13:05] p18250 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-16 01:13:52] p18976 {./movie_rating/movie_rating.py:249 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-16 01:13:52] p18976 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Life.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:13:52] p18976 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-16 01:13:52] p18976 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Life', '2017']
+[06-16 01:13:52] p18976 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-16 01:14:59] p18976 {./movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6897484/?ref_=fn_ft_tt_40
+[06-16 01:14:59] p18976 {./movie_rating/movie_rating.py:189 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6897484/?ref_=fn_ft_tt_40
+[06-16 01:15:01] p18976 {./movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Movie Rating: None
+[06-16 01:15:05] p20188 {./movie_rating/movie_rating.py:249 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-16 01:15:05] p20188 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Life.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:15:05] p20188 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-16 01:15:05] p20188 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Life', '2017']
+[06-16 01:15:05] p20188 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-16 01:17:22] p22525 {./movie_rating/movie_rating.py:249 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-16 01:17:22] p22525 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Life.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:17:22] p22525 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-16 01:17:22] p22525 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Life', '2017']
+[06-16 01:17:22] p22525 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-16 01:17:24] p22525 {./movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[06-16 01:17:24] p22525 {./movie_rating/movie_rating.py:189 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[06-16 01:17:25] p22525 {./movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Movie Rating: 6.8
+[06-16 01:17:37] p22785 {./movie_rating/movie_rating.py:249 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-16 01:17:37] p22785 {./movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Life.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:17:37] p22785 {./movie_rating/movie_rating.py:93 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-16 01:17:37] p22785 {./movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Life', '2017']
+[06-16 01:17:37] p22785 {./movie_rating/movie_rating.py:98 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-16 01:17:39] p22785 {./movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[06-16 01:17:39] p22785 {./movie_rating/movie_rating.py:189 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[06-16 01:17:42] p22785 {./movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[06-16 01:17:42] p22785 {./movie_rating/movie_rating.py:156 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5442430?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-16 01:17:43] p22785 {./movie_rating/movie_rating.py:163 [get_movie_details_by_id]} INFO - {
+    "spoken_languages": [
+        {
+            "iso_639_1": "cn",
+            "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
+        },
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "release_date": "2017-03-23",
+    "poster_path": "/h2mhfbEBGABSHo2vXG1ECMKAJa7.jpg",
+    "popularity": 32.272155,
+    "video": false,
+    "vote_count": 876,
+    "original_language": "en",
+    "id": 395992,
+    "tagline": "Be careful what you search for",
+    "budget": 58000000,
+    "imdb_id": "tt5442430",
+    "belongs_to_collection": null,
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "overview": "The six-member crew of the International Space Station is tasked with studying a sample from Mars that may be the first proof of extra-terrestrial life, which proves more intelligent than ever expected.",
+    "homepage": "http://www.lifemovie.com/",
+    "genres": [
+        {
+            "name": "Horror",
+            "id": 27
+        },
+        {
+            "name": "Science Fiction",
+            "id": 878
+        },
+        {
+            "name": "Thriller",
+            "id": 53
+        }
+    ],
+    "runtime": 103,
+    "status": "Released",
+    "production_companies": [
+        {
+            "name": "Columbia Pictures",
+            "id": 5
+        },
+        {
+            "name": "Skydance Productions",
+            "id": 6277
+        },
+        {
+            "name": "Sony Pictures Entertainment (SPE)",
+            "id": 7431
+        },
+        {
+            "name": "Nvizage",
+            "id": 82925
+        }
+    ],
+    "vote_average": 6.1,
+    "backdrop_path": "/haEACwDiVTnPFcwd9KDlZBae1Ef.jpg",
+    "adult": false,
+    "title": "Life",
+    "original_title": "Life",
+    "revenue": 93811028
+}
+[06-16 01:17:43] p22785 {./movie_rating/movie_rating.py:180 [get_movie_details_by_id]} INFO - {
+    "poster_path": "/h2mhfbEBGABSHo2vXG1ECMKAJa7.jpg",
+    "vote_average": 6.1,
+    "release_date": "2017-03-23",
+    "title": "Life",
+    "imdb_id": "tt5442430",
+    "original_title": "Life",
+    "revenue": 93811028,
+    "original_language": "en",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[06-16 01:17:43] p22785 {./movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Movie Rating: 6.8
+[06-16 01:24:21] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[06-16 01:24:21] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[06-16 01:24:21] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[06-16 01:24:21] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:24:21] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:189 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:24:24] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[06-16 01:24:24] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:156 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-16 01:24:26] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:163 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 19.098798,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.1,
+    "vote_count": 835
+}
+[06-16 01:24:26] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:180 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.1,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[06-16 01:24:26] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]
+[06-16 01:24:26] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]
+[06-16 01:24:26] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:24:26] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:24:26] p29035 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Some.Name.Without.Resolution.WEB-DL.DD5.1.H264-FGT
+[06-16 01:28:47] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[06-16 01:28:47] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[06-16 01:28:47] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[06-16 01:28:47] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:28:47] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:189 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:28:49] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[06-16 01:28:49] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:156 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-16 01:28:50] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:163 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 19.098798,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.1,
+    "vote_count": 835
+}
+[06-16 01:28:50] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:180 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.1,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[06-16 01:28:50] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]
+[06-16 01:28:50] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]
+[06-16 01:28:50] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:28:50] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:28:50] p759 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Some.Name.Without.Resolution.WEB-DL.DD5.1.H264-FGT
+[06-16 01:29:53] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[06-16 01:29:53] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[06-16 01:29:53] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[06-16 01:29:53] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:29:53] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:189 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:29:54] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[06-16 01:29:54] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:156 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-16 01:29:56] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:163 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 19.098798,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.1,
+    "vote_count": 835
+}
+[06-16 01:29:56] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:180 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.1,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[06-16 01:29:56] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]
+[06-16 01:29:56] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]
+[06-16 01:29:56] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:29:56] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:29:56] p2110 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Some.Name.Without.Resolution.WEB-DL.DD5.1.H264-FGT
+[06-16 01:30:15] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[06-16 01:30:15] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[06-16 01:30:15] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:85 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[06-16 01:30:15] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:136 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:30:15] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:189 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-16 01:30:18] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[06-16 01:30:18] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:156 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-16 01:30:20] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:163 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 19.098798,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.1,
+    "vote_count": 835
+}
+[06-16 01:30:20] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:180 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.1,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[06-16 01:30:20] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]
+[06-16 01:30:20] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]
+[06-16 01:30:20] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:30:20] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
+[06-16 01:30:20] p2545 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:61 [get_movie_name_and_year]} INFO - File name: Some.Name.Without.Resolution.WEB-DL.DD5.1.H264-FGT
