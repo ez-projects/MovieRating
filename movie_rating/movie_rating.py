@@ -76,8 +76,6 @@ def get_movie_name_and_year(name):
             title.append(x)
     year = movie_name.split(" ")[-1]
     year = year if year.isdigit() else ""
-    # import pudb
-    # pudb.set_trace()
     return " ".join(title), year
 
 
