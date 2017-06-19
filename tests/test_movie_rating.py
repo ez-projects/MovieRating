@@ -83,7 +83,8 @@ def test_get_movie_name_and_year():
         "Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]",
         "Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]",
         "The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT",
-        "Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT"
+        "Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT",
+        "Prometheus.2012.普罗米修斯.国英双语.HR-HDTV.AC3.1024X576-人人影视制作"
     ]
     expected_results = [
         {
@@ -101,6 +102,10 @@ def test_get_movie_name_and_year():
         {
             "name": "Assassin's Creed",
             "year": "2016"
+        },
+        {
+            "name": "Prometheus",
+            "year": "2012"
         }
     ]
     for ind, name in enumerate(filenames):
@@ -112,12 +117,13 @@ def test_get_movie_name_and_year():
         assert expected_year == actual_year, \
             "Expected year: [{}], but got: [{}]".format(expected_name, actual_year)
     # The same name should be returned
-    irregular_name = "Some.Name.Without.Resolution.WEB-DL.DD5.1.H264-FGT"
+    irregular_name = "Some.Name.Without.Resolution.2014.WEB-DL.DD5.1.H264-FGT"
     actual_name, actual_year = get_movie_name_and_year(irregular_name)
-    expected_name = "Some Name Without Resolution Web-Dl Dd5 1"
+    expected_name = "Some Name Without Resolution"
+    expected_year = "2014"
     assert expected_name == actual_name, \
         "Expected name: [{}], but got: [{}]".format(expected_name, actual_name)
-    assert not actual_year, "Expected year was None, but got: [{}]".format(actual_year)
+    assert expected_year == actual_year, "Expected year was [{}], but got: [{}]".format(expected_year, actual_year)
 
 def test_get_release_year_by_date():
     """
