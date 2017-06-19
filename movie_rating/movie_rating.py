@@ -6,11 +6,11 @@ from bs4 import BeautifulSoup
 from pyquery import PyQuery as pq
 from bson.json_util import dumps
 import sys
-
+from dateutil.parser import parse
 from os import listdir
 from os.path import join, isdir
 import urllib.request
-
+import re
 import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -55,8 +55,18 @@ def get_movie_name_and_year(name):
         movie_name = name.split("720p")[0].strip(".").replace(".", " ")
     elif "1080p" in name:
         movie_name = name.split("1080p")[0].strip(".").replace(".", " ")
-    else: 
-        movie_name = name.replace(".", " ")
+    else:
+        temp_title = ''
+        for item in name.split('.'):
+            try:
+                parse(item, fuzzy=True).year
+            except ValueError:
+                temp_title += '{}.'.format(item)
+            else:
+                temp_title += '{}.'.format(item)
+                break
+        movie_name = temp_title.replace(".", " ").strip()
+
     title = []
     logger.info("File name: {}".format(name))
     for x in movie_name.split(" ")[:-1]:
@@ -66,7 +76,8 @@ def get_movie_name_and_year(name):
             title.append(x)
     year = movie_name.split(" ")[-1]
     year = year if year.isdigit() else ""
-
+    # import pudb
+    # pudb.set_trace()
     return " ".join(title), year
 
 
