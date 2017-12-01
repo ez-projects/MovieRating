@@ -2085,3 +2085,1827 @@
 [06-19 20:54:42] p23532 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
 [06-19 20:54:42] p23532 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Prometheus.2012.普罗米修斯.国英双语.HR-HDTV.AC3.1024X576-人人影视制作
 [06-19 20:54:42] p23532 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Some.Name.Without.Resolution.2014.WEB-DL.DD5.1.H264-FGT
+[06-19 21:02:21] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:94 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[06-19 21:02:21] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:94 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[06-19 21:02:21] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:94 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[06-19 21:02:21] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:145 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-19 21:02:21] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:198 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[06-19 21:02:23] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:207 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[06-19 21:02:23] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:165 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:172 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 22.817982,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.1,
+    "vote_count": 870
+}
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:189 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.1,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Inner.Workings.2016.1080p.BluRay.x264-HDEX[EtHD]
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Moonlight.2016.720p.BluRay.x264-SPARKS[rarbg]
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: The.Lego.Batman.Movie.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Assassin's.Creed.2016.1080p.WEB-DL.DD5.1.H264-FGT
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Prometheus.2012.普罗米修斯.国英双语.HR-HDTV.AC3.1024X576-人人影视制作
+[06-19 21:02:25] p23695 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Some.Name.Without.Resolution.2014.WEB-DL.DD5.1.H264-FGT
+[06-20 23:50:14] p5497 {./movie_rating/movie_rating.py:258 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-20 23:50:14] p5497 {./movie_rating/movie_rating.py:71 [get_movie_name_and_year]} INFO - File name: Wilson.2017.LIMITED.720p.BluRay.x264-GECKOS[rarbg]
+[06-20 23:50:14] p5497 {./movie_rating/movie_rating.py:102 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-20 23:50:14] p5497 {./movie_rating/movie_rating.py:94 [create_query]} INFO - Created query: ['Wilson', '2017', '']
+[06-20 23:50:14] p5497 {./movie_rating/movie_rating.py:107 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Wilson 2017 &s=tt&ttype=ft&ref_=fn_ft
+[06-20 23:50:21] p5497 {./movie_rating/movie_rating.py:145 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[06-28 00:39:42] p680 {./movie_rating/movie_rating.py:264 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-28 00:39:42] p680 {./movie_rating/movie_rating.py:77 [get_movie_name_and_year]} INFO - File name: Extraordinary.Mission.2017.720p.DD5.1.x264-CHD
+[06-28 00:39:42] p680 {./movie_rating/movie_rating.py:108 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-28 00:39:42] p680 {./movie_rating/movie_rating.py:100 [create_query]} INFO - Created query: ['Extraordinary', 'Mission', '2017']
+[06-28 00:39:42] p680 {./movie_rating/movie_rating.py:113 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Extraordinary Mission 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-28 00:39:43] p680 {./movie_rating/movie_rating.py:151 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6690310/?ref_=fn_ft_tt_1
+[06-28 00:39:43] p680 {./movie_rating/movie_rating.py:204 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6690310/?ref_=fn_ft_tt_1
+[06-28 00:39:45] p680 {./movie_rating/movie_rating.py:213 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[06-30 22:39:23] p6083 {./movie_rating/movie_rating.py:264 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-30 22:39:23] p6083 {./movie_rating/movie_rating.py:77 [get_movie_name_and_year]} INFO - File name: Once.Upon.a.Time.in.Venice.2017.1080p.WEB-DL.DD5.1.H264-FGT
+[06-30 22:39:23] p6083 {./movie_rating/movie_rating.py:108 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-30 22:39:23] p6083 {./movie_rating/movie_rating.py:100 [create_query]} INFO - Created query: ['Once', 'Upon', 'A', 'Time', 'In', 'Venice', '2017']
+[06-30 22:39:23] p6083 {./movie_rating/movie_rating.py:113 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Once Upon A Time In Venice 2017&s=tt&ttype=ft&ref_=fn_ft
+[06-30 22:39:24] p6083 {./movie_rating/movie_rating.py:151 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4694544/?ref_=fn_ft_tt_1
+[06-30 22:39:24] p6083 {./movie_rating/movie_rating.py:204 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4694544/?ref_=fn_ft_tt_1
+[06-30 22:39:25] p6083 {./movie_rating/movie_rating.py:213 [get_movie_rating_by_url]} INFO - Movie Rating: 5.4
+[06-30 23:44:14] p16844 {./movie_rating/movie_rating.py:264 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[06-30 23:44:14] p16844 {./movie_rating/movie_rating.py:77 [get_movie_name_and_year]} INFO - File name: The.Lost.City.of.Z.2016.1080p.WEB-DL.DD5.1.H264-FGT
+[06-30 23:44:14] p16844 {./movie_rating/movie_rating.py:108 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[06-30 23:44:14] p16844 {./movie_rating/movie_rating.py:100 [create_query]} INFO - Created query: ['The', 'Lost', 'City', 'Of', 'Z', '2016']
+[06-30 23:44:14] p16844 {./movie_rating/movie_rating.py:113 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Lost City Of Z 2016&s=tt&ttype=ft&ref_=fn_ft
+[06-30 23:44:15] p16844 {./movie_rating/movie_rating.py:151 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1212428/?ref_=fn_ft_tt_1
+[06-30 23:44:15] p16844 {./movie_rating/movie_rating.py:204 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1212428/?ref_=fn_ft_tt_1
+[06-30 23:44:16] p16844 {./movie_rating/movie_rating.py:213 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-02 20:10:45] p5339 {./movie_rating/movie_rating.py:264 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:10:45] p5339 {./movie_rating/movie_rating.py:77 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+[07-02 20:10:45] p5339 {./movie_rating/movie_rating.py:108 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:10:45] p5339 {./movie_rating/movie_rating.py:100 [create_query]} INFO - Created query: ['Labor', 'Day', '2013', '']
+[07-02 20:10:45] p5339 {./movie_rating/movie_rating.py:113 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013 &s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:10:46] p5339 {./movie_rating/movie_rating.py:151 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-02 20:13:41] p5538 {./movie_rating/movie_rating.py:264 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:13:41] p5538 {./movie_rating/movie_rating.py:77 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+[07-02 20:13:41] p5538 {./movie_rating/movie_rating.py:108 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:13:41] p5538 {./movie_rating/movie_rating.py:100 [create_query]} INFO - Created query: ['Labor', 'Day', '2013', '']
+[07-02 20:13:41] p5538 {./movie_rating/movie_rating.py:113 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013 &s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:13:43] p5538 {./movie_rating/movie_rating.py:151 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-02 20:14:11] p5563 {./movie_rating/movie_rating.py:264 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:14:11] p5563 {./movie_rating/movie_rating.py:77 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+[07-02 20:14:11] p5563 {./movie_rating/movie_rating.py:108 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:14:11] p5563 {./movie_rating/movie_rating.py:100 [create_query]} INFO - Created query: ['Labor', 'Day', '2013', '']
+[07-02 20:14:11] p5563 {./movie_rating/movie_rating.py:113 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013 &s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:14:18] p5563 {./movie_rating/movie_rating.py:151 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-02 20:17:44] p5639 {./movie_rating/movie_rating.py:266 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:17:44] p5639 {./movie_rating/movie_rating.py:78 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+[07-02 20:17:44] p5639 {./movie_rating/movie_rating.py:86 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Labor', 'Day', '2013'] 
+[07-02 20:17:44] p5639 {./movie_rating/movie_rating.py:110 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:17:44] p5639 {./movie_rating/movie_rating.py:102 [create_query]} INFO - Created query: ['Labor', 'Day', '2013', '']
+[07-02 20:17:44] p5639 {./movie_rating/movie_rating.py:115 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013 &s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:17:46] p5639 {./movie_rating/movie_rating.py:153 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-02 20:17:58] p5647 {./movie_rating/movie_rating.py:266 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:17:58] p5647 {./movie_rating/movie_rating.py:78 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+[07-02 20:17:58] p5647 {./movie_rating/movie_rating.py:86 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Labor', 'Day', '2013'] 
+[07-02 20:17:58] p5647 {./movie_rating/movie_rating.py:110 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:17:58] p5647 {./movie_rating/movie_rating.py:102 [create_query]} INFO - Created query: ['Labor', 'Day', '2013', '']
+[07-02 20:17:58] p5647 {./movie_rating/movie_rating.py:115 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013 &s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:18:12] p5647 {./movie_rating/movie_rating.py:153 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-02 20:20:34] p5724 {./movie_rating/movie_rating.py:267 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:20:34] p5724 {./movie_rating/movie_rating.py:78 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+[07-02 20:20:34] p5724 {./movie_rating/movie_rating.py:86 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Labor', 'Day', '2013'] 
+[07-02 20:20:34] p5724 {./movie_rating/movie_rating.py:111 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:23:37] p5724 {./movie_rating/movie_rating.py:103 [create_query]} INFO - Created query: ['Labor', 'Day', '2013', '']
+[07-02 20:23:37] p5724 {./movie_rating/movie_rating.py:116 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013 &s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:23:39] p5724 {./movie_rating/movie_rating.py:154 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-02 20:23:55] p5814 {./movie_rating/movie_rating.py:267 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:24:06] p5814 {./movie_rating/movie_rating.py:79 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+[07-02 20:25:54] p5814 {./movie_rating/movie_rating.py:87 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Labor', 'Day', '2013'] 
+[07-02 20:25:54] p5814 {./movie_rating/movie_rating.py:111 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:25:54] p5814 {./movie_rating/movie_rating.py:103 [create_query]} INFO - Created query: ['Labor', 'Day', '2013', '']
+[07-02 20:25:54] p5814 {./movie_rating/movie_rating.py:116 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013 &s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:25:56] p5814 {./movie_rating/movie_rating.py:154 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-02 20:26:58] p5862 {./movie_rating/movie_rating.py:266 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 20:26:58] p5862 {./movie_rating/movie_rating.py:78 [get_movie_name_and_year]} INFO - File name: Labor.Day.2013.1080p.DTS.x264-CHD.chs
+[07-02 20:26:58] p5862 {./movie_rating/movie_rating.py:86 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Labor', 'Day'] 2013
+[07-02 20:26:58] p5862 {./movie_rating/movie_rating.py:110 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 20:26:58] p5862 {./movie_rating/movie_rating.py:102 [create_query]} INFO - Created query: ['Labor', 'Day', '2013']
+[07-02 20:26:58] p5862 {./movie_rating/movie_rating.py:115 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013&s=tt&ttype=ft&ref_=fn_ft
+[07-02 20:27:00] p5862 {./movie_rating/movie_rating.py:153 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1967545/?ref_=fn_ft_tt_1
+[07-02 20:27:00] p5862 {./movie_rating/movie_rating.py:206 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1967545/?ref_=fn_ft_tt_1
+[07-02 20:27:02] p5862 {./movie_rating/movie_rating.py:215 [get_movie_rating_by_url]} INFO - Movie Rating: 6.9
+[07-02 22:18:27] p7539 {./movie_rating/movie_rating.py:277 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 22:18:47] p7560 {./movie_rating/movie_rating.py:277 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 22:22:46] p7724 {./movie_rating/movie_rating.py:279 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 22:22:46] p7724 {./movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Labor', 'Day'] 2013
+[07-02 22:23:02] p7748 {./movie_rating/movie_rating.py:279 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 22:23:02] p7748 {./movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Labor', 'Day'] 2013
+[07-02 22:23:02] p7748 {./movie_rating/movie_rating.py:123 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 22:23:02] p7748 {./movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ['Labor', 'Day', '2013']
+[07-02 22:23:02] p7748 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Labor Day 2013&s=tt&ttype=ft&ref_=fn_ft
+[07-02 22:23:08] p7748 {./movie_rating/movie_rating.py:166 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1967545/?ref_=fn_ft_tt_1
+[07-02 22:23:08] p7748 {./movie_rating/movie_rating.py:219 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1967545/?ref_=fn_ft_tt_1
+[07-02 22:23:10] p7748 {./movie_rating/movie_rating.py:228 [get_movie_rating_by_url]} INFO - Movie Rating: 6.9
+[07-02 22:23:29] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[07-02 22:23:29] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[07-02 22:23:29] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[07-02 22:23:29] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:166 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[07-02 22:23:29] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:219 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[07-02 22:23:36] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:228 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-02 22:23:36] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:186 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[07-02 22:23:40] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:193 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 12.087836,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 997
+}
+[07-02 22:23:40] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:210 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[07-02 22:23:41] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[07-02 22:23:41] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Moonlight'] 2016
+[07-02 22:23:41] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[07-02 22:23:41] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[07-02 22:23:41] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Prometheus'] 2012
+[07-02 22:23:41] p7763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014
+[07-02 22:24:38] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[07-02 22:24:38] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[07-02 22:24:38] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[07-02 22:24:38] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:166 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[07-02 22:24:38] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:219 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[07-02 22:24:40] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:228 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-02 22:24:40] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:186 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:193 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 12.087836,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 310032902,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 997
+}
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:210 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 310032902,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Moonlight'] 2016
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Prometheus'] 2012
+[07-02 22:24:42] p7828 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014
+[07-02 22:25:53] p7848 {./movie_rating/movie_rating.py:279 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 22:25:53] p7848 {./movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Moneyball'] 2011
+[07-02 22:25:53] p7848 {./movie_rating/movie_rating.py:123 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 22:25:53] p7848 {./movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ['Moneyball', '2011']
+[07-02 22:25:53] p7848 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Moneyball 2011&s=tt&ttype=ft&ref_=fn_ft
+[07-02 22:25:55] p7848 {./movie_rating/movie_rating.py:166 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1210166/?ref_=fn_ft_tt_1
+[07-02 22:25:55] p7848 {./movie_rating/movie_rating.py:219 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1210166/?ref_=fn_ft_tt_1
+[07-02 22:25:57] p7848 {./movie_rating/movie_rating.py:228 [get_movie_rating_by_url]} INFO - Movie Rating: 7.6
+[07-02 23:03:41] p8800 {./movie_rating/movie_rating.py:279 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-02 23:03:41] p8800 {./movie_rating/movie_rating.py:99 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Rise', 'of', 'the', 'Planet', 'of', 'the', 'Apes'] 2011
+[07-02 23:03:41] p8800 {./movie_rating/movie_rating.py:123 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-02 23:03:41] p8800 {./movie_rating/movie_rating.py:115 [create_query]} INFO - Created query: ['Rise', 'of', 'the', 'Planet', 'of', 'the', 'Apes', '2011']
+[07-02 23:03:41] p8800 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Rise of the Planet of the Apes 2011&s=tt&ttype=ft&ref_=fn_ft
+[07-02 23:03:43] p8800 {./movie_rating/movie_rating.py:166 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1318514/?ref_=fn_ft_tt_1
+[07-02 23:03:43] p8800 {./movie_rating/movie_rating.py:219 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1318514/?ref_=fn_ft_tt_1
+[07-02 23:03:45] p8800 {./movie_rating/movie_rating.py:228 [get_movie_rating_by_url]} INFO - Movie Rating: 7.6
+[07-02 23:12:55] p10187 {./movie_rating/movie_rating.py:282 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-03 00:01:32] p16908 {./movie_rating/movie_rating.py:282 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-03 00:01:32] p16908 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Logan'] 2017
+[07-03 00:01:32] p16908 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:01:32] p16908 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Logan', '2017']
+[07-03 00:01:32] p16908 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Logan 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:01:33] p16908 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3315342/?ref_=fn_ft_tt_1
+[07-03 00:01:33] p16908 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3315342/?ref_=fn_ft_tt_1
+[07-03 00:01:34] p16908 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 8.3
+[07-03 00:03:13] p17209 {./movie_rating/movie_rating.py:282 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-03 00:03:13] p17209 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Whole', 'Truth'] 2016
+[07-03 00:03:13] p17209 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:03:13] p17209 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['The', 'Whole', 'Truth', '2016']
+[07-03 00:03:13] p17209 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Whole Truth 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:03:14] p17209 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3503406/?ref_=fn_ft_tt_1
+[07-03 00:03:14] p17209 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3503406/?ref_=fn_ft_tt_1
+[07-03 00:03:16] p17209 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:06:46] p17697 {./movie_rating/movie_rating.py:282 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-03 00:40:06] p22312 {./movie_rating/movie_rating.py:282 [main]} INFO - Scanning movies in: ./tests/test_movies_dir
+[07-03 00:40:06] p22312 {./movie_rating/movie_rating.py:43 [get_movies]} INFO - Get movies in directory: ./tests/test_movies_dir
+[07-03 00:40:06] p22312 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['War', 'Machine'] 2017
+[07-03 00:40:06] p22312 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:06] p22312 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['War', 'Machine', '2017']
+[07-03 00:40:06] p22312 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=War Machine 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:08] p22312 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4758646/?ref_=fn_ft_tt_1
+[07-03 00:40:08] p22312 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4758646/?ref_=fn_ft_tt_1
+[07-03 00:40:09] p22312 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:40:09] p22312 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Manchester', 'by', 'the', 'Sea'] 2016
+[07-03 00:40:09] p22312 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:09] p22312 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Manchester', 'by', 'the', 'Sea', '2016']
+[07-03 00:40:09] p22312 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Manchester by the Sea 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:10] p22312 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4034228/?ref_=fn_ft_tt_1
+[07-03 00:40:10] p22312 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4034228/?ref_=fn_ft_tt_1
+[07-03 00:40:12] p22312 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 7.9
+[07-03 00:40:12] p22312 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Boss', 'Baby'] 2017
+[07-03 00:40:12] p22312 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:12] p22312 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['The', 'Boss', 'Baby', '2017']
+[07-03 00:40:12] p22312 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Boss Baby 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:13] p22312 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3874544/?ref_=fn_ft_tt_2
+[07-03 00:40:13] p22312 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3874544/?ref_=fn_ft_tt_2
+[07-03 00:40:14] p22312 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.4
+[07-03 00:40:14] p22312 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Logan'] 2017
+[07-03 00:40:14] p22312 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:14] p22312 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Logan', '2017']
+[07-03 00:40:14] p22312 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Logan 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:15] p22312 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3315342/?ref_=fn_ft_tt_1
+[07-03 00:40:15] p22312 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3315342/?ref_=fn_ft_tt_1
+[07-03 00:40:17] p22312 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 8.3
+[07-03 00:40:17] p22312 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[07-03 00:40:17] p22312 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:17] p22312 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Inner', 'Workings', '2016']
+[07-03 00:40:17] p22312 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Inner Workings 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:19] p22312 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5807512/?ref_=fn_tt_tt_1
+[07-03 00:40:19] p22312 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5807512/?ref_=fn_tt_tt_1
+[07-03 00:40:20] p22312 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 7.8
+[07-03 00:40:20] p22312 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[07-03 00:40:20] p22312 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:20] p22312 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[07-03 00:40:20] p22312 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Lego Batman Movie 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:21] p22312 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4116284/?ref_=fn_ft_tt_1
+[07-03 00:40:21] p22312 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4116284/?ref_=fn_ft_tt_1
+[07-03 00:40:23] p22312 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 7.4
+[07-03 00:40:23] p22312 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Arrival'] 2016
+[07-03 00:40:23] p22312 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:23] p22312 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Arrival', '2016']
+[07-03 00:40:23] p22312 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Arrival 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:24] p22312 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2543164/?ref_=fn_ft_tt_1
+[07-03 00:40:24] p22312 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2543164/?ref_=fn_ft_tt_1
+[07-03 00:40:25] p22312 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 8.0
+[07-03 00:40:52] p22450 {./movie_rating/movie_rating.py:283 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/New_Arrival
+[07-03 00:40:52] p22450 {./movie_rating/movie_rating.py:43 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/New_Arrival
+[07-03 00:40:52] p22450 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: [] 100
+[07-03 00:40:52] p22450 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:52] p22450 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['', '100']
+[07-03 00:40:52] p22450 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q= 100&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:54] p22450 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_169
+[07-03 00:40:54] p22450 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_169
+[07-03 00:40:56] p22450 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 4.5
+[07-03 00:40:56] p22450 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['American', 'Pastoral'] 2016
+[07-03 00:40:56] p22450 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:56] p22450 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['American', 'Pastoral', '2016']
+[07-03 00:40:56] p22450 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Pastoral 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:57] p22450 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:40:57] p22450 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:40:58] p22450 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:40:58] p22450 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Bridget', 'Jones', 'Baby'] 2016
+[07-03 00:40:58] p22450 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:40:58] p22450 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Bridget', 'Jones', 'Baby', '2016']
+[07-03 00:40:58] p22450 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Bridget Jones Baby 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:40:59] p22450 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-03 00:43:46] p22884 {./movie_rating/movie_rating.py:283 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/New_Arrival
+[07-03 00:43:46] p22884 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Genius'] 2016
+[07-03 00:43:46] p22884 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:43:46] p22884 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Genius', '2016']
+[07-03 00:43:46] p22884 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Genius 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:43:47] p22884 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1703957/?ref_=fn_ft_tt_1
+[07-03 00:43:47] p22884 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1703957/?ref_=fn_ft_tt_1
+[07-03 00:43:48] p22884 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[07-03 00:45:27] p23155 {./movie_rating/movie_rating.py:283 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/New_Arrival
+[07-03 00:45:27] p23155 {./movie_rating/movie_rating.py:43 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/New_Arrival
+[07-03 00:45:27] p23155 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['American', 'Pastoral'] 2016
+[07-03 00:45:27] p23155 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:45:27] p23155 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['American', 'Pastoral', '2016']
+[07-03 00:45:27] p23155 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Pastoral 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:45:28] p23155 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:45:28] p23155 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:45:30] p23155 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:45:30] p23155 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Bridget', 'Jones', 'Baby'] 2016
+[07-03 00:45:30] p23155 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:45:30] p23155 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Bridget', 'Jones', 'Baby', '2016']
+[07-03 00:45:30] p23155 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Bridget Jones Baby 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:45:31] p23155 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-03 00:46:32] p23350 {./movie_rating/movie_rating.py:283 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/New_Arrival
+[07-03 00:46:32] p23350 {./movie_rating/movie_rating.py:43 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/New_Arrival
+[07-03 00:46:32] p23350 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['American', 'Pastoral'] 2016
+[07-03 00:46:32] p23350 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:46:32] p23350 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['American', 'Pastoral', '2016']
+[07-03 00:46:32] p23350 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Pastoral 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:46:34] p23350 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:46:34] p23350 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:46:35] p23350 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:46:35] p23350 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Bridget', 'Jones', 'Baby'] 2016
+[07-03 00:46:35] p23350 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:46:35] p23350 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Bridget', 'Jones', 'Baby', '2016']
+[07-03 00:46:35] p23350 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Bridget Jones Baby 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:46:37] p23350 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-03 00:46:59] p23468 {./movie_rating/movie_rating.py:283 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/New_Arrival
+[07-03 00:46:59] p23468 {./movie_rating/movie_rating.py:43 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/New_Arrival
+[07-03 00:46:59] p23468 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['American', 'Pastoral'] 2016
+[07-03 00:46:59] p23468 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:46:59] p23468 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['American', 'Pastoral', '2016']
+[07-03 00:46:59] p23468 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Pastoral 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:47:00] p23468 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:47:00] p23468 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:47:01] p23468 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:47:01] p23468 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Bridget', 'Jones', 'Baby'] 2016
+[07-03 00:47:01] p23468 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:47:01] p23468 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Bridget', 'Jones', 'Baby', '2016']
+[07-03 00:47:01] p23468 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Bridget Jones Baby 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:47:02] p23468 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-03 00:47:02] p23468 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Genius'] 2016
+[07-03 00:47:02] p23468 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:47:02] p23468 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Genius', '2016']
+[07-03 00:47:02] p23468 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Genius 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:47:03] p23468 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1703957/?ref_=fn_ft_tt_1
+[07-03 00:47:03] p23468 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1703957/?ref_=fn_ft_tt_1
+[07-03 00:47:05] p23468 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[07-03 00:47:05] p23468 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Snowden'] 2016
+[07-03 00:47:05] p23468 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:47:05] p23468 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['Snowden', '2016']
+[07-03 00:47:05] p23468 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Snowden 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:47:06] p23468 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3774114/?ref_=fn_ft_tt_1
+[07-03 00:47:06] p23468 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3774114/?ref_=fn_ft_tt_1
+[07-03 00:47:07] p23468 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 7.3
+[07-03 00:47:07] p23468 {./movie_rating/movie_rating.py:102 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Whole', 'Truth'] 2016
+[07-03 00:47:07] p23468 {./movie_rating/movie_rating.py:126 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:47:07] p23468 {./movie_rating/movie_rating.py:118 [create_query]} INFO - Created query: ['The', 'Whole', 'Truth', '2016']
+[07-03 00:47:07] p23468 {./movie_rating/movie_rating.py:131 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Whole Truth 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:47:08] p23468 {./movie_rating/movie_rating.py:169 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3503406/?ref_=fn_ft_tt_1
+[07-03 00:47:08] p23468 {./movie_rating/movie_rating.py:222 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3503406/?ref_=fn_ft_tt_1
+[07-03 00:47:09] p23468 {./movie_rating/movie_rating.py:231 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:50:48] p24068 {./movie_rating/movie_rating.py:284 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/New_Arrival
+[07-03 00:50:48] p24068 {./movie_rating/movie_rating.py:44 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/New_Arrival
+[07-03 00:50:48] p24068 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['American', 'Pastoral'] 2016
+[07-03 00:50:48] p24068 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:50:48] p24068 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['American', 'Pastoral', '2016']
+[07-03 00:50:48] p24068 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Pastoral 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:50:49] p24068 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:50:49] p24068 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-03 00:50:51] p24068 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:50:51] p24068 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Genius'] 2016
+[07-03 00:50:51] p24068 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:50:51] p24068 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Genius', '2016']
+[07-03 00:50:51] p24068 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Genius 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:50:52] p24068 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1703957/?ref_=fn_ft_tt_1
+[07-03 00:50:52] p24068 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1703957/?ref_=fn_ft_tt_1
+[07-03 00:50:53] p24068 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[07-03 00:50:53] p24068 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Snowden'] 2016
+[07-03 00:50:53] p24068 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:50:53] p24068 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Snowden', '2016']
+[07-03 00:50:53] p24068 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Snowden 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:50:54] p24068 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3774114/?ref_=fn_ft_tt_1
+[07-03 00:50:54] p24068 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3774114/?ref_=fn_ft_tt_1
+[07-03 00:50:55] p24068 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.3
+[07-03 00:50:55] p24068 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Whole', 'Truth'] 2016
+[07-03 00:50:55] p24068 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:50:55] p24068 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['The', 'Whole', 'Truth', '2016']
+[07-03 00:50:55] p24068 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Whole Truth 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:50:56] p24068 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3503406/?ref_=fn_ft_tt_1
+[07-03 00:50:56] p24068 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3503406/?ref_=fn_ft_tt_1
+[07-03 00:51:00] p24068 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-03 00:51:41] p24221 {./movie_rating/movie_rating.py:284 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 00:51:41] p24221 {./movie_rating/movie_rating.py:44 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/Movies
+[07-03 00:51:41] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Cell'] 2016
+[07-03 00:51:41] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:41] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Cell', '2016']
+[07-03 00:51:41] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Cell 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:42] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0775440/?ref_=fn_ft_tt_5
+[07-03 00:51:42] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0775440/?ref_=fn_ft_tt_5
+[07-03 00:51:44] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 4.3
+[07-03 00:51:44] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Central', 'Intelligence'] 2016
+[07-03 00:51:44] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:44] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Central', 'Intelligence', '2016']
+[07-03 00:51:44] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Central Intelligence 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:45] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[07-03 00:51:45] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[07-03 00:51:46] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[07-03 00:51:46] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Cinderella'] 2015
+[07-03 00:51:46] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:46] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Cinderella', '2015']
+[07-03 00:51:46] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Cinderella 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:47] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1661199/?ref_=fn_ft_tt_3
+[07-03 00:51:47] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1661199/?ref_=fn_ft_tt_3
+[07-03 00:51:48] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 00:51:48] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Concussion'] 2015
+[07-03 00:51:48] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:48] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Concussion', '2015']
+[07-03 00:51:48] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Concussion 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:49] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[07-03 00:51:49] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[07-03 00:51:51] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 00:51:51] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Daddys', 'Home'] 2015
+[07-03 00:51:51] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:51] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Daddys', 'Home', '2015']
+[07-03 00:51:51] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:53] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-03 00:51:53] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['David', 'Brent', 'Life', 'on', 'the', 'Road'] 2016
+[07-03 00:51:53] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:53] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['David', 'Brent', 'Life', 'on', 'the', 'Road', '2016']
+[07-03 00:51:53] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=David Brent Life on the Road 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:54] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[07-03 00:51:54] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[07-03 00:51:55] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[07-03 00:51:55] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Deepwater', 'Horizon'] 2016
+[07-03 00:51:55] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:55] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Deepwater', 'Horizon', '2016']
+[07-03 00:51:55] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Deepwater Horizon 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:56] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[07-03 00:51:56] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[07-03 00:51:58] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.2
+[07-03 00:51:58] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Dirty', 'Grandpa'] 2016
+[07-03 00:51:58] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:51:58] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Dirty', 'Grandpa', '2016']
+[07-03 00:51:58] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Dirty Grandpa 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:51:59] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1860213/?ref_=fn_ft_tt_1
+[07-03 00:51:59] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1860213/?ref_=fn_ft_tt_1
+[07-03 00:52:00] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 6.0
+[07-03 00:52:00] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['John', 'Wick'] 2014
+[07-03 00:52:00] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:00] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['John', 'Wick', '2014']
+[07-03 00:52:00] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=John Wick 2014&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:01] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-03 00:52:01] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-03 00:52:02] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.3
+[07-03 00:52:02] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Jurassic', 'World'] 2015
+[07-03 00:52:02] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:02] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Jurassic', 'World', '2015']
+[07-03 00:52:02] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Jurassic World 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:03] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0369610/?ref_=fn_ft_tt_1
+[07-03 00:52:03] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0369610/?ref_=fn_ft_tt_1
+[07-03 00:52:06] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 00:52:06] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Passengers'] 2016
+[07-03 00:52:06] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:06] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Passengers', '2016']
+[07-03 00:52:06] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Passengers 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:07] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1355644/?ref_=fn_ft_tt_1
+[07-03 00:52:07] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1355644/?ref_=fn_ft_tt_1
+[07-03 00:52:09] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 00:52:09] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Everest'] 2015
+[07-03 00:52:09] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:09] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Everest', '2015']
+[07-03 00:52:09] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Everest 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:10] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2719848/?ref_=fn_ft_tt_1
+[07-03 00:52:10] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2719848/?ref_=fn_ft_tt_1
+[07-03 00:52:11] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 00:52:11] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Solace'] 2015
+[07-03 00:52:11] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:11] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Solace', '2015']
+[07-03 00:52:11] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Solace 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:12] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1291570/?ref_=fn_ft_tt_1
+[07-03 00:52:12] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1291570/?ref_=fn_ft_tt_1
+[07-03 00:52:14] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 6.4
+[07-03 00:52:14] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Southpaw'] 2015
+[07-03 00:52:14] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:14] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Southpaw', '2015']
+[07-03 00:52:14] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Southpaw 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:15] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[07-03 00:52:15] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[07-03 00:52:17] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.4
+[07-03 00:52:17] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Spy'] 2015
+[07-03 00:52:17] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:17] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Spy', '2015']
+[07-03 00:52:17] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Spy 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:18] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[07-03 00:52:18] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[07-03 00:52:20] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 00:52:20] p24221 {./movie_rating/movie_rating.py:103 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Star', 'Trek', 'Beyond'] 2016
+[07-03 00:52:20] p24221 {./movie_rating/movie_rating.py:127 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:52:20] p24221 {./movie_rating/movie_rating.py:119 [create_query]} INFO - Created query: ['Star', 'Trek', 'Beyond', '2016']
+[07-03 00:52:20] p24221 {./movie_rating/movie_rating.py:132 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Star Trek Beyond 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:52:21] p24221 {./movie_rating/movie_rating.py:170 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[07-03 00:52:21] p24221 {./movie_rating/movie_rating.py:223 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[07-03 00:52:22] p24221 {./movie_rating/movie_rating.py:232 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 00:59:30] p25491 {./movie_rating/movie_rating.py:285 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 00:59:30] p25491 {./movie_rating/movie_rating.py:44 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/Movies
+[07-03 00:59:30] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Cell'] 2016
+[07-03 00:59:30] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:30] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Cell', '2016']
+[07-03 00:59:30] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Cell 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:32] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0775440/?ref_=fn_ft_tt_5
+[07-03 00:59:32] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0775440/?ref_=fn_ft_tt_5
+[07-03 00:59:33] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 4.3
+[07-03 00:59:33] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Central', 'Intelligence'] 2016
+[07-03 00:59:33] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:33] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Central', 'Intelligence', '2016']
+[07-03 00:59:33] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Central Intelligence 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:34] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[07-03 00:59:34] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[07-03 00:59:35] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[07-03 00:59:35] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Cinderella'] 2015
+[07-03 00:59:35] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:35] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Cinderella', '2015']
+[07-03 00:59:35] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Cinderella 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:36] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1661199/?ref_=fn_ft_tt_3
+[07-03 00:59:36] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1661199/?ref_=fn_ft_tt_3
+[07-03 00:59:38] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 00:59:38] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Concussion'] 2015
+[07-03 00:59:38] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:38] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Concussion', '2015']
+[07-03 00:59:38] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Concussion 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:38] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[07-03 00:59:38] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[07-03 00:59:40] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 00:59:40] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Daddys', 'Home'] 2015
+[07-03 00:59:40] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:40] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Daddys', 'Home', '2015']
+[07-03 00:59:40] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:41] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-03 00:59:41] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['David', 'Brent', 'Life', 'on', 'the', 'Road'] 2016
+[07-03 00:59:41] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:41] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['David', 'Brent', 'Life', 'on', 'the', 'Road', '2016']
+[07-03 00:59:41] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=David Brent Life on the Road 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:42] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[07-03 00:59:42] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[07-03 00:59:43] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[07-03 00:59:43] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Deepwater', 'Horizon'] 2016
+[07-03 00:59:43] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:43] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Deepwater', 'Horizon', '2016']
+[07-03 00:59:43] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Deepwater Horizon 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:44] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[07-03 00:59:44] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[07-03 00:59:46] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.2
+[07-03 00:59:46] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Dirty', 'Grandpa'] 2016
+[07-03 00:59:46] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:46] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Dirty', 'Grandpa', '2016']
+[07-03 00:59:46] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Dirty Grandpa 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:46] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1860213/?ref_=fn_ft_tt_1
+[07-03 00:59:46] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1860213/?ref_=fn_ft_tt_1
+[07-03 00:59:48] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 6.0
+[07-03 00:59:48] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['John', 'Wick'] 2014
+[07-03 00:59:48] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:48] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['John', 'Wick', '2014']
+[07-03 00:59:48] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=John Wick 2014&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:49] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-03 00:59:49] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-03 00:59:50] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.3
+[07-03 00:59:50] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Jurassic', 'World'] 2015
+[07-03 00:59:50] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:50] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Jurassic', 'World', '2015']
+[07-03 00:59:50] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Jurassic World 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:51] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0369610/?ref_=fn_ft_tt_1
+[07-03 00:59:51] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0369610/?ref_=fn_ft_tt_1
+[07-03 00:59:53] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 00:59:53] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Passengers'] 2016
+[07-03 00:59:53] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:53] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Passengers', '2016']
+[07-03 00:59:53] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Passengers 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:54] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1355644/?ref_=fn_ft_tt_1
+[07-03 00:59:54] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1355644/?ref_=fn_ft_tt_1
+[07-03 00:59:56] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 00:59:56] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Everest'] 2015
+[07-03 00:59:56] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:56] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Everest', '2015']
+[07-03 00:59:56] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Everest 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:57] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2719848/?ref_=fn_ft_tt_1
+[07-03 00:59:57] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2719848/?ref_=fn_ft_tt_1
+[07-03 00:59:58] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 00:59:58] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Solace'] 2015
+[07-03 00:59:58] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 00:59:58] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Solace', '2015']
+[07-03 00:59:58] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Solace 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 00:59:59] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1291570/?ref_=fn_ft_tt_1
+[07-03 00:59:59] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1291570/?ref_=fn_ft_tt_1
+[07-03 01:00:00] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 6.4
+[07-03 01:00:00] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Southpaw'] 2015
+[07-03 01:00:00] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:00:00] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Southpaw', '2015']
+[07-03 01:00:00] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Southpaw 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:00:01] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[07-03 01:00:01] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[07-03 01:00:04] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.4
+[07-03 01:00:04] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Spy'] 2015
+[07-03 01:00:04] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:00:04] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Spy', '2015']
+[07-03 01:00:04] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Spy 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:00:05] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[07-03 01:00:05] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[07-03 01:00:06] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 01:00:06] p25491 {./movie_rating/movie_rating.py:104 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Star', 'Trek', 'Beyond'] 2016
+[07-03 01:00:06] p25491 {./movie_rating/movie_rating.py:128 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:00:06] p25491 {./movie_rating/movie_rating.py:120 [create_query]} INFO - Created query: ['Star', 'Trek', 'Beyond', '2016']
+[07-03 01:00:06] p25491 {./movie_rating/movie_rating.py:133 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Star Trek Beyond 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:00:07] p25491 {./movie_rating/movie_rating.py:171 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[07-03 01:00:07] p25491 {./movie_rating/movie_rating.py:224 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[07-03 01:00:09] p25491 {./movie_rating/movie_rating.py:233 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 01:14:26] p27619 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 01:14:26] p27619 {./movie_rating/movie_rating.py:44 [get_movies]} INFO - Get movies in directory: /run/media/nathan/Movies/Movies
+[07-03 01:14:26] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Central', 'Intelligence'] 2016
+[07-03 01:14:26] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:26] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Central', 'Intelligence', '2016']
+[07-03 01:14:26] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Central Intelligence 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:27] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[07-03 01:14:27] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[07-03 01:14:28] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[07-03 01:14:28] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Cinderella'] 2015
+[07-03 01:14:28] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:28] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Cinderella', '2015']
+[07-03 01:14:28] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Cinderella 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:29] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1661199/?ref_=fn_ft_tt_3
+[07-03 01:14:29] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1661199/?ref_=fn_ft_tt_3
+[07-03 01:14:31] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 01:14:31] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Concussion'] 2015
+[07-03 01:14:31] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:31] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Concussion', '2015']
+[07-03 01:14:31] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Concussion 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:32] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[07-03 01:14:32] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Daddys', 'Home'] 2015
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Daddys', 'Home', '2015']
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['David', 'Brent', 'Life', 'on', 'the', 'Road'] 2016
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['David', 'Brent', 'Life', 'on', 'the', 'Road', '2016']
+[07-03 01:14:34] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=David Brent Life on the Road 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:35] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[07-03 01:14:35] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[07-03 01:14:37] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[07-03 01:14:37] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Deepwater', 'Horizon'] 2016
+[07-03 01:14:37] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:37] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Deepwater', 'Horizon', '2016']
+[07-03 01:14:37] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Deepwater Horizon 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:38] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[07-03 01:14:38] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[07-03 01:14:39] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.2
+[07-03 01:14:39] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Dirty', 'Grandpa'] 2016
+[07-03 01:14:39] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:39] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Dirty', 'Grandpa', '2016']
+[07-03 01:14:39] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Dirty Grandpa 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:40] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1860213/?ref_=fn_ft_tt_1
+[07-03 01:14:40] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1860213/?ref_=fn_ft_tt_1
+[07-03 01:14:41] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.0
+[07-03 01:14:41] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['John', 'Wick'] 2014
+[07-03 01:14:41] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:41] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['John', 'Wick', '2014']
+[07-03 01:14:41] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=John Wick 2014&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:42] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-03 01:14:42] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-03 01:14:44] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.3
+[07-03 01:14:44] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Jurassic', 'World'] 2015
+[07-03 01:14:44] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:44] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Jurassic', 'World', '2015']
+[07-03 01:14:44] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Jurassic World 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:44] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0369610/?ref_=fn_ft_tt_1
+[07-03 01:14:44] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0369610/?ref_=fn_ft_tt_1
+[07-03 01:14:46] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 01:14:46] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Passengers'] 2016
+[07-03 01:14:46] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:46] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Passengers', '2016']
+[07-03 01:14:46] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Passengers 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:47] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1355644/?ref_=fn_ft_tt_1
+[07-03 01:14:47] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1355644/?ref_=fn_ft_tt_1
+[07-03 01:14:49] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-03 01:14:49] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Everest'] 2015
+[07-03 01:14:49] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:49] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Everest', '2015']
+[07-03 01:14:49] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Everest 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:50] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2719848/?ref_=fn_ft_tt_1
+[07-03 01:14:50] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2719848/?ref_=fn_ft_tt_1
+[07-03 01:14:52] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 01:14:52] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Solace'] 2015
+[07-03 01:14:52] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:52] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Solace', '2015']
+[07-03 01:14:52] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Solace 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:54] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1291570/?ref_=fn_ft_tt_1
+[07-03 01:14:54] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1291570/?ref_=fn_ft_tt_1
+[07-03 01:14:55] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.4
+[07-03 01:14:55] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Southpaw'] 2015
+[07-03 01:14:55] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:55] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Southpaw', '2015']
+[07-03 01:14:55] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Southpaw 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:56] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[07-03 01:14:56] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[07-03 01:14:57] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.4
+[07-03 01:14:57] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Spy'] 2015
+[07-03 01:14:57] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:14:57] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Spy', '2015']
+[07-03 01:14:57] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Spy 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:14:58] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[07-03 01:14:58] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[07-03 01:15:00] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 01:15:00] p27619 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Star', 'Trek', 'Beyond'] 2016
+[07-03 01:15:00] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:15:00] p27619 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Star', 'Trek', 'Beyond', '2016']
+[07-03 01:15:00] p27619 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Star Trek Beyond 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:15:01] p27619 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[07-03 01:15:01] p27619 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[07-03 01:15:03] p27619 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.1
+[07-03 01:15:03] p27619 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:15:38] p27808 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 01:15:38] p27808 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:16:04] p27907 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 01:16:04] p27907 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:16:04] p27907 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['', '']
+[07-03 01:16:04] p27907 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q= &s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:22:02] p28767 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 01:22:02] p28767 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Dawn', 'of', 'the', 'Planet', 'of', 'the', 'Apes'] 2014
+[07-03 01:22:02] p28767 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:22:02] p28767 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Dawn', 'of', 'the', 'Planet', 'of', 'the', 'Apes', '2014']
+[07-03 01:22:02] p28767 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Dawn of the Planet of the Apes 2014&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:22:03] p28767 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2103281/?ref_=fn_ft_tt_1
+[07-03 01:22:03] p28767 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2103281/?ref_=fn_ft_tt_1
+[07-03 01:22:05] p28767 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.6
+[07-03 01:22:22] p28819 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 01:22:22] p28819 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Rise', 'of', 'the', 'Planet', 'of', 'the', 'Apes'] 2011
+[07-03 01:22:22] p28819 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:22:22] p28819 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Rise', 'of', 'the', 'Planet', 'of', 'the', 'Apes', '2011']
+[07-03 01:22:22] p28819 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Rise of the Planet of the Apes 2011&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:22:23] p28819 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1318514/?ref_=fn_ft_tt_1
+[07-03 01:22:23] p28819 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1318514/?ref_=fn_ft_tt_1
+[07-03 01:22:24] p28819 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.6
+[07-03 01:26:18] p29265 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 01:26:18] p29265 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Wonder', 'Woman'] 2017
+[07-03 01:26:18] p29265 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 01:26:18] p29265 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Wonder', 'Woman', '2017']
+[07-03 01:26:18] p29265 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Wonder Woman 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-03 01:26:19] p29265 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0451279/?ref_=fn_ft_tt_1
+[07-03 01:26:19] p29265 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0451279/?ref_=fn_ft_tt_1
+[07-03 01:26:20] p29265 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 8.0
+[07-03 22:07:31] p15147 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 22:07:31] p15147 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: [] 10000
+[07-03 22:07:31] p15147 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 22:07:31] p15147 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['', '10000']
+[07-03 22:07:31] p15147 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q= 10000&s=tt&ttype=ft&ref_=fn_ft
+[07-03 22:07:34] p15147 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_65
+[07-03 22:07:34] p15147 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_65
+[07-03 22:07:37] p15147 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 4.5
+[07-03 22:20:05] p22515 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 22:20:05] p22515 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: [] 10000
+[07-03 22:20:05] p22515 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 22:20:05] p22515 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['', '10000']
+[07-03 22:20:05] p22515 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q= 10000&s=tt&ttype=ft&ref_=fn_ft
+[07-03 22:20:07] p22515 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_65
+[07-03 22:20:07] p22515 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_65
+[07-03 22:20:09] p22515 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 4.5
+[07-03 22:20:59] p23030 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-03 22:20:59] p23030 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: [] 10000
+[07-03 22:20:59] p23030 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-03 22:20:59] p23030 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['', '10000']
+[07-03 22:20:59] p23030 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q= 10000&s=tt&ttype=ft&ref_=fn_ft
+[07-03 22:21:06] p23030 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_65
+[07-03 22:21:06] p23030 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_65
+[07-03 22:21:09] p23030 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1744760/?ref_=fn_ft_tt_65
+[07-03 22:21:09] p23030 {./movie_rating/movie_rating.py:193 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt1744760?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[07-03 22:21:12] p23030 {./movie_rating/movie_rating.py:200 [get_movie_details_by_id]} INFO - {
+    "popularity": 0.146464,
+    "poster_path": "/lWYpauIOdtgJ9iv8n7FleJVIwal.jpg",
+    "title": "Brutal",
+    "original_language": "en",
+    "vote_average": 5.1,
+    "production_countries": [
+        {
+            "name": "United States of America",
+            "iso_3166_1": "US"
+        }
+    ],
+    "id": 129530,
+    "spoken_languages": [
+        {
+            "name": "English",
+            "iso_639_1": "en"
+        }
+    ],
+    "revenue": 0,
+    "homepage": "https://www.facebook.com/pages/1000-Times-More-Brutal/632316846831568",
+    "backdrop_path": "/nxBdPK20UkJnV9ReCYIX6VN4oMr.jpg",
+    "runtime": 91,
+    "release_date": "2012-08-21",
+    "video": false,
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "tagline": "",
+    "adult": false,
+    "budget": 0,
+    "original_title": "Brutal",
+    "vote_count": 4,
+    "production_companies": [],
+    "overview": "Four friends pay the ultimate price,when they seek revenge against a low-level Gangster (IMDB.com).",
+    "imdb_id": "tt1744760",
+    "belongs_to_collection": null,
+    "status": "Released"
+}
+[07-03 22:21:12] p23030 {./movie_rating/movie_rating.py:217 [get_movie_details_by_id]} INFO - {
+    "poster_path": "/lWYpauIOdtgJ9iv8n7FleJVIwal.jpg",
+    "title": "Brutal",
+    "original_language": "en",
+    "vote_average": 5.1,
+    "production_countries": [
+        "United States of America"
+    ],
+    "original_title": "Brutal",
+    "imdb_id": "tt1744760",
+    "revenue": 0,
+    "release_date": "2012-08-21"
+}
+[07-03 22:21:12] p23030 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 4.5
+[07-04 00:39:34] p15183 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-04 00:39:34] p15183 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Resident', 'Evil', 'Vendetta'] 2017
+[07-04 00:39:34] p15183 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-04 00:39:34] p15183 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Resident', 'Evil', 'Vendetta', '2017']
+[07-04 00:39:34] p15183 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Resident Evil Vendetta 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-04 00:39:35] p15183 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5776208/?ref_=fn_ft_tt_1
+[07-04 00:39:35] p15183 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5776208/?ref_=fn_ft_tt_1
+[07-04 00:39:37] p15183 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[07-05 22:25:52] p1450 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-05 22:25:52] p1450 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Inconceivable'] 2017
+[07-05 22:25:52] p1450 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-05 22:25:52] p1450 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Inconceivable', '2017']
+[07-05 22:25:52] p1450 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Inconceivable 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-05 22:25:54] p1450 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3481634/?ref_=fn_ft_tt_1
+[07-05 22:25:54] p1450 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3481634/?ref_=fn_ft_tt_1
+[07-05 22:25:55] p1450 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.0
+[07-07 22:51:17] p17500 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-07 22:51:17] p17500 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Kong', 'Skull', 'Island'] 2017
+[07-07 22:51:17] p17500 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-07 22:51:17] p17500 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Kong', 'Skull', 'Island', '2017']
+[07-07 22:51:17] p17500 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Kong Skull Island 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-07 22:51:23] p17500 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3731562/?ref_=fn_ft_tt_1
+[07-07 22:51:23] p17500 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3731562/?ref_=fn_ft_tt_1
+[07-07 22:51:26] p17500 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.8
+[07-11 22:49:06] p7848 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-11 22:49:06] p7848 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Free', 'Fire'] 2016
+[07-11 22:49:06] p7848 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-11 22:49:06] p7848 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Free', 'Fire', '2016']
+[07-11 22:49:06] p7848 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Free Fire 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-11 22:49:12] p7848 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4158096/?ref_=fn_ft_tt_1
+[07-11 22:49:12] p7848 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4158096/?ref_=fn_ft_tt_1
+[07-11 22:51:38] p8929 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-11 22:51:38] p8929 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Free', 'Fire'] 2016
+[07-11 22:51:38] p8929 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-11 22:51:38] p8929 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Free', 'Fire', '2016']
+[07-11 22:51:38] p8929 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Free Fire 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-11 22:51:49] p8929 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4158096/?ref_=fn_ft_tt_1
+[07-11 22:51:49] p8929 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4158096/?ref_=fn_ft_tt_1
+[07-15 16:52:39] p5933 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:52:39] p5933 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Ghost', 'in', 'the', 'Shell'] 2017
+[07-15 16:52:39] p5933 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:52:39] p5933 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Ghost', 'in', 'the', 'Shell', '2017']
+[07-15 16:52:39] p5933 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Ghost in the Shell 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:52:41] p5933 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1219827/?ref_=fn_ft_tt_1
+[07-15 16:52:41] p5933 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1219827/?ref_=fn_ft_tt_1
+[07-15 16:52:55] p5933 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.6
+[07-15 16:53:23] p6147 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:53:23] p6147 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Going', 'in', 'Style'] 2017
+[07-15 16:53:23] p6147 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:53:23] p6147 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Going', 'in', 'Style', '2017']
+[07-15 16:53:23] p6147 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Going in Style 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:53:25] p6147 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2568862/?ref_=fn_ft_tt_1
+[07-15 16:53:25] p6147 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2568862/?ref_=fn_ft_tt_1
+[07-15 16:53:26] p6147 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.7
+[07-15 16:53:42] p6196 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:53:42] p6196 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['I', 'Am', 'Heath', 'Ledger'] 2017
+[07-15 16:53:42] p6196 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:53:42] p6196 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['I', 'Am', 'Heath', 'Ledger', '2017']
+[07-15 16:53:42] p6196 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=I Am Heath Ledger 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:53:44] p6196 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6739646/?ref_=fn_ft_tt_1
+[07-15 16:53:44] p6196 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6739646/?ref_=fn_ft_tt_1
+[07-15 16:53:45] p6196 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.4
+[07-15 16:53:55] p6238 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:53:55] p6238 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['I', 'Am', 'Not', 'Madame', 'Bovary'] 2016
+[07-15 16:53:55] p6238 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:53:55] p6238 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['I', 'Am', 'Not', 'Madame', 'Bovary', '2016']
+[07-15 16:53:55] p6238 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=I Am Not Madame Bovary 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:53:56] p6238 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-15 16:54:10] p6288 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:54:10] p6288 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Kong', 'Skull', 'Island'] 2017
+[07-15 16:54:10] p6288 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:54:10] p6288 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Kong', 'Skull', 'Island', '2017']
+[07-15 16:54:10] p6288 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Kong Skull Island 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:54:11] p6288 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3731562/?ref_=fn_ft_tt_1
+[07-15 16:54:11] p6288 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3731562/?ref_=fn_ft_tt_1
+[07-15 16:54:12] p6288 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.8
+[07-15 16:54:21] p6325 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:54:21] p6325 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Life'] 2017
+[07-15 16:54:21] p6325 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:54:21] p6325 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Life', '2017']
+[07-15 16:54:21] p6325 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:54:23] p6325 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[07-15 16:54:23] p6325 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[07-15 16:54:25] p6325 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.7
+[07-15 16:54:36] p6364 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:54:36] p6364 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Power', 'Rangers'] 2017
+[07-15 16:54:36] p6364 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:54:36] p6364 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Power', 'Rangers', '2017']
+[07-15 16:54:36] p6364 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Power Rangers 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:54:37] p6364 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3717490/?ref_=fn_ft_tt_1
+[07-15 16:54:37] p6364 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3717490/?ref_=fn_ft_tt_1
+[07-15 16:54:39] p6364 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.2
+[07-15 16:54:49] p6408 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:54:49] p6408 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Smurfs', 'The', 'Lost', 'Village'] 2017
+[07-15 16:54:49] p6408 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:54:49] p6408 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Smurfs', 'The', 'Lost', 'Village', '2017']
+[07-15 16:54:49] p6408 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Smurfs The Lost Village 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:54:50] p6408 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2398241/?ref_=fn_ft_tt_1
+[07-15 16:54:50] p6408 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2398241/?ref_=fn_ft_tt_1
+[07-15 16:54:52] p6408 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 5.9
+[07-15 16:55:10] p6470 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:55:10] p6470 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Mummy'] 2017
+[07-15 16:55:10] p6470 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:55:10] p6470 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Mummy', '2017']
+[07-15 16:55:10] p6470 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Mummy 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:55:11] p6470 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2345759/?ref_=fn_ft_tt_1
+[07-15 16:55:11] p6470 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2345759/?ref_=fn_ft_tt_1
+[07-15 16:55:13] p6470 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 5.7
+[07-15 16:55:37] p6541 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 16:55:37] p6541 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Security'] 2017
+[07-15 16:55:37] p6541 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 16:55:37] p6541 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Security', '2017']
+[07-15 16:55:37] p6541 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Security 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 16:55:38] p6541 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3501112/?ref_=fn_ft_tt_1
+[07-15 16:55:38] p6541 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3501112/?ref_=fn_ft_tt_1
+[07-15 16:55:39] p6541 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 5.8
+[07-15 22:02:31] p23026 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 22:02:31] p23026 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Circle'] 2017
+[07-15 22:02:31] p23026 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 22:02:31] p23026 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Circle', '2017']
+[07-15 22:02:31] p23026 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Circle 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-15 22:02:36] p23026 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4287320/?ref_=fn_ft_tt_1
+[07-15 22:02:36] p23026 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4287320/?ref_=fn_ft_tt_1
+[07-15 22:02:53] p23026 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 5.3
+[07-15 23:45:00] p26855 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-15 23:45:00] p26855 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Exception'] 2016
+[07-15 23:45:00] p26855 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-15 23:45:00] p26855 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Exception', '2016']
+[07-15 23:45:00] p26855 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Exception 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-15 23:45:01] p26855 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4721124/?ref_=fn_ft_tt_1
+[07-15 23:45:01] p26855 {movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4721124/?ref_=fn_ft_tt_1
+[07-15 23:45:02] p26855 {movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.8
+[07-16 23:07:39] p27314 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-16 23:07:39] p27314 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['trolls'] 2016
+[07-16 23:07:39] p27314 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-16 23:07:39] p27314 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['trolls', '2016']
+[07-16 23:07:39] p27314 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=trolls 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-16 23:07:40] p27314 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1679335/?ref_=fn_ft_tt_1
+[07-16 23:07:40] p27314 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1679335/?ref_=fn_ft_tt_1
+[07-16 23:07:42] p27314 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[07-16 23:18:39] p773 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-16 23:18:39] p773 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Power', 'Rangers'] 2017
+[07-16 23:18:39] p773 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-16 23:18:39] p773 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Power', 'Rangers', '2017']
+[07-16 23:18:39] p773 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Power Rangers 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-16 23:18:42] p773 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt3717490/?ref_=fn_ft_tt_1
+[07-16 23:18:42] p773 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt3717490/?ref_=fn_ft_tt_1
+[07-16 23:18:57] p773 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.2
+[07-16 23:19:16] p1085 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-16 23:19:16] p1085 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Life'] 2017
+[07-16 23:19:16] p1085 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-16 23:19:16] p1085 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Life', '2017']
+[07-16 23:19:16] p1085 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Life 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-16 23:19:24] p1085 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[07-16 23:19:24] p1085 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5442430/?ref_=fn_ft_tt_2
+[07-25 00:07:15] p24382 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:07:15] p24382 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Indiana', 'Jones', 'and', 'the', 'Kingdom', 'of', 'the', 'Crystal', 'Skull'] 2008
+[07-25 00:07:15] p24382 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:07:15] p24382 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Indiana', 'Jones', 'and', 'the', 'Kingdom', 'of', 'the', 'Crystal', 'Skull', '2008']
+[07-25 00:07:15] p24382 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Indiana Jones and the Kingdom of the Crystal Skull 2008&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:07:16] p24382 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0367882/?ref_=fn_ft_tt_1
+[07-25 00:07:16] p24382 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0367882/?ref_=fn_ft_tt_1
+[07-25 00:07:17] p24382 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.2
+[07-25 00:08:18] p24542 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:08:18] p24542 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['jack', 'the', 'giant', 'slayer'] 2013
+[07-25 00:08:18] p24542 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:08:18] p24542 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['jack', 'the', 'giant', 'slayer', '2013']
+[07-25 00:08:18] p24542 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=jack the giant slayer 2013&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:08:19] p24542 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1351685/?ref_=fn_ft_tt_1
+[07-25 00:08:19] p24542 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1351685/?ref_=fn_ft_tt_1
+[07-25 00:08:21] p24542 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.3
+[07-25 00:08:48] p24617 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:08:48] p24617 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['John', 'Wick'] 2014
+[07-25 00:08:48] p24617 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:08:48] p24617 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['John', 'Wick', '2014']
+[07-25 00:08:48] p24617 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=John Wick 2014&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:08:48] p24617 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-25 00:08:48] p24617 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2911666/?ref_=fn_ft_tt_1
+[07-25 00:08:50] p24617 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.3
+[07-25 00:29:12] p27757 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:29:12] p27757 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Journey'] 2
+[07-25 00:29:12] p27757 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:29:12] p27757 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Journey', '2']
+[07-25 00:29:12] p27757 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Journey 2&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:29:15] p27757 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5314118/?ref_=fn_ft_tt_3
+[07-25 00:29:15] p27757 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5314118/?ref_=fn_ft_tt_3
+[07-25 00:29:16] p27757 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: None
+[07-25 00:30:56] p28005 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:30:56] p28005 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Journey', 'to', 'the', 'Center', 'of', 'the', 'Earth'] 2008
+[07-25 00:30:56] p28005 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:30:56] p28005 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Journey', 'to', 'the', 'Center', 'of', 'the', 'Earth', '2008']
+[07-25 00:30:56] p28005 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Journey to the Center of the Earth 2008&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:30:57] p28005 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0373051/?ref_=fn_ft_tt_1
+[07-25 00:30:57] p28005 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0373051/?ref_=fn_ft_tt_1
+[07-25 00:30:58] p28005 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 5.8
+[07-25 00:33:15] p28328 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:33:15] p28328 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Hachiko', 'A', 'Dog', 'Story'] 2010
+[07-25 00:33:15] p28328 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:33:15] p28328 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Hachiko', 'A', 'Dog', 'Story', '2010']
+[07-25 00:33:15] p28328 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Hachiko A Dog Story 2010&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:33:30] p28360 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:33:30] p28360 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Hachiko', 'A', "Dog']", 'Story'] 2010
+[07-25 00:33:30] p28360 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:33:30] p28360 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Hachiko', 'A', "Dog']", 'Story', '2010']
+[07-25 00:33:30] p28360 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Hachiko A Dog'] Story 2010&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:33:37] p28392 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:33:37] p28392 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Hachiko', 'A', "Dog'", 'Story'] 2010
+[07-25 00:33:37] p28392 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:33:37] p28392 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Hachiko', 'A', "Dog'", 'Story', '2010']
+[07-25 00:33:37] p28392 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Hachiko A Dog' Story 2010&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:33:43] p28402 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:33:43] p28402 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Hachiko', 'A', "Dog's", 'Story'] 2010
+[07-25 00:33:43] p28402 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:33:43] p28402 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Hachiko', 'A', "Dog's", 'Story', '2010']
+[07-25 00:33:43] p28402 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Hachiko A Dog's Story 2010&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:38:10] p29051 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:38:10] p29051 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Chappie'] 2015
+[07-25 00:38:10] p29051 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:38:10] p29051 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Chappie', '2015']
+[07-25 00:38:10] p29051 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Chappie 2015&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:38:11] p29051 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1823672/?ref_=fn_ft_tt_1
+[07-25 00:38:11] p29051 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1823672/?ref_=fn_ft_tt_1
+[07-25 00:38:13] p29051 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.9
+[07-25 00:38:24] p29104 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:38:24] p29104 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Charlie', 'Wilsons', 'War'] 2007
+[07-25 00:38:24] p29104 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:38:24] p29104 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Charlie', 'Wilsons', 'War', '2007']
+[07-25 00:38:24] p29104 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Charlie Wilsons War 2007&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:38:25] p29104 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-25 00:38:34] p29116 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:38:34] p29116 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Charlie', 'Wilsons', 'War'] 2007
+[07-25 00:38:34] p29116 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:38:34] p29116 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Charlie', 'Wilsons', 'War', '2007']
+[07-25 00:38:34] p29116 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Charlie Wilsons War 2007&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:38:34] p29116 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-25 00:39:04] p29212 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:39:04] p29212 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Deadpool'] 2016
+[07-25 00:39:04] p29212 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:39:04] p29212 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Deadpool', '2016']
+[07-25 00:39:04] p29212 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Deadpool 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:39:05] p29212 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt1431045/?ref_=fn_ft_tt_2
+[07-25 00:39:05] p29212 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt1431045/?ref_=fn_ft_tt_2
+[07-25 00:39:07] p29212 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 8.0
+[07-25 00:39:33] p29267 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-25 00:39:33] p29267 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['delivery', 'man'] 2013
+[07-25 00:39:33] p29267 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-25 00:39:33] p29267 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['delivery', 'man', '2013']
+[07-25 00:39:33] p29267 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=delivery man 2013&s=tt&ttype=ft&ref_=fn_ft
+[07-25 00:39:35] p29267 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2387559/?ref_=fn_ft_tt_1
+[07-25 00:39:35] p29267 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2387559/?ref_=fn_ft_tt_1
+[07-25 00:39:37] p29267 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.4
+[07-26 23:43:36] p6577 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-26 23:43:36] p6577 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['American', 'Pastoral'] 2016
+[07-26 23:43:36] p6577 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-26 23:43:36] p6577 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['American', 'Pastoral', '2016']
+[07-26 23:43:36] p6577 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Pastoral 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-26 23:43:39] p6577 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-26 23:43:39] p6577 {movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-27 00:21:47] p20381 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-27 00:21:47] p20381 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['American', 'Pastoral'] 2016
+[07-27 00:21:47] p20381 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-27 00:21:47] p20381 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['American', 'Pastoral', '2016']
+[07-27 00:21:47] p20381 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Pastoral 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-27 00:22:01] p20381 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-27 00:22:01] p20381 {movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt0376479/?ref_=fn_ft_tt_1
+[07-27 01:14:51] p24187 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-27 01:14:51] p24187 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Going', 'in', 'Style'] 2017
+[07-27 01:14:51] p24187 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-27 01:14:51] p24187 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Going', 'in', 'Style', '2017']
+[07-27 01:14:51] p24187 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Going in Style 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-27 01:14:52] p24187 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt2568862/?ref_=fn_ft_tt_1
+[07-27 01:14:52] p24187 {movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt2568862/?ref_=fn_ft_tt_1
+[07-27 01:14:55] p24187 {movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.7
+[07-27 01:19:03] p24735 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-27 01:19:03] p24735 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['the', 'most', 'hated', 'woman', 'in', 'america'] 2017
+[07-27 01:19:03] p24735 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-27 01:19:03] p24735 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['the', 'most', 'hated', 'woman', 'in', 'america', '2017']
+[07-27 01:19:03] p24735 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=the most hated woman in america 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-27 01:19:05] p24735 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4842646/?ref_=fn_ft_tt_1
+[07-27 01:19:05] p24735 {movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4842646/?ref_=fn_ft_tt_1
+[07-27 01:19:07] p24735 {movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.1
+[07-30 00:30:40] p19246 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-30 00:30:40] p19246 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Aftermath'] 2017
+[07-30 00:30:40] p19246 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-30 00:30:40] p19246 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Aftermath', '2017']
+[07-30 00:30:40] p19246 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Aftermath 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-30 00:30:41] p19246 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt5977276/?ref_=fn_ft_tt_2
+[07-30 00:30:41] p19246 {movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt5977276/?ref_=fn_ft_tt_2
+[07-30 00:30:43] p19246 {movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: None
+[07-30 22:52:24] p14470 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-30 22:52:24] p14470 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Boyka', 'Undisputed'] 2016
+[07-30 22:52:24] p14470 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-30 22:52:24] p14470 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Boyka', 'Undisputed', '2016']
+[07-30 22:52:24] p14470 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Boyka Undisputed 2016&s=tt&ttype=ft&ref_=fn_ft
+[07-30 22:52:25] p14470 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[07-30 22:56:13] p15053 {movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[07-30 22:56:13] p15053 {movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Shot', 'Caller'] 2017
+[07-30 22:56:13] p15053 {movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[07-30 22:56:13] p15053 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Shot', 'Caller', '2017']
+[07-30 22:56:13] p15053 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Shot Caller 2017&s=tt&ttype=ft&ref_=fn_ft
+[07-30 22:56:14] p15053 {movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4633690/?ref_=fn_ft_tt_1
+[07-30 22:56:14] p15053 {movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4633690/?ref_=fn_ft_tt_1
+[07-30 22:56:16] p15053 {movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.5
+[08-09 00:31:26] p15484 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[08-09 00:31:26] p15484 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Shot', 'Caller'] 2017
+[08-09 00:31:26] p15484 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[08-09 00:31:26] p15484 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Shot', 'Caller', '2017']
+[08-09 00:31:26] p15484 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Shot Caller 2017&s=tt&ttype=ft&ref_=fn_ft
+[08-09 00:31:27] p15484 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt4633690/?ref_=fn_ft_tt_1
+[08-09 00:31:27] p15484 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt4633690/?ref_=fn_ft_tt_1
+[08-09 00:31:34] p15484 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 7.5
+[08-09 00:51:01] p21344 {./movie_rating/movie_rating.py:287 [main]} INFO - Scanning movies in: /run/media/nathan/Movies/Movies
+[08-09 00:51:01] p21344 {./movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Case', 'for', 'Christ'] 2017
+[08-09 00:51:01] p21344 {./movie_rating/movie_rating.py:130 [get_movie_url]} INFO - Get movie url from http://www.imdb.com
+[08-09 00:51:01] p21344 {./movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Case', 'for', 'Christ', '2017']
+[08-09 00:51:01] p21344 {./movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Case for Christ 2017&s=tt&ttype=ft&ref_=fn_ft
+[08-09 00:51:03] p21344 {./movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6113488/?ref_=fn_ft_tt_1
+[08-09 00:51:03] p21344 {./movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6113488/?ref_=fn_ft_tt_1
+[08-09 00:51:04] p21344 {./movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 5.7
+[10-31 20:30:26] p18829 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[10-31 20:30:26] p18829 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[10-31 20:30:26] p18829 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[10-31 20:30:26] p18829 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[10-31 20:30:26] p18829 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[10-31 20:31:44] p19115 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[10-31 20:31:44] p19115 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[10-31 20:31:44] p19115 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[10-31 20:31:44] p19115 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[10-31 20:31:44] p19115 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[12-01 23:13:30] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[12-01 23:13:30] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[12-01 23:13:30] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[12-01 23:13:30] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[12-01 23:13:30] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[12-01 23:13:33] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[12-01 23:13:33] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:193 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:200 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 13.82077,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "nl",
+            "name": "Nederlands"
+        },
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1619
+}
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:217 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Moonlight'] 2016
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Prometheus'] 2012
+[12-01 23:13:34] p20763 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014
+[12-01 23:14:21] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[12-01 23:14:21] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[12-01 23:14:21] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[12-01 23:14:21] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[12-01 23:14:21] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[12-01 23:14:28] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[12-01 23:14:28] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:193 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:200 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 13.82077,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "nl",
+            "name": "Nederlands"
+        },
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1619
+}
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:217 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Moonlight'] 2016
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Prometheus'] 2012
+[12-01 23:14:30] p20973 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014
+[12-01 23:15:42] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[12-01 23:15:42] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ["Assassin's", 'Creed', '2016']
+[12-01 23:15:42] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Moonlight', '2016']
+[12-01 23:15:42] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:173 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[12-01 23:15:42] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_rating_by_url]} INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[12-01 23:15:46] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:235 [get_movie_rating_by_url]} INFO - Movie Rating: 6.5
+[12-01 23:15:46] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:193 [get_movie_details_by_id]} INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:200 [get_movie_details_by_id]} INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/hsBJxdgF1BK1M98dWAaikvTlym7.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 13.82077,
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "nl",
+            "name": "Nederlands"
+        },
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1619
+}
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:217 [get_movie_details_by_id]} INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Moonlight'] 2016
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Prometheus'] 2012
+[12-01 23:15:49] p21256 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:105 [get_movie_name_and_year]} INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014

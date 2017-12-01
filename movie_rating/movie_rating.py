@@ -36,48 +36,76 @@ def get_movies(folder_path):
     Get a list of movies from the given folder
     """
     files = []
+    print("\nTotal Movie: {}\n".format(len(listdir(folder_path))))
     try:
-        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))]
+        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f)) and not f.endswith(".srt")]
     except OSError as msg:
         logger.info("No movies were found in: {}".format(folder_path))
     logger.info("Get movies in directory: {}".format(folder_path))
     return files
 
+def clean_up_string_between_year_and_resolution(movie_name):
+    """
+    movie_name: 
+        Wilson.2017.LIMITED.720p.BluRay.x264-GECKOS[rarbg]
+        Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+    remove LIMITED, BluRay in the original movie name
+    return: movie title and year in a list
+    """
+    title_and_year = []
+    for item in movie_name.split("."):
+        if item.isdigit():
+            title_and_year.append(item)
+            break
+        else:
+            title_and_year.append(item)
+    # In the case there is no year info in the name
+    if len(title_and_year) == len(movie_name.split(".")) and not title_and_year[-1].isdigit():
+        print("\nERROR: Invalid movie name: No year info was found\n")
+        title_and_year = []
+    return title_and_year
+    
 
 def get_movie_name_and_year(name):
     """
     name: original folder name contains the movie
     return: movie name and year in a tuple
     """
-    movie_name = ""
-    year = ""
-    if "720p" in name:
-        movie_name = name.split("720p")[0].strip(".").replace(".", " ")
-    elif "1080p" in name:
-        movie_name = name.split("1080p")[0].strip(".").replace(".", " ")
+    title_and_year = clean_up_string_between_year_and_resolution(name)
+    # movie_name = ""
+    # year = ""
+    # if "720p" in name:
+    #     movie_name = name.split("720p")[0].strip(".").replace(".", " ")
+    # elif "1080p" in name:
+    #     movie_name = name.split("1080p")[0].strip(".").replace(".", " ")
+    # else:
+    #     temp_title = ''
+    #     for item in name.split('.'):
+    #         try:
+    #             parse(item, fuzzy=True).year
+    #         except ValueError:
+    #             temp_title += '{}.'.format(item)
+    #         else:
+    #             temp_title += '{}.'.format(item)
+    #             break
+    #     movie_name = temp_title.replace(".", " ").strip()
+
+    # title = []
+    # logger.info("File name: {}".format(name))
+    # for x in movie_name.split(" ")[:-1]:
+    #     if not set(x) & set(["(", ")", "'"]):
+    #         title.append(x.title())
+    #     else:
+    #         title.append(x)
+    # year = movie_name.split(" "[-1]
+    # year = year if year.isdigit() else ""
+    if title_and_year:
+        year = title_and_year[-1]
+        title = title_and_year[:-1]
+        logger.info("Movie Title and Year: {} {}".format(title, year))
+        return " ".join(title), year
     else:
-        temp_title = ''
-        for item in name.split('.'):
-            try:
-                parse(item, fuzzy=True).year
-            except ValueError:
-                temp_title += '{}.'.format(item)
-            else:
-                temp_title += '{}.'.format(item)
-                break
-        movie_name = temp_title.replace(".", " ").strip()
-
-    title = []
-    logger.info("File name: {}".format(name))
-    for x in movie_name.split(" ")[:-1]:
-        if not set(x) & set(["(", ")", "'"]):
-            title.append(x.title())
-        else:
-            title.append(x)
-    year = movie_name.split(" ")[-1]
-    year = year if year.isdigit() else ""
-    return " ".join(title), year
-
+        return "", ""
 
 def create_query(movie_title, year):
     """
@@ -254,7 +282,8 @@ def get_movie_poster_by_poster_path(poster_path, movie_path):
 def main():
     movies = []
     verify = False
-    path = "./tests/test_movies_dir"
+    # path = "./tests/test_movies_dir"
+    path = "/run/media/nathan/Movies/Movies"
     logger.info("Scanning movies in: {}".format(path))
     # A movie name from command line
     if len(sys.argv) == 2:
@@ -280,7 +309,8 @@ def main():
         movie_url = get_movie_url(movie_title, year)
         imdb_id = get_imdb_id_by_url(movie_url)
         if not imdb_id:
-            sys.exit("No IMDB ID found.")
+            print("No IMDB ID found.\n")
+            continue
         if set(sys.argv) & set(["--poster"]):
             if path and movies:
                 poster_path = get_movie_details_by_id(imdb_id).get("poster_path")

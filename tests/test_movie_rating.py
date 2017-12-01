@@ -47,7 +47,7 @@ def test_get_movie_rating_by_url():
     """
     movie_url = "http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1"
     actual_rating = get_movie_rating_by_url(movie_url)
-    expected_rating = "7.0"
+    expected_rating = "6.5"
     assert actual_rating, "Expected movie rating is a digit, but got: [{}]".format(actual_rating)
     assert expected_rating == actual_rating, "Expected rating: [{}], but got: [{}]".format(expected_rating, actual_rating)
 
@@ -61,9 +61,8 @@ def test_get_movie_details_by_id():
         "original_title": "The Lego Batman Movie",
         "title": "The Lego Batman Movie",
         "release_date": "2017-02-08",
-        "vote_average": 7.1,
+        "vote_average": 7.2,
         "original_language": "en",
-        "revenue": 310032902,
         "imdb_id": "tt4116284",
         "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
         "production_countries": [
