@@ -1,5 +1,6 @@
 .vscode/
 .coveragec
+log/movie_rating.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

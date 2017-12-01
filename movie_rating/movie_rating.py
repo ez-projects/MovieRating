@@ -54,7 +54,7 @@ def clean_up_string_between_year_and_resolution(movie_name):
     """
     title_and_year = []
     for item in movie_name.split("."):
-        if item.isdigit():
+        if item.isdigit() and len(item)==4:
             title_and_year.append(item)
             break
         else:
@@ -142,26 +142,27 @@ def get_movie_url(movie_title, year):
         doc=pq(url, method="get", verify=True)
         soup = BeautifulSoup(doc.html(), "html.parser")
     table = soup.find('table', {'class': 'findList'})
-    rows = table.findAll('tr')
-    found = False
-    for tr in rows:
-        cols = tr.findAll('td')
-        for col in cols:
-            col_text = str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
-            if col_text:
-                for s in BLACKLISTED_STR:
-                    col_text = col_text.replace(s, "")
-                col_text = col_text.strip().lower()
-                # NB: identify movie in there
-                # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
-                res = set(col_text.split(" ")) - set(expected_title.split(" ") + [expected_year])
-                # import pudb;pudb.set_trace()
-                if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
-                    movie_href = cols[1].find('a').get("href")
-                    found = True
-                    break
-        if found:
-            break
+    if table:
+        rows = table.findAll('tr')
+        found = False
+        for tr in rows:
+            cols = tr.findAll('td')
+            for col in cols:
+                col_text = str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
+                if col_text:
+                    for s in BLACKLISTED_STR:
+                        col_text = col_text.replace(s, "")
+                    col_text = col_text.strip().lower()
+                    # NB: identify movie in there
+                    # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
+                    res = set(col_text.split(" ")) - set(expected_title.split(" ") + [expected_year])
+                    # import pudb;pudb.set_trace()
+                    if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
+                        movie_href = cols[1].find('a').get("href")
+                        found = True
+                        break
+            if found:
+                break
     movie_url += movie_href
     return movie_url
 
@@ -283,7 +284,7 @@ def main():
     movies = []
     verify = False
     # path = "./tests/test_movies_dir"
-    path = "/run/media/nathan/Movies/Movies"
+    path = "/run/media/nathan/Seagate2Tb/HDer/"
     logger.info("Scanning movies in: {}".format(path))
     # A movie name from command line
     if len(sys.argv) == 2:
