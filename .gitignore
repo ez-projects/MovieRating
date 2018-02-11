@@ -1,3 +1,5 @@
+.idea/
+.pytest_cache/
 .vscode/
 .coveragec
 log/movie_rating.log

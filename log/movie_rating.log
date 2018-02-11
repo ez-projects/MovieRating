@@ -4223,3 +4223,386 @@
 [12-02 00:14:55] p525 {movie_rating/movie_rating.py:122 [create_query]} INFO - Created query: ['Paradox', '2017']
 [12-02 00:14:55] p525 {movie_rating/movie_rating.py:135 [get_movie_url]} INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Paradox 2017&s=tt&ttype=ft&ref_=fn_ft
 [12-02 00:14:56] p525 {movie_rating/movie_rating.py:174 [get_imdb_id_by_url]} INFO - Get movie id from: http://www.imdb.com
+[02-11 01:22:06] p9035 {movie_rating/movie_rating.py:288 [main]} INFO - Scanning movies in: /run/media/nathan/Seagate2Tb/HDer/
+[02-11 01:54:27] p11040 {movie_rating/movie_rating.py:296 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate2Tb/HDer/
+[02-11 01:54:53] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[02-11 01:54:53] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[02-11 01:54:53] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[02-11 01:54:53] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:182 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 01:54:53] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:235 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 01:54:56] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:244 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[02-11 01:54:56] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[02-11 01:54:56] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Moonlight'] 2016
+[02-11 01:54:56] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[02-11 01:54:56] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[02-11 01:54:56] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Prometheus'] 2012
+[02-11 01:54:56] p11201 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014
+[02-11 01:56:17] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[02-11 01:56:17] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[02-11 01:56:17] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[02-11 01:56:17] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:182 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 01:56:17] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:235 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 01:56:18] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:244 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[02-11 01:56:18] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:202 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:209 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/yW6xEkJ1mhVvaqC97ewYfBDHqqe.jpg",
+        "backdrop_path": "/kX5CfBRyczqOexKFdIRqA57eeMB.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 16.941043,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1862
+}
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Moonlight'] 2016
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Prometheus'] 2012
+[02-11 01:56:20] p11389 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014
+[02-11 02:01:34] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[02-11 02:01:34] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[02-11 02:01:34] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[02-11 02:01:34] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:182 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 02:01:34] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:235 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 02:01:35] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:244 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[02-11 02:01:35] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:202 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:209 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/yW6xEkJ1mhVvaqC97ewYfBDHqqe.jpg",
+        "backdrop_path": "/kX5CfBRyczqOexKFdIRqA57eeMB.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 16.941043,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1862
+}
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Moonlight'] 2016
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Prometheus'] 2012
+[02-11 02:01:36] p11715 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014
+[02-11 02:01:45] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[02-11 02:01:45] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[02-11 02:01:45] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:128 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[02-11 02:01:45] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:182 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 02:01:45] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:235 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[02-11 02:01:46] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:244 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[02-11 02:01:46] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:202 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:209 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/yW6xEkJ1mhVvaqC97ewYfBDHqqe.jpg",
+        "backdrop_path": "/kX5CfBRyczqOexKFdIRqA57eeMB.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 16.941043,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "name": "Lin Pictures",
+            "id": 2723
+        },
+        {
+            "name": "Warner Bros. Animation",
+            "id": 2785
+        },
+        {
+            "name": "Warner Bros.",
+            "id": 6194
+        },
+        {
+            "name": "Animal Logic",
+            "id": 8089
+        },
+        {
+            "name": "DC Entertainment",
+            "id": 9993
+        },
+        {
+            "name": "Lord Miller",
+            "id": 77973
+        },
+        {
+            "name": "LEGO System A/S",
+            "id": 85983
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1862
+}
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:226 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Inner', 'Workings'] 2016
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Moonlight'] 2016
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['The', 'Lego', 'Batman', 'Movie'] 2017
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ["Assassin's", 'Creed'] 2016
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Prometheus'] 2012
+[02-11 02:01:47] p11775 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:111 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Some', 'Name', 'Without', 'Resolution'] 2014

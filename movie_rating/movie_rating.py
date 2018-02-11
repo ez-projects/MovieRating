@@ -1,17 +1,20 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+import logging
+import re
+import sys
+import urllib.request
+from os import listdir
+from os.path import isdir, join
+
 # from bson.json_util import dumps
 from bs4 import BeautifulSoup
-from pyquery import PyQuery as pq
-from bson.json_util import dumps
-import sys
 from dateutil.parser import parse
-from os import listdir
-from os.path import join, isdir
-import urllib.request
-import re
-import logging
+
+from bson.json_util import dumps
+from pyquery import PyQuery as pq
+
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
@@ -21,7 +24,8 @@ handler.setLevel(logging.INFO)
 
 # create a logging format
 formatter = logging.Formatter(
-    '[%(asctime)s] p%(process)s {%(pathname)s:%(lineno)d [%(funcName)s]} %(levelname)s - %(message)s','%m-%d %H:%M:%S'
+    '[%(asctime)s] p%(process)s {%(pathname)s:%(lineno)d [%(funcName)s]} \
+    %(levelname)s - %(message)s','%m-%d %H:%M:%S'
 )
 handler.setFormatter(formatter)
 
@@ -38,7 +42,8 @@ def get_movies(folder_path):
     files = []
     print("\nTotal Movie: {}\n".format(len(listdir(folder_path))))
     try:
-        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f)) and not f.endswith(".srt")]
+        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f)) 
+            and not f.endswith(".srt")]
     except OSError as msg:
         logger.info("No movies were found in: {}".format(folder_path))
     logger.info("Get movies in directory: {}".format(folder_path))
@@ -60,7 +65,8 @@ def clean_up_string_between_year_and_resolution(movie_name):
         else:
             title_and_year.append(item)
     # In the case there is no year info in the name
-    if len(title_and_year) == len(movie_name.split(".")) and not title_and_year[-1].isdigit():
+    if len(title_and_year) == len(movie_name.split(".")) and not \
+        title_and_year[-1].isdigit():
         print("\nERROR: Invalid movie name: No year info was found\n")
         title_and_year = []
     return title_and_year
@@ -148,14 +154,16 @@ def get_movie_url(movie_title, year):
         for tr in rows:
             cols = tr.findAll('td')
             for col in cols:
-                col_text = str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
+                col_text = \
+                    str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
                 if col_text:
                     for s in BLACKLISTED_STR:
                         col_text = col_text.replace(s, "")
                     col_text = col_text.strip().lower()
                     # NB: identify movie in there
                     # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
-                    res = set(col_text.split(" ")) - set(expected_title.split(" ") + [expected_year])
+                    res = set(col_text.split(" ")) - \
+                        set(expected_title.split(" ") + [expected_year])
                     # import pudb;pudb.set_trace()
                     if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
                         movie_href = cols[1].find('a').get("href")
