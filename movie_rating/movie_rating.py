@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!./venv/bin/python
 # -*- coding: utf-8 -*-
 
 import logging
@@ -8,12 +8,13 @@ import urllib.request
 from os import listdir
 from os.path import isdir, join
 
-# from bson.json_util import dumps
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
-
-from bson.json_util import dumps
+from json import dumps
 from pyquery import PyQuery as pq
+
+from constants import MOVIE_ROOT
+
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -275,8 +276,9 @@ def get_release_year_by_date(release_date):
     return release_date.split("-")[0]
 
 
-def get_movie_poster_by_poster_path(poster_path, movie_path):
+def get_movie_poster_from_tmdb(poster_path, movie_path):
     """
+    Get movie poster from https://image.tmdb.org and downlaod it to movie_path
     """
     if movie_path.endswith("/"):
          movie_path = movie_path[:-1]
@@ -291,8 +293,7 @@ def get_movie_poster_by_poster_path(poster_path, movie_path):
 def main():
     movies = []
     verify = False
-    # path = "./tests/test_movies_dir"
-    path = "/run/media/nathan/Seagate2Tb/HDer/"
+    path = MOVIE_ROOT
     logger.info("Scanning movies in: {}".format(path))
     # A movie name from command line
     if len(sys.argv) == 2:
@@ -321,10 +322,11 @@ def main():
             print("No IMDB ID found.\n")
             continue
         if set(sys.argv) & set(["--poster"]):
+            path = input("Movie's parent folder?")
             if path and movies:
                 poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
                 movie_path = "{}/{}".format(path, name)
-                get_movie_poster_by_poster_path(poster_path, movie_path)
+                get_movie_poster_from_tmdb(poster_path, movie_path)
         rating = get_movie_rating_by_url(movie_url, verify)
         print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
 

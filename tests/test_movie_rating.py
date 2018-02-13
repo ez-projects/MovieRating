@@ -1,4 +1,6 @@
-#!/usr/bin/python3
+#!/venv/bin/python
+# -*- coding: utf-8 -*-
+
 from movie_rating.movie_rating import get_imdb_id_by_url
 from movie_rating.movie_rating import get_movie_details_by_id
 from movie_rating.movie_rating import get_movie_name_and_year
