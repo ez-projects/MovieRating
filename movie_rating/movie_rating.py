@@ -43,7 +43,7 @@ def get_movies(folder_path):
     files = []
     print("\nTotal Movie: {}\n".format(len(listdir(folder_path))))
     try:
-        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f)) 
+        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))
             and not f.endswith(".srt")]
     except OSError as msg:
         logger.info("No movies were found in: {}".format(folder_path))
@@ -52,9 +52,10 @@ def get_movies(folder_path):
 
 def clean_up_string_between_year_and_resolution(movie_name):
     """
-    movie_name: 
+    movie_name:
         Wilson.2017.LIMITED.720p.BluRay.x264-GECKOS[rarbg]
         Labor.Day.2013.BluRay.1080p.DTS.x264-CHD.chs
+        Daddys.Home.2.2017.1080p.WEB-DL.DD5.1.H264-FGT
     remove LIMITED, BluRay in the original movie name
     return: movie title and year in a list
     """
@@ -65,13 +66,23 @@ def clean_up_string_between_year_and_resolution(movie_name):
             break
         else:
             title_and_year.append(item)
+
+    year = title_and_year[-1]
+    series = title_and_year[-2]
+    title = ''
+    if series.isdigit():
+        title = title_and_year[:-2]
+    else:
+        title = title_and_year[:-1]
+
     # In the case there is no year info in the name
     if len(title_and_year) == len(movie_name.split(".")) and not \
         title_and_year[-1].isdigit():
         print("\nERROR: Invalid movie name: No year info was found\n")
         title_and_year = []
-    return title_and_year
-    
+
+    return (' '.join(title), series, year)
+
 
 def get_movie_name_and_year(name):
     """
@@ -114,7 +125,7 @@ def get_movie_name_and_year(name):
     else:
         return "", ""
 
-def create_query(movie_title, year):
+def create_query(movie_title, series, year):
     """
     movie_name: dotted notation name
     return query with name in + fashion
@@ -125,22 +136,25 @@ def create_query(movie_title, year):
         if not set(["(", ")"]) & set(i):
             query.append(i)
     # add year separately
+    if series:
+        query.append(series)
     query.append(year)
     logger.info("Created query: {}".format(query))
     return " ".join(query)
 
 
-def get_movie_url(movie_title, year):
+def get_movie_url(movie_title, series, year):
     """
     """
     movie_url = "http://www.imdb.com"
     logger.info("Get movie url from {}".format(movie_url))
     movie_href = ""
-    query = create_query(movie_title, year)
+    query = create_query(movie_title, series, year)
 
     url = "http://www.imdb.com/find?ref_=nv_sr_fn&q={}&s=tt&ttype=ft&ref_=fn_ft".format(query)
     logger.info("Searching for movie: {}".format(url))
     expected_title = "{}".format(movie_title.lower())
+    expected_series = series
     expected_year = "({})".format(year)
     doc=pq(url, method="get", verify=True)
     soup = BeautifulSoup(doc.html(), "html.parser")
@@ -159,12 +173,12 @@ def get_movie_url(movie_title, year):
                     str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
                 if col_text:
                     for s in BLACKLISTED_STR:
-                        col_text = col_text.replace(s, "")
+                        col_text = col_text.replace(s, "").replace("'", '')
                     col_text = col_text.strip().lower()
                     # NB: identify movie in there
                     # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
                     res = set(col_text.split(" ")) - \
-                        set(expected_title.split(" ") + [expected_year])
+                        set(expected_title.split(" ") + [expected_series] + [expected_year])
                     # import pudb;pudb.set_trace()
                     if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
                         movie_href = cols[1].find('a').get("href")
@@ -225,7 +239,7 @@ def get_movie_details_by_id(imdb_id):
             refined_data[key] = data.get(key)
         refined_data["production_countries"] = production_countries
     logger.info(dumps(refined_data, indent=4))
-    return refined_data
+    return data
 
 
 def get_movie_rating_by_url(url, verify=False):
@@ -266,7 +280,8 @@ def verify_searched_results(url, soup_html):
         print("\tFailed: {}".format(msg))
     else:
         print("\tPASSED!!!")
-    print(url)
+    from pprint import pprint
+    pprint(verified_data)
 
 
 def get_release_year_by_date(release_date):
@@ -315,8 +330,9 @@ def main():
     # Lookup movies
     for name in movies:
         print(name)
-        movie_title, year = get_movie_name_and_year(name)
-        movie_url = get_movie_url(movie_title, year)
+        movie_title, series, year = clean_up_string_between_year_and_resolution(name)
+        # movie_title, series, year = get_movie_name_and_year(name)
+        movie_url = get_movie_url(movie_title, series, year)
         imdb_id = get_imdb_id_by_url(movie_url)
         if not imdb_id:
             print("No IMDB ID found.\n")

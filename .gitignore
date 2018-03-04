@@ -2,7 +2,7 @@
 .pytest_cache/
 .vscode/
 .coveragec
-log/movie_rating.log
+./log/movie_rating.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

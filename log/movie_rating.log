@@ -6010,3 +6010,1485 @@
 [02-14 00:56:22] p5526 {./movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
 [02-14 00:56:22] p5526 {./movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Ghostbusters', '2016']
 [02-14 00:56:22] p5526 {./movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Ghostbusters 2016&s=tt&ttype=ft&ref_=fn_ft
+[02-17 08:40:31] p19636 {./movie_rating/movie_rating.py:297 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-17 08:40:31] p19636 {./movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Justice', 'League'] 2017
+[02-17 08:40:31] p19636 {./movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-17 08:40:31] p19636 {./movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Justice', 'League', '2017']
+[02-17 08:40:31] p19636 {./movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Justice League 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-17 08:40:32] p19636 {./movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt0974015/?ref_=fn_ft_tt_1
+[02-17 08:40:32] p19636 {./movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt0974015/?ref_=fn_ft_tt_1
+[02-17 08:40:34] p19636 {./movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.9
+[02-18 22:49:15] p23954 {movie_rating/movie_rating.py:297 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 22:49:15] p23954 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Call', 'Me', 'By', 'Your', 'Name'] 2017
+[02-18 22:49:15] p23954 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 22:49:15] p23954 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Call', 'Me', 'By', 'Your', 'Name', '2017']
+[02-18 22:49:15] p23954 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Call Me By Your Name 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 22:49:25] p23954 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:49:25] p23954 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:49:35] p23954 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 8.2
+[02-18 22:53:29] p24132 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 22:53:29] p24132 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Call', 'Me', 'By', 'Your', 'Name'] 2017
+[02-18 22:53:29] p24132 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 22:53:29] p24132 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Call', 'Me', 'By', 'Your', 'Name', '2017']
+[02-18 22:53:29] p24132 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Call Me By Your Name 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 22:53:35] p24132 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:53:35] p24132 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:53:37] p24132 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:53:37] p24132 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5726616?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 22:53:39] p24132 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/vABQeCuuagIjir0YBAfL0V2XePn.jpg",
+    "belongs_to_collection": null,
+    "budget": 3500000,
+    "genres": [
+        {
+            "id": 10749,
+            "name": "Romance"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://sonyclassics.com/callmebyyourname/",
+    "id": 398818,
+    "imdb_id": "tt5726616",
+    "original_language": "en",
+    "original_title": "Call Me by Your Name",
+    "overview": "Elio Perlman is spending the summer with his family at their vacation home in Lombardy, Italy. When his father hires a handsome doctoral student, the curious 17-year-old finds himself developing a growing attraction to the young man.",
+    "popularity": 31.303756,
+    "poster_path": "/tcNniniS4rfqrLH0oORikJfnIwY.jpg",
+    "production_companies": [
+        {
+            "name": "Sony Pictures Classics",
+            "id": 58
+        },
+        {
+            "name": "La Cin\u00e9facture",
+            "id": 16017
+        },
+        {
+            "name": "Ministero per i Beni e le Attivit\u00e0 Culturali (MiBAC)",
+            "id": 29223
+        },
+        {
+            "name": "RT Features",
+            "id": 30666
+        },
+        {
+            "name": "Frenesy Film Company",
+            "id": 46344
+        },
+        {
+            "name": "Water's End Productions",
+            "id": 88564
+        },
+        {
+            "name": "M.Y.R.A. Entertainment",
+            "id": 88565
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
+        },
+        {
+            "iso_3166_1": "BR",
+            "name": "Brazil"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-10-27",
+    "revenue": 22040908,
+    "runtime": 132,
+    "spoken_languages": [
+        {
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "iso_639_1": "it",
+            "name": "Italiano"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Call Me by Your Name",
+    "video": false,
+    "vote_average": 8.3,
+    "vote_count": 940
+}
+[02-18 22:53:39] p24132 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Call Me by Your Name",
+    "title": "Call Me by Your Name",
+    "release_date": "2017-10-27",
+    "vote_average": 8.3,
+    "original_language": "en",
+    "revenue": 22040908,
+    "imdb_id": "tt5726616",
+    "poster_path": "/tcNniniS4rfqrLH0oORikJfnIwY.jpg",
+    "production_countries": [
+        "Italy",
+        "Brazil",
+        "France",
+        "United States of America"
+    ]
+}
+[02-18 22:54:17] p24185 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 22:54:17] p24185 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Call', 'Me', 'By', 'Your', 'Name'] 2017
+[02-18 22:54:17] p24185 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 22:54:17] p24185 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Call', 'Me', 'By', 'Your', 'Name', '2017']
+[02-18 22:54:17] p24185 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Call Me By Your Name 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 22:54:19] p24185 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:54:19] p24185 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:54:23] p24185 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5726616/?ref_=fn_ft_tt_1
+[02-18 22:54:23] p24185 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5726616?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 22:54:24] p24185 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/vABQeCuuagIjir0YBAfL0V2XePn.jpg",
+    "belongs_to_collection": null,
+    "budget": 3500000,
+    "genres": [
+        {
+            "id": 10749,
+            "name": "Romance"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://sonyclassics.com/callmebyyourname/",
+    "id": 398818,
+    "imdb_id": "tt5726616",
+    "original_language": "en",
+    "original_title": "Call Me by Your Name",
+    "overview": "Elio Perlman is spending the summer with his family at their vacation home in Lombardy, Italy. When his father hires a handsome doctoral student, the curious 17-year-old finds himself developing a growing attraction to the young man.",
+    "popularity": 31.303756,
+    "poster_path": "/tcNniniS4rfqrLH0oORikJfnIwY.jpg",
+    "production_companies": [
+        {
+            "name": "Sony Pictures Classics",
+            "id": 58
+        },
+        {
+            "name": "La Cin\u00e9facture",
+            "id": 16017
+        },
+        {
+            "name": "Ministero per i Beni e le Attivit\u00e0 Culturali (MiBAC)",
+            "id": 29223
+        },
+        {
+            "name": "RT Features",
+            "id": 30666
+        },
+        {
+            "name": "Frenesy Film Company",
+            "id": 46344
+        },
+        {
+            "name": "Water's End Productions",
+            "id": 88564
+        },
+        {
+            "name": "M.Y.R.A. Entertainment",
+            "id": 88565
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
+        },
+        {
+            "iso_3166_1": "BR",
+            "name": "Brazil"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-10-27",
+    "revenue": 22040908,
+    "runtime": 132,
+    "spoken_languages": [
+        {
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "iso_639_1": "it",
+            "name": "Italiano"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Call Me by Your Name",
+    "video": false,
+    "vote_average": 8.3,
+    "vote_count": 940
+}
+[02-18 22:54:24] p24185 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Call Me by Your Name",
+    "title": "Call Me by Your Name",
+    "release_date": "2017-10-27",
+    "vote_average": 8.3,
+    "original_language": "en",
+    "revenue": 22040908,
+    "imdb_id": "tt5726616",
+    "poster_path": "/tcNniniS4rfqrLH0oORikJfnIwY.jpg",
+    "production_countries": [
+        "Italy",
+        "Brazil",
+        "France",
+        "United States of America"
+    ]
+}
+[02-18 22:54:24] p24185 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 8.2
+[02-18 23:07:41] p17352 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:07:41] p17352 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['24', 'Hours', 'to', 'Live'] 2017
+[02-18 23:07:41] p17352 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:07:41] p17352 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['24', 'Hours', 'to', 'Live', '2017']
+[02-18 23:07:41] p17352 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=24 Hours to Live 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:07:42] p17352 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5442456/?ref_=fn_ft_tt_1
+[02-18 23:07:42] p17352 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5442456/?ref_=fn_ft_tt_1
+[02-18 23:07:43] p17352 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5442456/?ref_=fn_ft_tt_1
+[02-18 23:07:43] p17352 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5442456?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:07:44] p17352 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/qkZBinTw24t062Ygd6W2zeok5va.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "",
+    "id": 470114,
+    "imdb_id": "tt5442456",
+    "original_language": "en",
+    "original_title": "24 Hours to Live",
+    "overview": "An assassin seeks redemption after being given a second chance at life.",
+    "popularity": 12.384128,
+    "poster_path": "/w0MXP33x1bq48TDC7IaNqQ8nxcc.jpg",
+    "production_companies": [
+        {
+            "name": "Thunder Road Pictures",
+            "id": 3528
+        },
+        {
+            "name": "Film Afrika Worldwide",
+            "id": 4792
+        },
+        {
+            "name": "Fundamental Films",
+            "id": 55244
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "ZA",
+            "name": "South Africa"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        }
+    ],
+    "release_date": "2017-10-26",
+    "revenue": 0,
+    "runtime": 94,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Contracted to kill. Fighting to survive.",
+    "title": "24 Hours to Live",
+    "video": false,
+    "vote_average": 5.2,
+    "vote_count": 73
+}
+[02-18 23:07:44] p17352 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "24 Hours to Live",
+    "title": "24 Hours to Live",
+    "release_date": "2017-10-26",
+    "vote_average": 5.2,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt5442456",
+    "poster_path": "/w0MXP33x1bq48TDC7IaNqQ8nxcc.jpg",
+    "production_countries": [
+        "United States of America",
+        "South Africa",
+        "China"
+    ]
+}
+[02-18 23:07:45] p17352 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.7
+[02-18 23:08:20] p17403 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:08:20] p17403 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Bullet', 'Head'] 2017
+[02-18 23:08:20] p17403 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:08:20] p17403 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Bullet', 'Head', '2017']
+[02-18 23:08:20] p17403 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Bullet Head 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:08:21] p17403 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6204340/?ref_=fn_ft_tt_1
+[02-18 23:08:21] p17403 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6204340/?ref_=fn_ft_tt_1
+[02-18 23:08:23] p17403 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6204340/?ref_=fn_ft_tt_1
+[02-18 23:08:23] p17403 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt6204340?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:08:24] p17403 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/eL0QAAtFfA0OvnBsY7tJKrFbc9B.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "",
+    "id": 480572,
+    "imdb_id": "tt6204340",
+    "original_language": "en",
+    "original_title": "Bullet Head",
+    "overview": "A group of career criminals finds itself trapped in a warehouse with the law \u2013 and an Attack Dog named DeNiro closing in.",
+    "popularity": 9.448707,
+    "poster_path": "/ySmKQPjWnNzuZ5YliQaOVEnWn2.jpg",
+    "production_companies": [
+        {
+            "name": "Millenium Films",
+            "id": 1020
+        },
+        {
+            "name": "Principato-Young Entertainment",
+            "id": 37845
+        },
+        {
+            "name": "Nu Boyana Film Studios",
+            "id": 74795
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "BG",
+            "name": "Bulgaria"
+        }
+    ],
+    "release_date": "2017-12-07",
+    "revenue": 87465,
+    "runtime": 93,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Bullet Head",
+    "video": false,
+    "vote_average": 4.3,
+    "vote_count": 145
+}
+[02-18 23:08:24] p17403 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Bullet Head",
+    "title": "Bullet Head",
+    "release_date": "2017-12-07",
+    "vote_average": 4.3,
+    "original_language": "en",
+    "revenue": 87465,
+    "imdb_id": "tt6204340",
+    "poster_path": "/ySmKQPjWnNzuZ5YliQaOVEnWn2.jpg",
+    "production_countries": [
+        "United States of America",
+        "Bulgaria"
+    ]
+}
+[02-18 23:08:24] p17403 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.2
+[02-18 23:09:43] p17467 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:09:43] p17467 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Last', 'Flag', 'Flying'] 2017
+[02-18 23:09:43] p17467 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:09:43] p17467 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Last', 'Flag', 'Flying', '2017']
+[02-18 23:09:43] p17467 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Last Flag Flying 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:09:44] p17467 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6018306/?ref_=fn_ft_tt_1
+[02-18 23:09:44] p17467 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6018306/?ref_=fn_ft_tt_1
+[02-18 23:09:45] p17467 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6018306/?ref_=fn_ft_tt_1
+[02-18 23:09:45] p17467 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt6018306?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:09:47] p17467 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/xHPH0QvysNtrJA3HkFI0rtOKYm1.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://www.lastflagflying.com/",
+    "id": 419709,
+    "imdb_id": "tt6018306",
+    "original_language": "en",
+    "original_title": "Last Flag Flying",
+    "overview": "Thirty years after serving together in the Vietnam War, Larry \"Doc\" Shepherd, Sal Nealon and the Rev. Richard Mueller reunite for a different type of mission: to bury Doc's son, a young Marine killed in Iraq. Forgoing burial at Arlington National Cemetery, Doc and his old buddies take the casket on a bittersweet trip up the coast to New Hampshire. Along the way, the three men find themselves reminiscing and coming to terms with the shared memories of a war that continues to shape their lives.",
+    "popularity": 15.174205,
+    "poster_path": "/pizynKUzJ9YucGff1O1MYisY1WM.jpg",
+    "production_companies": [
+        {
+            "name": "Big Indie Pictures",
+            "id": 6831
+        },
+        {
+            "name": "Amazon Studios",
+            "id": 20580
+        },
+        {
+            "name": "Cinetic Media",
+            "id": 88582
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-11-17",
+    "revenue": 0,
+    "runtime": 124,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Their last mission wasn't on the battlefield.",
+    "title": "Last Flag Flying",
+    "video": false,
+    "vote_average": 6.8,
+    "vote_count": 60
+}
+[02-18 23:09:47] p17467 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Last Flag Flying",
+    "title": "Last Flag Flying",
+    "release_date": "2017-11-17",
+    "vote_average": 6.8,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt6018306",
+    "poster_path": "/pizynKUzJ9YucGff1O1MYisY1WM.jpg",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[02-18 23:09:47] p17467 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.9
+[02-18 23:10:33] p17506 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:10:33] p17506 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Manhunt'] 2017
+[02-18 23:10:33] p17506 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:10:33] p17506 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Manhunt', '2017']
+[02-18 23:10:33] p17506 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Manhunt 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:10:35] p17506 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4537986/?ref_=fn_ft_tt_1
+[02-18 23:10:35] p17506 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4537986/?ref_=fn_ft_tt_1
+[02-18 23:10:41] p17506 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4537986/?ref_=fn_ft_tt_1
+[02-18 23:10:41] p17506 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4537986?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:10:46] p17506 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/mz1ayJshHpMnQLNSRJl3Vgsp6eO.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        }
+    ],
+    "homepage": "",
+    "id": 372782,
+    "imdb_id": "tt4537986",
+    "original_language": "zh",
+    "original_title": "\u8ffd\u6355",
+    "overview": "Accused of a murder he didn't commit, a prosecutor sets out on a mission to clear his name.",
+    "popularity": 3.66659,
+    "poster_path": "/uWWmqeC1jEAGl9Nj3W65PL7Bvon.jpg",
+    "production_companies": [
+        {
+            "name": "Media Asia Films",
+            "id": 5552
+        },
+        {
+            "name": "Media Asia Group",
+            "id": 11083
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "HK",
+            "name": "Hong Kong"
+        }
+    ],
+    "release_date": "2017-11-19",
+    "revenue": 0,
+    "runtime": 106,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "ManHunt",
+    "video": false,
+    "vote_average": 6.0,
+    "vote_count": 1
+}
+[02-18 23:10:46] p17506 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "\u8ffd\u6355",
+    "title": "ManHunt",
+    "release_date": "2017-11-19",
+    "vote_average": 6.0,
+    "original_language": "zh",
+    "revenue": 0,
+    "imdb_id": "tt4537986",
+    "poster_path": "/uWWmqeC1jEAGl9Nj3W65PL7Bvon.jpg",
+    "production_countries": [
+        "China",
+        "Hong Kong"
+    ]
+}
+[02-18 23:10:46] p17506 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.3
+[02-18 23:12:22] p17625 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:12:22] p17625 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Murder', 'On', 'The', 'Orient', 'Express'] 2017
+[02-18 23:12:22] p17625 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:12:22] p17625 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Murder', 'On', 'The', 'Orient', 'Express', '2017']
+[02-18 23:12:22] p17625 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Murder On The Orient Express 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:12:23] p17625 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3402236/?ref_=fn_ft_tt_1
+[02-18 23:12:23] p17625 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3402236/?ref_=fn_ft_tt_1
+[02-18 23:12:25] p17625 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3402236/?ref_=fn_ft_tt_1
+[02-18 23:12:25] p17625 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt3402236?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:12:27] p17625 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/2J283YNxKhxAqHeVegUJ5mzLfGb.jpg",
+    "belongs_to_collection": null,
+    "budget": 55000000,
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://www.cluesareeverywhere.com/",
+    "id": 392044,
+    "imdb_id": "tt3402236",
+    "original_language": "en",
+    "original_title": "Murder on the Orient Express",
+    "overview": "Genius Belgian detective Hercule Poirot investigates the murder of an American tycoon aboard the Orient Express train.",
+    "popularity": 79.902306,
+    "poster_path": "/iBlfxlw8qwtUS0R8YjIU7JtM6LM.jpg",
+    "production_companies": [
+        {
+            "name": "Twentieth Century Fox Film Corporation",
+            "id": 306
+        },
+        {
+            "name": "The Mark Gordon Company",
+            "id": 1557
+        },
+        {
+            "name": "Scott Free Productions",
+            "id": 1645
+        },
+        {
+            "name": "Latina Pictures",
+            "id": 19108
+        },
+        {
+            "name": "Genre Films",
+            "id": 28788
+        },
+        {
+            "name": "The Estate of Agatha Christie",
+            "id": 90555
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-11-03",
+    "revenue": 348322890,
+    "runtime": 114,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Everyone is a suspect",
+    "title": "Murder on the Orient Express",
+    "video": false,
+    "vote_average": 6.7,
+    "vote_count": 1819
+}
+[02-18 23:12:27] p17625 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Murder on the Orient Express",
+    "title": "Murder on the Orient Express",
+    "release_date": "2017-11-03",
+    "vote_average": 6.7,
+    "original_language": "en",
+    "revenue": 348322890,
+    "imdb_id": "tt3402236",
+    "poster_path": "/iBlfxlw8qwtUS0R8YjIU7JtM6LM.jpg",
+    "production_countries": [
+        "United Kingdom",
+        "United States of America"
+    ]
+}
+[02-18 23:12:27] p17625 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.6
+[02-18 23:18:01] p17906 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:18:01] p17906 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Small', 'Town', 'Crime'] 2017
+[02-18 23:18:01] p17906 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:18:01] p17906 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Small', 'Town', 'Crime', '2017']
+[02-18 23:18:01] p17906 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Small Town Crime 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:18:03] p17906 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5751998/?ref_=fn_ft_tt_1
+[02-18 23:18:03] p17906 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5751998/?ref_=fn_ft_tt_1
+[02-18 23:18:05] p17906 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5751998/?ref_=fn_ft_tt_1
+[02-18 23:18:05] p17906 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5751998?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:18:06] p17906 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/hqwHXhVD3zkbRur62eMLVWr3Tvm.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "http://www.sabanfilms.com/films/small-town-crime/",
+    "id": 412000,
+    "imdb_id": "tt5751998",
+    "original_language": "en",
+    "original_title": "Small Town Crime",
+    "overview": "An alcoholic ex-cop finds the body of a young woman and, through an act of self-redemption, becomes hell-bent on finding the killer but unwittingly puts his family in danger and gets caught up with several dark characters along the way.",
+    "popularity": 8.49236,
+    "poster_path": "/cRGF1jWdCGlS8KWNxwckHKHuFKs.jpg",
+    "production_companies": [
+        {
+            "name": "Avva Pictures",
+            "id": 99912
+        },
+        {
+            "name": "6 Foot Films",
+            "id": 99913
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2018-01-19",
+    "revenue": 0,
+    "runtime": 91,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Doing the right thing the wrong way.",
+    "title": "Small Town Crime",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 22
+}
+[02-18 23:18:06] p17906 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Small Town Crime",
+    "title": "Small Town Crime",
+    "release_date": "2018-01-19",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt5751998",
+    "poster_path": "/cRGF1jWdCGlS8KWNxwckHKHuFKs.jpg",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[02-18 23:18:06] p17906 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.6
+[02-18 23:19:46] p17958 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:19:46] p17958 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Suburbicon'] 2017
+[02-18 23:19:46] p17958 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:19:46] p17958 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Suburbicon', '2017']
+[02-18 23:19:46] p17958 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Suburbicon 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:19:48] p17958 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt0491175/?ref_=fn_ft_tt_1
+[02-18 23:19:48] p17958 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt0491175/?ref_=fn_ft_tt_1
+[02-18 23:19:50] p17958 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt0491175/?ref_=fn_ft_tt_1
+[02-18 23:19:50] p17958 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt0491175?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:19:52] p17958 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/dmgFJdivUmV4vGLkbPD49KVjlHx.jpg",
+    "belongs_to_collection": null,
+    "budget": 10000000,
+    "genres": [
+        {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "",
+    "id": 395458,
+    "imdb_id": "tt0491175",
+    "original_language": "en",
+    "original_title": "Suburbicon",
+    "overview": "In the quiet family town of Suburbicon during the 1950s, the best and worst of humanity is hilariously reflected through the deeds of seemingly ordinary people. When a home invasion turns deadly, a picture-perfect family turns to blackmail, revenge and murder.",
+    "popularity": 18.378572,
+    "poster_path": "/a3IHgSwO5jWPLcGjKqbQ7pxVGkq.jpg",
+    "production_companies": [
+        {
+            "name": "Dark Castle Entertainment",
+            "id": 1786
+        },
+        {
+            "name": "Silver Pictures",
+            "id": 1885
+        },
+        {
+            "name": "Black Bear Pictures",
+            "id": 22146
+        },
+        {
+            "name": "Smokehouse Pictures",
+            "id": 22695
+        },
+        {
+            "name": "Huahua Media",
+            "id": 83645
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-10-26",
+    "revenue": 0,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Suburbicon",
+    "video": false,
+    "vote_average": 5.5,
+    "vote_count": 291
+}
+[02-18 23:19:52] p17958 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Suburbicon",
+    "title": "Suburbicon",
+    "release_date": "2017-10-26",
+    "vote_average": 5.5,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt0491175",
+    "poster_path": "/a3IHgSwO5jWPLcGjKqbQ7pxVGkq.jpg",
+    "production_countries": [
+        "United Kingdom",
+        "United States of America"
+    ]
+}
+[02-18 23:19:52] p17958 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.5
+[02-18 23:24:53] p18138 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:24:53] p18138 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Thor', 'Ragnarok'] 2017
+[02-18 23:24:53] p18138 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:24:53] p18138 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Thor', 'Ragnarok', '2017']
+[02-18 23:24:53] p18138 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Thor Ragnarok 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:24:54] p18138 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3501632/?ref_=fn_ft_tt_1
+[02-18 23:24:54] p18138 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3501632/?ref_=fn_ft_tt_1
+[02-18 23:24:56] p18138 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3501632/?ref_=fn_ft_tt_1
+[02-18 23:24:56] p18138 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt3501632?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:24:58] p18138 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/5wNUJs23rT5rTBacNyf5h83AynM.jpg",
+    "belongs_to_collection": {
+        "id": 131296,
+        "name": "Thor Collection",
+        "poster_path": "/yw7gr7DhHHVTLlO8Se8uH17TDMA.jpg",
+        "backdrop_path": "/3KL8UNKFWgIKXzLHjwY0uwgjzYl.jpg"
+    },
+    "budget": 180000000,
+    "genres": [
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://marvel.com/movies/movie/222/thor_ragnarok",
+    "id": 284053,
+    "imdb_id": "tt3501632",
+    "original_language": "en",
+    "original_title": "Thor: Ragnarok",
+    "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+    "popularity": 155.440229,
+    "poster_path": "/oSLd5GYGsiGgzDPKTwQh7wamO8t.jpg",
+    "production_companies": [
+        {
+            "name": "Walt Disney Pictures",
+            "id": 2
+        },
+        {
+            "name": "Marvel Studios",
+            "id": 420
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-10-25",
+    "revenue": 852635831,
+    "runtime": 130,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "No Hammer. No Problem.",
+    "title": "Thor: Ragnarok",
+    "video": false,
+    "vote_average": 7.4,
+    "vote_count": 4049
+}
+[02-18 23:24:58] p18138 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Thor: Ragnarok",
+    "title": "Thor: Ragnarok",
+    "release_date": "2017-10-25",
+    "vote_average": 7.4,
+    "original_language": "en",
+    "revenue": 852635831,
+    "imdb_id": "tt3501632",
+    "poster_path": "/oSLd5GYGsiGgzDPKTwQh7wamO8t.jpg",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[02-18 23:24:58] p18138 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 8.0
+[02-18 23:27:40] p18193 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:27:40] p18193 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['The', 'Killing', 'of', 'a', 'Sacred', 'Deer'] 2017
+[02-18 23:27:40] p18193 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:27:40] p18193 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['The', 'Killing', 'of', 'a', 'Sacred', 'Deer', '2017']
+[02-18 23:27:40] p18193 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Killing of a Sacred Deer 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:27:41] p18193 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5715874/?ref_=fn_ft_tt_1
+[02-18 23:27:41] p18193 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5715874/?ref_=fn_ft_tt_1
+[02-18 23:27:43] p18193 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5715874/?ref_=fn_ft_tt_1
+[02-18 23:27:43] p18193 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5715874?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:27:44] p18193 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/854uDv6rzbwF82jOtFe931SMrRs.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "http://www.thekillingofasacreddeerfilm.com",
+    "id": 399057,
+    "imdb_id": "tt5715874",
+    "original_language": "en",
+    "original_title": "The Killing of a Sacred Deer",
+    "overview": "A teenager's attempts to bring a brilliant surgeon into his dysfunctional family take an unexpected turn.",
+    "popularity": 17.082982,
+    "poster_path": "/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg",
+    "production_companies": [
+        {
+            "name": "Element Pictures",
+            "id": 3353
+        },
+        {
+            "name": "Film4",
+            "id": 9349
+        },
+        {
+            "name": "Three Point Capital",
+            "id": 20312
+        },
+        {
+            "name": "A24",
+            "id": 41077
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "IE",
+            "name": "Ireland"
+        }
+    ],
+    "release_date": "2017-10-20",
+    "revenue": 2205074,
+    "runtime": 121,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "The Killing of a Sacred Deer",
+    "video": false,
+    "vote_average": 6.5,
+    "vote_count": 397
+}
+[02-18 23:27:44] p18193 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Killing of a Sacred Deer",
+    "title": "The Killing of a Sacred Deer",
+    "release_date": "2017-10-20",
+    "vote_average": 6.5,
+    "original_language": "en",
+    "revenue": 2205074,
+    "imdb_id": "tt5715874",
+    "poster_path": "/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg",
+    "production_countries": [
+        "United Kingdom",
+        "United States of America",
+        "Ireland"
+    ]
+}
+[02-18 23:27:44] p18193 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.2
+[02-18 23:28:23] p18232 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:28:23] p18232 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Wonder'] 2017
+[02-18 23:28:23] p18232 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:28:23] p18232 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Wonder', '2017']
+[02-18 23:28:23] p18232 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Wonder 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:28:24] p18232 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2543472/?ref_=fn_ft_tt_1
+[02-18 23:28:24] p18232 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2543472/?ref_=fn_ft_tt_1
+[02-18 23:28:26] p18232 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2543472/?ref_=fn_ft_tt_1
+[02-18 23:28:26] p18232 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt2543472?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:28:27] p18232 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/4rsrxYDfIzvtAsIE9wevxPRXAk4.jpg",
+    "belongs_to_collection": null,
+    "budget": 20000000,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.wonder.movie",
+    "id": 406997,
+    "imdb_id": "tt2543472",
+    "original_language": "en",
+    "original_title": "Wonder",
+    "overview": "The story of August Pullman \u2013 a boy with facial differences \u2013 who enters fifth grade, attending a mainstream elementary school for the first time.",
+    "popularity": 94.904204,
+    "poster_path": "/iWjUKwPJ91nFoltlZzr8s4Ij5da.jpg",
+    "production_companies": [
+        {
+            "name": "Lionsgate",
+            "id": 1632
+        },
+        {
+            "name": "Participant Media",
+            "id": 6735
+        },
+        {
+            "name": "Walden Media",
+            "id": 10221
+        },
+        {
+            "name": "Mandeville Films",
+            "id": 10227
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-11-13",
+    "revenue": 0,
+    "runtime": 113,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Are you ready to meet Auggie Pullman?",
+    "title": "Wonder",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 1075
+}
+[02-18 23:28:27] p18232 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Wonder",
+    "title": "Wonder",
+    "release_date": "2017-11-13",
+    "vote_average": 8.2,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt2543472",
+    "poster_path": "/iWjUKwPJ91nFoltlZzr8s4Ij5da.jpg",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[02-18 23:28:27] p18232 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 8.0
+[02-18 23:29:52] p18292 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:29:52] p18292 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Mom', 'and', 'Dad'] 2018
+[02-18 23:29:52] p18292 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:29:52] p18292 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Mom', 'and', 'Dad', '2018']
+[02-18 23:29:52] p18292 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mom and Dad 2018&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:29:54] p18292 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[02-18 23:32:04] p18445 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:32:04] p18445 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Mom', 'and', 'Dad'] 2018
+[02-18 23:32:04] p18445 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:32:04] p18445 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Mom', 'and', 'Dad', '2018']
+[02-18 23:32:04] p18445 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mom and Dad 2018&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:32:06] p18445 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[02-18 23:34:27] p18608 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:34:27] p18608 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Mom', 'and', 'Dad'] 2018
+[02-18 23:34:27] p18608 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:34:27] p18608 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Mom', 'and', 'Dad', '2018']
+[02-18 23:34:27] p18608 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mom and Dad 2018&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:34:29] p18608 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[02-18 23:34:41] p18651 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:34:41] p18651 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Mom', 'and', 'Dad'] 2017
+[02-18 23:34:41] p18651 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:34:41] p18651 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Mom', 'and', 'Dad', '2017']
+[02-18 23:34:41] p18651 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mom and Dad 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:34:41] p18651 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[02-18 23:34:41] p18651 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[02-18 23:34:43] p18651 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[02-18 23:34:43] p18651 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5462326?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:34:44] p18651 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/3Fji9IjNQcXm7Dh0u4igJXTgeHZ.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "",
+    "id": 401561,
+    "imdb_id": "tt5462326",
+    "original_language": "en",
+    "original_title": "Mom And Dad",
+    "overview": "A teenage girl and her little brother must survive a wild 24 hours during which a mass hysteria of unknown origin causes parents to turn violently on their own kids.",
+    "popularity": 20.205503,
+    "poster_path": "/fSaeahvo1GU7v4W6CX2y0j7fxMG.jpg",
+    "production_companies": [
+        {
+            "name": "Armory Films",
+            "id": 35849
+        },
+        {
+            "name": "Zeal Media",
+            "id": 77951
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2018-01-19",
+    "revenue": 0,
+    "runtime": 83,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Sometimes they just want to kill you",
+    "title": "Mom And Dad",
+    "video": false,
+    "vote_average": 5.6,
+    "vote_count": 61
+}
+[02-18 23:34:44] p18651 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Mom And Dad",
+    "title": "Mom And Dad",
+    "release_date": "2018-01-19",
+    "vote_average": 5.6,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt5462326",
+    "poster_path": "/fSaeahvo1GU7v4W6CX2y0j7fxMG.jpg",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[02-18 23:34:44] p18651 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.6
+[02-18 23:37:37] p18715 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-18 23:37:37] p18715 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Mom', 'and', 'Dad'] 2017
+[02-18 23:37:37] p18715 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-18 23:37:37] p18715 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Mom', 'and', 'Dad', '2017']
+[02-18 23:37:37] p18715 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mom and Dad 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-18 23:37:39] p18715 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[02-18 23:37:39] p18715 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[02-18 23:37:40] p18715 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[02-18 23:37:40] p18715 {movie_rating/movie_rating.py:203 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt5462326?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[02-18 23:37:41] p18715 {movie_rating/movie_rating.py:210 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/3Fji9IjNQcXm7Dh0u4igJXTgeHZ.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "",
+    "id": 401561,
+    "imdb_id": "tt5462326",
+    "original_language": "en",
+    "original_title": "Mom And Dad",
+    "overview": "A teenage girl and her little brother must survive a wild 24 hours during which a mass hysteria of unknown origin causes parents to turn violently on their own kids.",
+    "popularity": 20.205503,
+    "poster_path": "/fSaeahvo1GU7v4W6CX2y0j7fxMG.jpg",
+    "production_companies": [
+        {
+            "name": "Armory Films",
+            "id": 35849
+        },
+        {
+            "name": "Zeal Media",
+            "id": 77951
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2018-01-19",
+    "revenue": 0,
+    "runtime": 83,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Sometimes they just want to kill you",
+    "title": "Mom And Dad",
+    "video": false,
+    "vote_average": 5.6,
+    "vote_count": 61
+}
+[02-18 23:37:41] p18715 {movie_rating/movie_rating.py:227 [get_movie_details_by_id]}     INFO - {
+    "original_title": "Mom And Dad",
+    "title": "Mom And Dad",
+    "release_date": "2018-01-19",
+    "vote_average": 5.6,
+    "original_language": "en",
+    "revenue": 0,
+    "imdb_id": "tt5462326",
+    "poster_path": "/fSaeahvo1GU7v4W6CX2y0j7fxMG.jpg",
+    "production_countries": [
+        "United States of America"
+    ]
+}
+[02-18 23:37:41] p18715 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.6
+[02-19 12:58:18] p24841 {./movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-19 12:58:18] p24841 {./movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Lady', 'Bird'] 2017
+[02-19 12:58:18] p24841 {./movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-19 12:58:18] p24841 {./movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Lady', 'Bird', '2017']
+[02-19 12:58:18] p24841 {./movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Lady Bird 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-19 12:58:19] p24841 {./movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4925292/?ref_=fn_ft_tt_1
+[02-19 12:58:19] p24841 {./movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4925292/?ref_=fn_ft_tt_1
+[02-19 12:58:21] p24841 {./movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.7
+[02-25 16:20:45] p5793 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-25 16:20:45] p5793 {movie_rating/movie_rating.py:50 [get_movies]}     INFO - Get movies in directory: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-25 16:20:45] p5793 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['47', 'Meters', 'Down'] 2017
+[02-25 16:20:45] p5793 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-25 16:20:45] p5793 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['47', 'Meters', 'Down', '2017']
+[02-25 16:20:45] p5793 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=47 Meters Down 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-25 16:20:47] p5793 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[02-25 16:20:47] p5793 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[02-25 16:20:49] p5793 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.7
+[02-25 16:20:49] p5793 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['A', "Dog's", 'Purpose'] 2017
+[02-25 16:20:49] p5793 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-25 16:20:49] p5793 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['A', "Dog's", 'Purpose', '2017']
+[02-25 16:20:49] p5793 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=A Dog's Purpose 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-25 16:20:50] p5793 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1753383/?ref_=fn_ft_tt_1
+[02-25 16:20:50] p5793 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1753383/?ref_=fn_ft_tt_1
+[02-25 16:20:52] p5793 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.9
+[02-25 16:20:52] p5793 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['A', 'Family', 'Man'] 2016
+[02-25 16:20:52] p5793 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-25 16:20:52] p5793 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['A', 'Family', 'Man', '2016']
+[02-25 16:20:52] p5793 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=A Family Man 2016&s=tt&ttype=ft&ref_=fn_ft
+[02-25 16:20:53] p5793 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1718924/?ref_=fn_ft_tt_1
+[02-25 16:20:53] p5793 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1718924/?ref_=fn_ft_tt_1
+[02-25 16:20:55] p5793 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.5
+[02-25 16:20:55] p5793 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Alien', 'Covenant'] 2017
+[02-25 16:20:55] p5793 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-25 16:20:55] p5793 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Alien', 'Covenant', '2017']
+[02-25 16:20:55] p5793 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Alien Covenant 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-25 16:20:56] p5793 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2316204/?ref_=fn_ft_tt_1
+[02-25 16:20:56] p5793 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2316204/?ref_=fn_ft_tt_1
+[02-25 16:20:59] p5793 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.5
+[02-25 16:20:59] p5793 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Allied'] 2016
+[02-25 16:20:59] p5793 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-25 16:20:59] p5793 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Allied', '2016']
+[02-25 16:20:59] p5793 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Allied 2016&s=tt&ttype=ft&ref_=fn_ft
+[02-25 16:20:59] p5793 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3640424/?ref_=fn_ft_tt_1
+[02-25 16:20:59] p5793 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3640424/?ref_=fn_ft_tt_1
+[02-25 16:21:59] p5896 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-25 16:21:59] p5896 {movie_rating/movie_rating.py:50 [get_movies]}     INFO - Get movies in directory: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[02-25 16:21:59] p5896 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['47', 'Meters', 'Down'] 2017
+[02-25 16:21:59] p5896 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[02-25 16:21:59] p5896 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['47', 'Meters', 'Down', '2017']
+[02-25 16:21:59] p5896 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=47 Meters Down 2017&s=tt&ttype=ft&ref_=fn_ft
+[02-25 16:22:00] p5896 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[02-25 16:22:00] p5896 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[03-03 00:00:05] p30423 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-03 00:00:06] p30423 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['The', 'Shape', 'of', 'Water'] 2017
+[03-03 00:00:06] p30423 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-03 00:00:06] p30423 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['The', 'Shape', 'of', 'Water', '2017']
+[03-03 00:00:06] p30423 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Shape of Water 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-03 00:00:11] p30423 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5580390/?ref_=fn_ft_tt_1
+[03-03 00:00:11] p30423 {movie_rating/movie_rating.py:236 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5580390/?ref_=fn_ft_tt_1
+[03-03 00:00:32] p30423 {movie_rating/movie_rating.py:245 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.7
+[03-03 23:56:07] p18681 {movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-03 23:56:07] p18681 {movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Daddys', 'Home', '2'] 2017
+[03-03 23:56:07] p18681 {movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-03 23:56:07] p18681 {movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-03 23:56:07] p18681 {movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-03 23:56:19] p18681 {movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 00:27:12] p8895 {./movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 00:27:17] p9294 {./movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 00:27:17] p9294 {./movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Daddys', 'Home', '2'] 2017
+[03-04 00:27:17] p9294 {./movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 00:27:17] p9294 {./movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 00:27:17] p9294 {./movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 00:27:19] p9294 {./movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 00:28:08] p10101 {./movie_rating/movie_rating.py:298 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 00:28:08] p10101 {./movie_rating/movie_rating.py:112 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Daddys', 'Home', '2'] 2017
+[03-04 00:28:08] p10101 {./movie_rating/movie_rating.py:137 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 00:28:08] p10101 {./movie_rating/movie_rating.py:129 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 00:28:08] p10101 {./movie_rating/movie_rating.py:142 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 00:28:13] p10101 {./movie_rating/movie_rating.py:183 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:24:55] p15234 {./movie_rating/movie_rating.py:301 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:25:21] p15997 {./movie_rating/movie_rating.py:301 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:31:30] p15997 {./movie_rating/movie_rating.py:115 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Daddys', 'Home', '2'] 2017
+[03-04 01:31:30] p15997 {./movie_rating/movie_rating.py:140 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:31:30] p15997 {./movie_rating/movie_rating.py:132 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:31:30] p15997 {./movie_rating/movie_rating.py:145 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:31:31] p15997 {./movie_rating/movie_rating.py:186 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:34:12] p23137 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:35:36] p25812 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:35:52] p25812 {./movie_rating/movie_rating.py:125 [get_movie_name_and_year]}     INFO - Movie Title and Year: ['Daddys', 'Home', '2'] 2017
+[03-04 01:35:52] p25812 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:35:52] p25812 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:35:52] p25812 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:35:53] p25812 {./movie_rating/movie_rating.py:196 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:41:54] p30043 {./movie_rating/movie_rating.py:313 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:44:21] p30043 {./movie_rating/movie_rating.py:123 [get_movie_name_and_year]}     INFO - Movie Title and Year: ('Daddys Home', '2') 2017
+[03-04 01:44:22] p313 {./movie_rating/movie_rating.py:313 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:44:37] p1040 {./movie_rating/movie_rating.py:313 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:45:11] p1040 {./movie_rating/movie_rating.py:152 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:45:11] p1040 {./movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:45:11] p1040 {./movie_rating/movie_rating.py:157 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:45:59] p4178 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:45:59] p4178 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:45:59] p4178 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:45:59] p4178 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:46:00] p4178 {./movie_rating/movie_rating.py:196 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:46:36] p4777 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:46:36] p4777 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:46:36] p4777 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:46:36] p4777 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:46:37] p4777 {./movie_rating/movie_rating.py:196 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:47:16] p5411 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:47:16] p5411 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:47:16] p5411 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:47:16] p5411 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:47:16] p5411 {./movie_rating/movie_rating.py:196 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:47:18] p5612 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:47:18] p5612 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:47:18] p5612 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:47:18] p5612 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:47:19] p5612 {./movie_rating/movie_rating.py:196 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:50:33] p8189 {./movie_rating/movie_rating.py:313 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:50:33] p8189 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:50:33] p8189 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:50:33] p8189 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:50:53] p8189 {./movie_rating/movie_rating.py:198 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:53:51] p13443 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:53:51] p13443 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:53:51] p13443 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:53:51] p13443 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:57:22] p16770 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:57:22] p16770 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:57:22] p16770 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:57:22] p16770 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 01:57:24] p16770 {./movie_rating/movie_rating.py:196 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 01:57:31] p17164 {./movie_rating/movie_rating.py:311 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 01:57:31] p17164 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 01:57:31] p17164 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 01:57:31] p17164 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 02:00:09] p17164 {./movie_rating/movie_rating.py:196 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-04 02:00:10] p20750 {./movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 02:00:10] p20750 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 02:00:10] p20750 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 02:00:10] p20750 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 02:00:34] p21263 {./movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 02:00:34] p21263 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 02:00:34] p21263 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 02:00:34] p21263 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 02:00:50] p21263 {./movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-04 02:00:50] p21263 {./movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-04 02:01:03] p21263 {./movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.0
