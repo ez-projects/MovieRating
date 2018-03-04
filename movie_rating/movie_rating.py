@@ -181,7 +181,7 @@ def get_movie_url(movie_title, series, year):
                         set(expected_title.split(" ") + [expected_series] + [expected_year])
                     # import pudb;pudb.set_trace()
                     if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
-                        movie_href = cols[1].find('a').get("href")
+                        movie_href = cols[1].find('a').get("href") or (not res in expected_title)
                         found = True
                         break
             if found:

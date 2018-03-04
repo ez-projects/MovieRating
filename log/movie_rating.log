@@ -7492,3 +7492,10 @@
 [03-04 02:00:50] p21263 {./movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
 [03-04 02:00:50] p21263 {./movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
 [03-04 02:01:03] p21263 {./movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.0
+[03-04 16:49:57] p24419 {./movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 16:49:57] p24419 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 16:49:57] p24419 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Pitch', 'Perfect', '3', '2017']
+[03-04 16:49:57] p24419 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Pitch Perfect 3 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 16:50:00] p24419 {./movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4765284/?ref_=fn_ft_tt_1
+[03-04 16:50:00] p24419 {./movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4765284/?ref_=fn_ft_tt_1
+[03-04 16:50:02] p24419 {./movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.1
