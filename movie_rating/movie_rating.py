@@ -1,20 +1,21 @@
-#!./venv/bin/python
 # -*- coding: utf-8 -*-
 
 import logging
 import re
 import sys
-import urllib.request
+from requests import get
 from os import listdir
 from os.path import isdir, join
 
 from bs4 import BeautifulSoup
-from dateutil.parser import parse
+from contextlib import closing
 from json import dumps
 from pyquery import PyQuery as pq
 
-from constants import MOVIE_ROOT
+from requests.exceptions import RequestException
 
+
+MOVIE_ROOT = '/run/media/nathan/Seagate4Tb/MOVIES/Movies'
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -50,6 +51,7 @@ def get_movies(folder_path):
     logger.info("Get movies in directory: {}".format(folder_path))
     return files
 
+
 def clean_up_string_between_year_and_resolution(movie_name):
     """
     movie_name:
@@ -74,6 +76,7 @@ def clean_up_string_between_year_and_resolution(movie_name):
         title = title_and_year[:-2]
     else:
         title = title_and_year[:-1]
+        series = None
 
     # In the case there is no year info in the name
     if len(title_and_year) == len(movie_name.split(".")) and not \
@@ -125,6 +128,7 @@ def get_movie_name_and_year(name):
     else:
         return "", ""
 
+
 def create_query(movie_title, series, year):
     """
     movie_name: dotted notation name
@@ -143,6 +147,44 @@ def create_query(movie_title, series, year):
     return " ".join(query)
 
 
+def simple_get(url):
+    """
+    Attempts to get the content at `url` by making an HTTP GET request.
+    If the content-type of response is some kind of HTML/XML, return the
+    text content, otherwise return None
+    """
+    try:
+        with closing(get(url, stream=True)) as resp:
+            if is_good_response(resp):
+                return resp.content
+            else:
+                return None
+    except RequestException as e:
+        log_error('Error during requests to {0}: {1}'.format(url, str(e)))
+        return None
+
+
+def is_good_response(resp):
+    """
+    Returns true if the response seems to be HTML, false otherwise
+    """
+    content_type = resp.headers['Content-Type'].lower()
+    return (
+        resp.status_code == 200
+        and content_type is not None
+        and content_type.find('html') > -1
+    )
+
+
+def log_error(e):
+    """
+    It is always a good idea to log errors
+    This function just prints them, but you can
+    make it do anything.
+    """
+    print(e)
+
+
 def get_movie_url(movie_title, series, year):
     """
     """
@@ -152,17 +194,19 @@ def get_movie_url(movie_title, series, year):
     query = create_query(movie_title, series, year)
 
     url = "http://www.imdb.com/find?ref_=nv_sr_fn&q={}&s=tt&ttype=ft&ref_=fn_ft".format(query)
+    print(url)
     logger.info("Searching for movie: {}".format(url))
     expected_title = "{}".format(movie_title.lower())
     expected_series = series
     expected_year = "({})".format(year)
-    doc=pq(url, method="get", verify=True)
-    soup = BeautifulSoup(doc.html(), "html.parser")
-    if soup.find("div", {"class": "findNoResults"}):
+    response = simple_get(url)
+    html = BeautifulSoup(response, "html.parser")
+    if html.find("div", {"class": "findNoResults"}):
         url = "http://www.imdb.com/find?ref_=nv_sr_fn&q={}&s=tt".format(query)
-        doc=pq(url, method="get", verify=True)
-        soup = BeautifulSoup(doc.html(), "html.parser")
-    table = soup.find('table', {'class': 'findList'})
+        response=simple_get(url)
+        html = BeautifulSoup(response, "html.parser")
+
+    table = html.find('table', {'class': 'findList'})
     if table:
         rows = table.findAll('tr')
         found = False
@@ -177,9 +221,16 @@ def get_movie_url(movie_title, series, year):
                     col_text = col_text.strip().lower()
                     # NB: identify movie in there
                     # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
-                    res = set(col_text.split(" ")) - \
-                        set(expected_title.split(" ") + [expected_series] + [expected_year])
-                    # import pudb;pudb.set_trace()
+                    print(col_text)
+                    if expected_series:
+                        res = set(col_text.split(" ")) - \
+                              set(
+                                  expected_title.split(" ") +
+                                  [expected_series] + [expected_year]
+                              )
+                    else:
+                        res = set(col_text.split(" ")) - \
+                              set(expected_title.split(" ") + [expected_year])
                     if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
                         movie_href = cols[1].find('a').get("href") or (not res in expected_title)
                         found = True
@@ -301,7 +352,7 @@ def get_movie_poster_from_tmdb(poster_path, movie_path):
     poster_url = "https://image.tmdb.org/t/p/w500/{}".format(poster_path)
     logger.info("Get movie poster from: {}".format(poster_url))
     poster = "{}/{}.jpg".format(movie_path, movie_folder_name)
-    urllib.request.urlretrieve(poster_url, poster)
+    # urllib.request.urlretrieve(poster_url, poster)
     logger.info("Movie poster was saved in: {}".format(poster))
 
 

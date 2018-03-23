@@ -7499,3 +7499,1799 @@
 [03-04 16:50:00] p24419 {./movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4765284/?ref_=fn_ft_tt_1
 [03-04 16:50:00] p24419 {./movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4765284/?ref_=fn_ft_tt_1
 [03-04 16:50:02] p24419 {./movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.1
+[03-04 16:55:45] p30928 {./movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-04 16:55:45] p30928 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-04 16:55:45] p30928 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-04 16:55:45] p30928 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-04 16:55:46] p30928 {./movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-04 16:55:46] p30928 {./movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-04 16:55:47] p30928 {./movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.0
+[03-06 22:32:33] p28931 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-06 22:32:34] p28931 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-06 22:32:34] p28931 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Geostorm', 'Geostorm', '2017']
+[03-06 22:32:34] p28931 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Geostorm Geostorm 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-06 22:32:59] p30322 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-06 22:32:59] p30322 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-06 22:32:59] p30322 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Geostorm', 'Geostorm', '2017']
+[03-06 22:32:59] p30322 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Geostorm Geostorm 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-07 01:15:54] p25123 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-07 01:15:54] p25123 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-07 01:15:54] p25123 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Geostorm', 'Geostorm', '2017']
+[03-07 01:15:54] p25123 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Geostorm Geostorm 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-07 01:15:57] p25123 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1981128/?ref_=fn_ft_tt_1
+[03-07 01:15:57] p25123 {movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1981128/?ref_=fn_ft_tt_1
+[03-07 01:16:02] p25123 {movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.4
+[03-07 23:28:48] p20771 {./movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-07 23:28:48] p20771 {./movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-07 23:28:48] p20771 {./movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Jumanji', 'Welcome', 'to', 'the', 'Jungle', 'Jungle', '2017']
+[03-07 23:28:48] p20771 {./movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Jumanji Welcome to the Jungle Jungle 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-07 23:28:55] p20771 {./movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2283362/?ref_=fn_ft_tt_1
+[03-07 23:28:55] p20771 {./movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2283362/?ref_=fn_ft_tt_1
+[03-07 23:28:56] p20771 {./movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.2
+[03-10 13:49:58] p2756 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-10 13:49:58] p2756 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-10 13:49:58] p2756 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Downsizing', 'Downsizing', '2017']
+[03-10 13:49:58] p2756 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Downsizing Downsizing 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-10 13:49:59] p2756 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1389072/?ref_=fn_ft_tt_1
+[03-10 13:49:59] p2756 {movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1389072/?ref_=fn_ft_tt_1
+[03-10 13:50:01] p2756 {movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.7
+[03-15 00:18:49] p25160 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-15 00:18:49] p25160 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-15 00:18:49] p25160 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Annihilation', 'Annihilation', '2018']
+[03-15 00:18:49] p25160 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Annihilation Annihilation 2018&s=tt&ttype=ft&ref_=fn_ft
+[03-15 00:18:51] p25160 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2798920/?ref_=fn_ft_tt_1
+[03-15 00:18:51] p25160 {movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2798920/?ref_=fn_ft_tt_1
+[03-15 00:18:52] p25160 {movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.5
+[03-16 01:21:32] p12424 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-16 01:21:32] p12424 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-16 01:21:32] p12424 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Kickboxer', 'Retaliation', 'Retaliation', '2018']
+[03-16 01:21:32] p12424 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Kickboxer Retaliation Retaliation 2018&s=tt&ttype=ft&ref_=fn_ft
+[03-16 01:21:34] p12424 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5208950/?ref_=fn_ft_tt_1
+[03-16 01:21:34] p12424 {movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5208950/?ref_=fn_ft_tt_1
+[03-16 01:21:40] p12424 {movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.0
+[03-22 22:18:25] p881 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:18:25] p881 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:18:25] p881 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', 'III', 'III', '2003']
+[03-22 22:18:25] p881 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs III III 2003&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:18:26] p881 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:18:47] p920 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:18:47] p920 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:18:47] p920 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', 'Affairs', '2002']
+[03-22 22:18:47] p920 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:18:47] p920 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:19:00] p944 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:19:00] p944 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:19:00] p944 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', 'Affairs', '2002']
+[03-22 22:19:00] p944 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:19:01] p944 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:20:31] p1083 {movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:20:31] p1083 {movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:20:31] p1083 {movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', 'Affairs', '2002']
+[03-22 22:20:31] p1083 {movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:20:32] p1083 {movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:42:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:42:46] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:50 [get_movies]}     INFO - Get movies in directory: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:42:46] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:42:46] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['47', 'Meters', 'Down', 'Down', '2017']
+[03-22 22:42:46] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=47 Meters Down Down 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:42:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[03-22 22:42:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[03-22 22:42:50] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.7
+[03-22 22:42:50] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:42:50] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['A', "Dog's", 'Purpose', 'Purpose', '2017']
+[03-22 22:42:50] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=A Dog's Purpose Purpose 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:42:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:42:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:42:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['A', 'Family', 'Man', 'Man', '2016']
+[03-22 22:42:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=A Family Man Man 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:42:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1718924/?ref_=fn_ft_tt_1
+[03-22 22:42:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1718924/?ref_=fn_ft_tt_1
+[03-22 22:42:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.5
+[03-22 22:42:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:42:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Alien', 'Covenant', 'Covenant', '2017']
+[03-22 22:42:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Alien Covenant Covenant 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:42:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2316204/?ref_=fn_ft_tt_1
+[03-22 22:42:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2316204/?ref_=fn_ft_tt_1
+[03-22 22:42:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.5
+[03-22 22:42:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:42:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Allied', 'Allied', '2016']
+[03-22 22:42:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Allied Allied 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:42:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3640424/?ref_=fn_ft_tt_1
+[03-22 22:42:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3640424/?ref_=fn_ft_tt_1
+[03-22 22:43:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.1
+[03-22 22:43:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['American', 'Assassin', 'Assassin', '2017']
+[03-22 22:43:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Assassin Assassin 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1961175/?ref_=fn_ft_tt_1
+[03-22 22:43:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1961175/?ref_=fn_ft_tt_1
+[03-22 22:43:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.2
+[03-22 22:43:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['American', 'Made', 'Made', '2017']
+[03-22 22:43:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=American Made Made 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3532216/?ref_=fn_ft_tt_1
+[03-22 22:43:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3532216/?ref_=fn_ft_tt_1
+[03-22 22:43:06] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.2
+[03-22 22:43:06] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:06] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Guardians', 'of', 'the', 'Galaxy', 'Vol', '2', '2017']
+[03-22 22:43:06] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Guardians of the Galaxy Vol 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:43:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Hacksaw', 'Ridge', 'Ridge', '2016']
+[03-22 22:43:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Hacksaw Ridge Ridge 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:08] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2119532/?ref_=fn_ft_tt_1
+[03-22 22:43:08] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2119532/?ref_=fn_ft_tt_1
+[03-22 22:43:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 8.2
+[03-22 22:43:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Hell', 'or', 'High', 'Water', 'Water', '2016']
+[03-22 22:43:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Hell or High Water Water 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:11] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2582782/?ref_=fn_ft_tt_1
+[03-22 22:43:11] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2582782/?ref_=fn_ft_tt_1
+[03-22 22:43:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.6
+[03-22 22:43:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Hidden', 'Figures', 'Figures', '2016']
+[03-22 22:43:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Hidden Figures Figures 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:14] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4846340/?ref_=fn_ft_tt_1
+[03-22 22:43:14] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4846340/?ref_=fn_ft_tt_1
+[03-22 22:43:16] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.8
+[03-22 22:43:16] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:16] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['I', 'Am', 'Heath', 'Ledger', 'Ledger', '2017']
+[03-22 22:43:16] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=I Am Heath Ledger Ledger 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6739646/?ref_=fn_ft_tt_1
+[03-22 22:43:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6739646/?ref_=fn_ft_tt_1
+[03-22 22:43:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.4
+[03-22 22:43:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Rogue', 'One', 'One', '2016']
+[03-22 22:43:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Rogue One One 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:20] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3748528/?ref_=fn_ft_tt_1
+[03-22 22:43:20] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3748528/?ref_=fn_ft_tt_1
+[03-22 22:43:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.8
+[03-22 22:43:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['San', 'Andreas', 'Andreas', '2015']
+[03-22 22:43:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=San Andreas Andreas 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:23] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2126355/?ref_=fn_ft_tt_1
+[03-22 22:43:23] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2126355/?ref_=fn_ft_tt_1
+[03-22 22:43:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.1
+[03-22 22:43:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Self', 'Less', 'Less', '2015']
+[03-22 22:43:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Self Less Less 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:43:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Small', 'Town', 'Crime', 'Crime', '2017']
+[03-22 22:43:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Small Town Crime Crime 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5751998/?ref_=fn_ft_tt_1
+[03-22 22:43:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5751998/?ref_=fn_ft_tt_1
+[03-22 22:43:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.6
+[03-22 22:43:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Southpaw', 'Southpaw', '2015']
+[03-22 22:43:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Southpaw Southpaw 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[03-22 22:43:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1798684/?ref_=fn_ft_tt_1
+[03-22 22:43:31] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.4
+[03-22 22:43:31] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:31] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Spectral', 'Spectral', '2016']
+[03-22 22:43:31] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Spectral Spectral 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:32] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2106651/?ref_=fn_ft_tt_1
+[03-22 22:43:32] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2106651/?ref_=fn_ft_tt_1
+[03-22 22:43:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.3
+[03-22 22:43:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Spider-Man', 'Homecoming', 'Homecoming', '2017']
+[03-22 22:43:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Spider-Man Homecoming Homecoming 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2250912/?ref_=fn_ft_tt_1
+[03-22 22:43:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2250912/?ref_=fn_ft_tt_1
+[03-22 22:43:36] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.5
+[03-22 22:43:36] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:36] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Split', 'Split', '2016']
+[03-22 22:43:36] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Split Split 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3315656/?ref_=fn_ft_tt_2
+[03-22 22:43:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3315656/?ref_=fn_ft_tt_2
+[03-22 22:43:39] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 3.5
+[03-22 22:43:39] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:39] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Spy', 'Spy', '2015']
+[03-22 22:43:39] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Spy Spy 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[03-22 22:43:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3079380/?ref_=fn_ft_tt_1
+[03-22 22:43:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.0
+[03-22 22:43:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Star', 'Trek', 'Beyond', 'Beyond', '2016']
+[03-22 22:43:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Star Trek Beyond Beyond 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:43] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[03-22 22:43:43] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2660888/?ref_=fn_ft_tt_1
+[03-22 22:43:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.1
+[03-22 22:43:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Star', 'Wars', 'Episode', 'I-VI', '720p', 'BluRay', 'x264', 'x264', 'DTS-WiKi']
+[03-22 22:43:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Star Wars Episode I-VI 720p BluRay x264 x264 DTS-WiKi&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:43:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Star', 'Wars', 'Episode', 'VII', 'The', 'Force', 'Awakens', 'Awakens', '2015']
+[03-22 22:43:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Star Wars Episode VII The Force Awakens Awakens 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:43:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Burnt', 'Burnt', '2015']
+[03-22 22:43:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Burnt Burnt 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:49] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2503944/?ref_=fn_ft_tt_1
+[03-22 22:43:49] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2503944/?ref_=fn_ft_tt_1
+[03-22 22:43:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.6
+[03-22 22:43:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Goosebumps', 'Goosebumps', '2015']
+[03-22 22:43:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Goosebumps Goosebumps 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1051904/?ref_=fn_ft_tt_1
+[03-22 22:43:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1051904/?ref_=fn_ft_tt_1
+[03-22 22:43:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.3
+[03-22 22:43:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Central', 'Intelligence', 'Intelligence', '2016']
+[03-22 22:43:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Central Intelligence Intelligence 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[03-22 22:43:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1489889/?ref_=fn_ft_tt_1
+[03-22 22:43:56] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.3
+[03-22 22:43:56] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:43:56] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Christine', 'Christine', '2016']
+[03-22 22:43:56] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Christine Christine 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:43:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4666726/?ref_=fn_ft_tt_1
+[03-22 22:43:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4666726/?ref_=fn_ft_tt_1
+[03-22 22:44:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.9
+[03-22 22:44:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:44:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Churchill', 'Churchill', '2017']
+[03-22 22:44:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Churchill Churchill 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:44:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2674454/?ref_=fn_ft_tt_1
+[03-22 22:44:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2674454/?ref_=fn_ft_tt_1
+[03-22 22:44:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-22 22:44:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:44:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Collateral', 'Beauty', 'Beauty', '2016']
+[03-22 22:44:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Collateral Beauty Beauty 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:44:49] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4682786/?ref_=fn_ft_tt_1
+[03-22 22:44:49] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4682786/?ref_=fn_ft_tt_1
+[03-22 22:44:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.8
+[03-22 22:44:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:44:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Collide', '(I)', '2016']
+[03-22 22:44:52] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Collide (I) 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:44:53] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:44:53] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:44:53] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Columbus', 'Columbus', '2017']
+[03-22 22:44:53] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Columbus Columbus 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:44:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5990474/?ref_=fn_ft_tt_1
+[03-22 22:44:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5990474/?ref_=fn_ft_tt_1
+[03-22 22:44:55] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.3
+[03-22 22:44:55] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:44:55] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Concussion', 'Concussion', '2015']
+[03-22 22:44:55] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Concussion Concussion 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:44:56] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[03-22 22:44:56] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3322364/?ref_=fn_ft_tt_1
+[03-22 22:44:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.1
+[03-22 22:44:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:44:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Daddys', 'Home', 'Home', '2015']
+[03-22 22:44:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home Home 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:44:59] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1528854/?ref_=fn_ft_tt_1
+[03-22 22:44:59] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1528854/?ref_=fn_ft_tt_1
+[03-22 22:45:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.1
+[03-22 22:45:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Dangal', '2016', 'Hindi', '1080p', 'BluRay', 'x264', 'DTS-HDMA', '7', 'Dangal 2016 Hindi 1080p BluRay x264 DTS-HDMA 7', '1 - Hon3y']
+[03-22 22:45:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Dangal 2016 Hindi 1080p BluRay x264 DTS-HDMA 7 Dangal 2016 Hindi 1080p BluRay x264 DTS-HDMA 7 1 - Hon3y&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:45:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Darkest', 'Hour', 'Hour', '2017']
+[03-22 22:45:03] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Darkest Hour Hour 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4555426/?ref_=fn_ft_tt_1
+[03-22 22:45:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4555426/?ref_=fn_ft_tt_1
+[03-22 22:45:05] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.4
+[03-22 22:45:05] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:05] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['David', 'Brent', 'Life', 'on', 'the', 'Road', 'Road', '2016']
+[03-22 22:45:05] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=David Brent Life on the Road Road 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:06] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[03-22 22:45:06] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3137630/?ref_=fn_ft_tt_1
+[03-22 22:45:08] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.3
+[03-22 22:45:08] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:08] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Deepwater', 'Horizon', 'Horizon', '2016']
+[03-22 22:45:08] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Deepwater Horizon Horizon 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:09] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[03-22 22:45:09] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1860357/?ref_=fn_ft_tt_1
+[03-22 22:45:12] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.2
+[03-22 22:45:12] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:12] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Jungle', 'Book', 'Book', '2016']
+[03-22 22:45:12] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Jungle Book Book 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:12] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3040964/?ref_=fn_ft_tt_1
+[03-22 22:45:12] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3040964/?ref_=fn_ft_tt_1
+[03-22 22:45:14] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.5
+[03-22 22:45:14] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:14] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Killing', 'of', 'a', 'Sacred', 'Deer', 'Deer', '2017']
+[03-22 22:45:14] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Killing of a Sacred Deer Deer 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:15] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5715874/?ref_=fn_ft_tt_1
+[03-22 22:45:15] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5715874/?ref_=fn_ft_tt_1
+[03-22 22:45:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.1
+[03-22 22:45:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Little', 'Hours', 'Hours', '2017']
+[03-22 22:45:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Little Hours Hours 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:18] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5666304/?ref_=fn_ft_tt_1
+[03-22 22:45:18] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5666304/?ref_=fn_ft_tt_1
+[03-22 22:45:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.8
+[03-22 22:45:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Maze', 'Runner', 'Runner', '2014']
+[03-22 22:45:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Maze Runner Runner 2014&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:20] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1790864/?ref_=fn_ft_tt_1
+[03-22 22:45:20] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1790864/?ref_=fn_ft_tt_1
+[03-22 22:45:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.8
+[03-22 22:45:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Mad', 'MaxFury', 'Road', 'Road', '2015']
+[03-22 22:45:22] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mad MaxFury Road Road 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:45:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Manchester', 'by', 'the', 'Sea', 'Sea', '2016']
+[03-22 22:45:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Manchester by the Sea Sea 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4034228/?ref_=fn_ft_tt_1
+[03-22 22:45:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4034228/?ref_=fn_ft_tt_1
+[03-22 22:45:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.8
+[03-22 22:45:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Masterminds', 'Masterminds', '2016']
+[03-22 22:45:26] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Masterminds Masterminds 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2461150/?ref_=fn_ft_tt_1
+[03-22 22:45:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2461150/?ref_=fn_ft_tt_1
+[03-22 22:45:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.8
+[03-22 22:45:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Mechanic', 'Resurrection', 'Resurrection', '2016']
+[03-22 22:45:29] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mechanic Resurrection Resurrection 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3522806/?ref_=fn_ft_tt_1
+[03-22 22:45:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3522806/?ref_=fn_ft_tt_1
+[03-22 22:45:32] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.7
+[03-22 22:45:32] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:32] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Megan', 'Leavey', 'Leavey', '2017']
+[03-22 22:45:32] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Megan Leavey Leavey 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:33] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4899370/?ref_=fn_ft_tt_1
+[03-22 22:45:33] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4899370/?ref_=fn_ft_tt_1
+[03-22 22:45:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.1
+[03-22 22:45:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Mine', 'Mine', '2016']
+[03-22 22:45:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mine Mine 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:36] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3707104/?ref_=fn_ft_tt_1
+[03-22 22:45:36] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3707104/?ref_=fn_ft_tt_1
+[03-22 22:45:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.9
+[03-22 22:45:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Confirmation', 'Confirmation', '2016']
+[03-22 22:45:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Confirmation Confirmation 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:38] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4210080/?ref_=fn_ft_tt_1
+[03-22 22:45:38] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4210080/?ref_=fn_ft_tt_1
+[03-22 22:45:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-22 22:45:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Discovery', 'Discovery', '2017']
+[03-22 22:45:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Discovery Discovery 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5155780/?ref_=fn_ft_tt_1
+[03-22 22:45:40] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5155780/?ref_=fn_ft_tt_1
+[03-22 22:45:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.3
+[03-22 22:45:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Fate', 'of', 'the', 'Furious', 'Furious', '2017']
+[03-22 22:45:42] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Fate of the Furious Furious 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:43] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4630562/?ref_=fn_ft_tt_1
+[03-22 22:45:43] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4630562/?ref_=fn_ft_tt_1
+[03-22 22:45:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.7
+[03-22 22:45:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Founder', 'Founder', '2016']
+[03-22 22:45:45] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Founder Founder 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:46] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4276820/?ref_=fn_ft_tt_1
+[03-22 22:45:46] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4276820/?ref_=fn_ft_tt_1
+[03-22 22:45:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.2
+[03-22 22:45:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Train', 'to', 'Busan', 'Busan', '2016']
+[03-22 22:45:47] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Train to Busan Busan 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:45:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Transformers', 'The', 'Last', 'Knight', 'Knight', '2017']
+[03-22 22:45:48] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Transformers The Last Knight Knight 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:49] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3371366/?ref_=fn_ft_tt_1
+[03-22 22:45:49] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3371366/?ref_=fn_ft_tt_1
+[03-22 22:45:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.2
+[03-22 22:45:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['True', 'Story', 'Story', '2015']
+[03-22 22:45:51] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=True Story Story 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:53] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2273657/?ref_=fn_ft_tt_1
+[03-22 22:45:53] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2273657/?ref_=fn_ft_tt_1
+[03-22 22:45:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.3
+[03-22 22:45:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Unlocked', 'Unlocked', '2017']
+[03-22 22:45:54] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Unlocked Unlocked 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:55] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1734493/?ref_=fn_ft_tt_1
+[03-22 22:45:55] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1734493/?ref_=fn_ft_tt_1
+[03-22 22:45:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.2
+[03-22 22:45:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Mission', 'Impossible', 'Rogue', 'Nation', 'Nation', '2015']
+[03-22 22:45:57] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mission Impossible Rogue Nation Nation 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:45:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:45:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Mom', 'and', 'Dad', 'Dad', '2017']
+[03-22 22:45:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mom and Dad Dad 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:45:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[03-22 22:45:58] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5462326/?ref_=fn_ft_tt_1
+[03-22 22:46:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.5
+[03-22 22:46:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Moonlight', '(I)', '2016']
+[03-22 22:46:00] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Moonlight (I) 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:46:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Mr', 'Right', 'Right', '2015']
+[03-22 22:46:01] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Mr Right Right 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:02] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2091935/?ref_=fn_ft_tt_1
+[03-22 22:46:02] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2091935/?ref_=fn_ft_tt_1
+[03-22 22:46:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.3
+[03-22 22:46:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Murder', 'On', 'The', 'Orient', 'Express', 'Express', '2017']
+[03-22 22:46:04] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Murder On The Orient Express Express 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:05] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3402236/?ref_=fn_ft_tt_1
+[03-22 22:46:05] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3402236/?ref_=fn_ft_tt_1
+[03-22 22:46:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.6
+[03-22 22:46:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Nocturnal', 'Animals', 'Animals', '2016']
+[03-22 22:46:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Nocturnal Animals Animals 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4550098/?ref_=fn_ft_tt_1
+[03-22 22:46:07] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4550098/?ref_=fn_ft_tt_1
+[03-22 22:46:09] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.5
+[03-22 22:46:09] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:09] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Norman', 'Norman', '2016']
+[03-22 22:46:09] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Norman Norman 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:46:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Wall', 'Wall', '2017']
+[03-22 22:46:10] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Wall Wall 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:11] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt4218696/?ref_=fn_ft_tt_1
+[03-22 22:46:11] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt4218696/?ref_=fn_ft_tt_1
+[03-22 22:46:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.2
+[03-22 22:46:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Wizard', 'of', 'Lies', 'Lies', '2017']
+[03-22 22:46:13] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Wizard of Lies Lies 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:15] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1933667/?ref_=fn_tt_tt_1
+[03-22 22:46:15] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1933667/?ref_=fn_tt_tt_1
+[03-22 22:46:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.8
+[03-22 22:46:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['The', 'Zookeepers', 'Wife', 'Wife', '2017']
+[03-22 22:46:17] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Zookeepers Wife Wife 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:18] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1730768/?ref_=fn_ft_tt_1
+[03-22 22:46:18] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1730768/?ref_=fn_ft_tt_1
+[03-22 22:46:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.0
+[03-22 22:46:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Thor', 'Ragnarok', 'Ragnarok', '2017']
+[03-22 22:46:19] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Thor Ragnarok Ragnarok 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:20] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3501632/?ref_=fn_ft_tt_1
+[03-22 22:46:20] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3501632/?ref_=fn_ft_tt_1
+[03-22 22:46:23] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 8.0
+[03-22 22:46:23] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:23] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Three', 'Billboards', 'Outside', 'Ebbing', 'Missouri', 'Three Billboards Outside Ebbing Missouri', '2017']
+[03-22 22:46:23] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Three Billboards Outside Ebbing Missouri Three Billboards Outside Ebbing Missouri 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:46:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Fantastic', 'Beasts', 'and', 'Where', 'to', 'Find', 'Them', 'Them', '2016']
+[03-22 22:46:24] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Fantastic Beasts and Where to Find Them Them 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt3183660/?ref_=fn_ft_tt_1
+[03-22 22:46:25] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt3183660/?ref_=fn_ft_tt_1
+[03-22 22:46:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.4
+[03-22 22:46:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Fences', 'Fences', '2016']
+[03-22 22:46:27] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Fences Fences 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:28] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2671706/?ref_=fn_ft_tt_1
+[03-22 22:46:28] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2671706/?ref_=fn_ft_tt_1
+[03-22 22:46:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.2
+[03-22 22:46:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Steve', 'Jobs', 'Jobs', '2015']
+[03-22 22:46:30] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Steve Jobs Jobs 2015&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:31] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2080374/?ref_=fn_ft_tt_1
+[03-22 22:46:31] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2080374/?ref_=fn_ft_tt_1
+[03-22 22:46:32] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:312 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:46:32] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:50 [get_movies]}     INFO - Get movies in directory: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:46:32] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:32] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['47', 'Meters', 'Down', 'Down', '2017']
+[03-22 22:46:32] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=47 Meters Down Down 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:33] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[03-22 22:46:33] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2932536/?ref_=fn_ft_tt_1
+[03-22 22:46:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.2
+[03-22 22:46:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Suburbicon', 'Suburbicon', '2017']
+[03-22 22:46:34] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Suburbicon Suburbicon 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:34] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.7
+[03-22 22:46:34] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:34] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['A', "Dog's", 'Purpose', 'Purpose', '2017']
+[03-22 22:46:34] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=A Dog's Purpose Purpose 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt0491175/?ref_=fn_ft_tt_1
+[03-22 22:46:35] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt0491175/?ref_=fn_ft_tt_1
+[03-22 22:46:35] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 22:46:35] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:35] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['A', 'Family', 'Man', 'Man', '2016']
+[03-22 22:46:35] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=A Family Man Man 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:36] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1718924/?ref_=fn_ft_tt_1
+[03-22 22:46:36] p3144 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1718924/?ref_=fn_ft_tt_1
+[03-22 22:46:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Movie Rating: 5.5
+[03-22 22:46:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:150 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:46:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:142 [create_query]}     INFO - Created query: ['Suicide', 'Squad', 'Squad', '2016']
+[03-22 22:46:37] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:155 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Suicide Squad Squad 2016&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:46:38] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:197 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt1386697/?ref_=fn_ft_tt_1
+[03-22 22:46:38] p3083 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:250 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt1386697/?ref_=fn_ft_tt_1
+[03-22 22:54:30] p3327 {movie_rating.py:313 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:54:30] p3327 {movie_rating.py:50 [get_movies]}     INFO - Get movies in directory: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:56:54] p3699 {movie_rating.py:313 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:58:26] p3699 {movie_rating.py:151 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:58:26] p3699 {movie_rating.py:143 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', 'Affairs', '2002']
+[03-22 22:58:26] p3699 {movie_rating.py:156 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-22 22:58:33] p3847 {movie_rating.py:314 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:59:12] p3994 {movie_rating.py:314 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 22:59:37] p3994 {movie_rating.py:152 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 22:59:37] p3994 {movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-22 22:59:37] p3994 {movie_rating.py:157 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-22 23:05:34] p3994 {movie_rating.py:199 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 23:05:36] p4450 {movie_rating.py:320 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 23:05:53] p4450 {movie_rating.py:152 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 23:06:02] p4450 {movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-22 23:06:12] p4450 {movie_rating.py:157 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-22 23:06:34] p4450 {movie_rating.py:205 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-22 23:07:39] p4728 {movie_rating.py:320 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-22 23:07:39] p4728 {movie_rating.py:151 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-22 23:07:39] p4728 {movie_rating.py:143 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-22 23:07:39] p4728 {movie_rating.py:156 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-22 23:19:31] p4728 {movie_rating.py:205 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-23 00:10:18] p5435 {movie_rating.py:321 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-23 00:10:18] p5435 {movie_rating.py:151 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-23 00:10:18] p5435 {movie_rating.py:143 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-23 00:10:18] p5435 {movie_rating.py:156 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-23 00:39:38] p5435 {movie_rating.py:206 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-23 00:44:49] p7505 {movie_rating.py:321 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-23 00:44:49] p7505 {movie_rating.py:151 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-23 00:44:49] p7505 {movie_rating.py:143 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-23 00:44:49] p7505 {movie_rating.py:156 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-23 00:48:10] p7505 {movie_rating.py:206 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-23 21:40:46] p19882 {movie_rating.py:321 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-23 21:40:46] p19882 {movie_rating.py:151 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-23 21:40:46] p19882 {movie_rating.py:143 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-23 21:40:46] p19882 {movie_rating.py:156 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-23 21:45:54] p19882 {movie_rating.py:206 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-23 22:23:28] p22578 {movie_rating.py:321 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-23 22:23:29] p22578 {movie_rating.py:50 [get_movies]}     INFO - Get movies in directory: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-23 22:23:29] p22578 {movie_rating.py:151 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-23 22:23:29] p22578 {movie_rating.py:143 [create_query]}     INFO - Created query: ['47', 'Meters', 'Down', '2017']
+[03-23 22:23:29] p22578 {movie_rating.py:156 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=47 Meters Down 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-23 22:23:46] p22601 {movie_rating.py:321 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-23 22:23:46] p22601 {movie_rating.py:151 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-23 22:23:46] p22601 {movie_rating.py:143 [create_query]}     INFO - Created query: ['The', 'Killing', 'of', 'a', 'Sacred', 'Deer', '2017']
+[03-23 22:23:46] p22601 {movie_rating.py:156 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Killing of a Sacred Deer 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-23 22:23:49] p22601 {movie_rating.py:206 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5715874/?ref_=fn_ft_tt_1
+[03-23 22:23:49] p22601 {movie_rating.py:259 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5715874/?ref_=fn_ft_tt_1
+[03-23 22:23:51] p22601 {movie_rating.py:268 [get_movie_rating_by_url]}     INFO - Movie Rating: 7.1
+[03-24 00:21:34] p28659 {movie_rating.py:360 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 00:21:34] p28659 {movie_rating.py:190 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 00:21:34] p28659 {movie_rating.py:145 [create_query]}     INFO - Created query: ['Father', 'Figures', '2018']
+[03-24 00:21:34] p28659 {movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Father Figures 2018&s=tt&ttype=ft&ref_=fn_ft
+[03-24 00:22:10] p28659 {movie_rating.py:245 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 00:23:47] p28796 {movie_rating.py:360 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 00:23:47] p28796 {movie_rating.py:190 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 00:23:47] p28796 {movie_rating.py:145 [create_query]}     INFO - Created query: ['Father', 'Figures', '2018']
+[03-24 00:23:47] p28796 {movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Father Figures 2018&s=tt&ttype=ft&ref_=fn_ft
+[03-24 00:28:05] p28796 {movie_rating.py:245 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 00:28:14] p29047 {movie_rating.py:360 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 00:28:14] p29047 {movie_rating.py:52 [get_movies]}     INFO - Get movies in directory: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 00:28:14] p29047 {movie_rating.py:190 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 00:28:14] p29047 {movie_rating.py:145 [create_query]}     INFO - Created query: ['47', 'Meters', 'Down', '2017']
+[03-24 00:28:14] p29047 {movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=47 Meters Down 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-24 00:28:27] p29079 {movie_rating.py:360 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 00:28:27] p29079 {movie_rating.py:190 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 00:28:27] p29079 {movie_rating.py:145 [create_query]}     INFO - Created query: ['Jurassic', 'Park', '1993']
+[03-24 00:28:27] p29079 {movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Jurassic Park 1993&s=tt&ttype=ft&ref_=fn_ft
+[03-24 00:28:37] p29079 {movie_rating.py:245 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt0107290/?ref_=fn_ft_tt_1
+[03-24 00:28:37] p29079 {movie_rating.py:298 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt0107290/?ref_=fn_ft_tt_1
+[03-24 00:28:39] p29079 {movie_rating.py:307 [get_movie_rating_by_url]}     INFO - Movie Rating: 8.1
+[03-24 00:54:02] p30174 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 00:54:02] p30174 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 00:54:04] p30174 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 00:54:04] p30174 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 00:54:06] p30174 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 00:54:06] p30174 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 00:54:06] p30174 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:125 [get_movie_name_and_year]}     INFO - Movie Title and Year: ('Inner Workings', '') 2016
+[03-24 00:54:19] p30190 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 00:54:19] p30190 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 00:54:21] p30190 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 00:54:21] p30190 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 00:54:22] p30190 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 00:54:22] p30190 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 00:54:22] p30190 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:125 [get_movie_name_and_year]}     INFO - Movie Title and Year: ('Inner Workings', '') 2016
+[03-24 01:07:38] p30709 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:07:38] p30709 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:07:40] p30709 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 01:07:40] p30709 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 01:07:41] p30709 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 01:07:41] p30709 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 01:08:56] p30769 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:08:56] p30769 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:08:58] p30769 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 01:08:58] p30769 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 01:08:59] p30769 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 01:08:59] p30769 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 01:11:31] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[03-24 01:11:31] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[03-24 01:11:31] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[03-24 01:11:31] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:11:31] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:11:34] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 01:11:34] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 01:11:36] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 01:11:36] p30874 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 01:13:53] p31028 {movie_rating/movie_rating.py:357 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:13:53] p31028 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:13:53] p31028 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-24 01:13:53] p31028 {movie_rating/movie_rating.py:194 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:13:54] p31028 {movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-24 01:13:54] p31028 {movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-24 01:13:55] p31028 {movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.0
+[03-24 01:15:05] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[03-24 01:15:05] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[03-24 01:15:05] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[03-24 01:15:05] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Daddys', 'Home', 2, '2017']
+[03-24 01:15:05] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:15:05] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:15:07] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 01:15:07] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 01:15:08] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 01:15:08] p31096 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 01:15:24] p31124 {movie_rating/movie_rating.py:357 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:15:24] p31124 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:15:24] p31124 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-24 01:15:24] p31124 {movie_rating/movie_rating.py:194 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Daddys Home 2 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:15:24] p31124 {movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-24 01:15:24] p31124 {movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt5657846/?ref_=fn_ft_tt_1
+[03-24 01:15:26] p31124 {movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.0
+[03-24 01:15:29] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[03-24 01:15:29] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[03-24 01:15:29] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[03-24 01:15:29] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Daddys', 'Home', 2, '2017']
+[03-24 01:15:29] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:15:29] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:15:30] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 01:15:30] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 01:15:32] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 01:15:32] p31139 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 01:15:56] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[03-24 01:15:56] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[03-24 01:15:56] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[03-24 01:15:56] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-24 01:15:56] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:15:56] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:15:57] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 01:15:57] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 01:15:58] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 01:15:58] p31169 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 01:16:51] p31210 {movie_rating/movie_rating.py:357 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:17:55] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['The', 'Lego', 'Batman', 'Movie', '2017']
+[03-24 01:17:55] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ["Assassin's", 'Creed', '2016']
+[03-24 01:17:55] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Moonlight', '2016']
+[03-24 01:17:55] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Daddys', 'Home', '2', '2017']
+[03-24 01:17:55] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:17:55] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:295 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
+[03-24 01:17:58] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:304 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4
+[03-24 01:17:58] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:262 [get_movie_details_by_id]}     INFO - Send GET request: https://api.themoviedb.org/3/movie/tt4116284?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json
+[03-24 01:18:00] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:269 [get_movie_details_by_id]}     INFO - {
+    "adult": false,
+    "backdrop_path": "/gbO4tWvMC0oLbNvHP9Zth3eUeAA.jpg",
+    "belongs_to_collection": {
+        "id": 325470,
+        "name": "The Lego Movie Collection",
+        "poster_path": "/vF11fXGKMdK89MjLRNUac3DWggZ.jpg",
+        "backdrop_path": "/sQNiamRBTh2aTjQ8aYCJ69MngTM.jpg"
+    },
+    "budget": 80000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.legobatman.com",
+    "id": 324849,
+    "imdb_id": "tt4116284",
+    "original_language": "en",
+    "original_title": "The Lego Batman Movie",
+    "overview": "In the irreverent spirit of fun that made \u201cThe Lego Movie\u201d a worldwide phenomenon, the self-described leading man of that ensemble\u2014Lego Batman\u2014stars in his own big-screen adventure. But there are big changes brewing in Gotham, and if he wants to save the city from The Joker\u2019s hostile takeover, Batman may have to drop the lone vigilante thing, try to work with others and maybe, just maybe, learn to lighten up.",
+    "popularity": 14.893486,
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_companies": [
+        {
+            "id": 2723,
+            "logo_path": null,
+            "name": "Lin Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 8089,
+            "logo_path": null,
+            "name": "Animal Logic",
+            "origin_country": ""
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 77973,
+            "logo_path": null,
+            "name": "Lord Miller",
+            "origin_country": ""
+        },
+        {
+            "id": 85983,
+            "logo_path": null,
+            "name": "LEGO System A/S",
+            "origin_country": ""
+        },
+        {
+            "id": 174,
+            "logo_path": "/6rFNo5taSC9i0Sxnl81nucQMsw9.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-02-08",
+    "revenue": 311950384,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Always be yourself. Unless you can be Batman.",
+    "title": "The Lego Batman Movie",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 1968
+}
+[03-24 01:18:00] p31263 {/home/nathan/Projects/MovieRating/movie_rating/movie_rating.py:286 [get_movie_details_by_id]}     INFO - {
+    "original_title": "The Lego Batman Movie",
+    "title": "The Lego Batman Movie",
+    "release_date": "2017-02-08",
+    "vote_average": 7.2,
+    "original_language": "en",
+    "revenue": 311950384,
+    "imdb_id": "tt4116284",
+    "poster_path": "/1pHOqpdCYNmtRVJs6pGKQKttrPm.jpg",
+    "production_countries": [
+        "Denmark",
+        "United States of America"
+    ]
+}
+[03-24 01:18:04] p31285 {movie_rating/movie_rating.py:357 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:18:04] p31285 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:18:04] p31285 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-24 01:18:04] p31285 {movie_rating/movie_rating.py:194 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:18:04] p31285 {movie_rating/movie_rating.py:242 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 01:18:51] p31323 {movie_rating/movie_rating.py:358 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:18:51] p31323 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:18:51] p31323 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-24 01:18:51] p31323 {movie_rating/movie_rating.py:194 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:18:51] p31323 {movie_rating/movie_rating.py:243 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 01:19:23] p31364 {movie_rating/movie_rating.py:359 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:19:23] p31364 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:19:23] p31364 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-24 01:19:23] p31364 {movie_rating/movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:19:24] p31364 {movie_rating/movie_rating.py:244 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 01:28:12] p31553 {movie_rating/movie_rating.py:361 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:28:12] p31553 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:28:12] p31553 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-24 01:28:12] p31553 {movie_rating/movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:33:15] p31553 {movie_rating/movie_rating.py:246 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 01:33:19] p31628 {movie_rating/movie_rating.py:361 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:33:19] p31628 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:33:19] p31628 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-24 01:33:19] p31628 {movie_rating/movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:38:21] p31628 {movie_rating/movie_rating.py:246 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 01:38:24] p31729 {movie_rating/movie_rating.py:360 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:38:24] p31729 {movie_rating/movie_rating.py:189 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:38:24] p31729 {movie_rating/movie_rating.py:144 [create_query]}     INFO - Created query: ['Infernal', 'Affairs', '2002']
+[03-24 01:38:24] p31729 {movie_rating/movie_rating.py:195 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=Infernal Affairs 2002&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:38:25] p31729 {movie_rating/movie_rating.py:245 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com
+[03-24 01:47:12] p32034 {movie_rating/movie_rating.py:365 [main]}     INFO - Scanning movies in: /run/media/nathan/Seagate4Tb/MOVIES/Movies
+[03-24 01:47:12] p32034 {movie_rating/movie_rating.py:192 [get_movie_url]}     INFO - Get movie url from http://www.imdb.com
+[03-24 01:47:12] p32034 {movie_rating/movie_rating.py:146 [create_query]}     INFO - Created query: ['The', 'Mountain', 'Between', 'Us', '2017']
+[03-24 01:47:12] p32034 {movie_rating/movie_rating.py:198 [get_movie_url]}     INFO - Searching for movie: http://www.imdb.com/find?ref_=nv_sr_fn&q=The Mountain Between Us 2017&s=tt&ttype=ft&ref_=fn_ft
+[03-24 01:47:13] p32034 {movie_rating/movie_rating.py:248 [get_imdb_id_by_url]}     INFO - Get movie id from: http://www.imdb.com/title/tt2226597/?ref_=fn_ft_tt_1
+[03-24 01:47:13] p32034 {movie_rating/movie_rating.py:301 [get_movie_rating_by_url]}     INFO - Get movie rating from: http://www.imdb.com/title/tt2226597/?ref_=fn_ft_tt_1
+[03-24 01:47:15] p32034 {movie_rating/movie_rating.py:310 [get_movie_rating_by_url]}     INFO - Movie Rating: 6.4

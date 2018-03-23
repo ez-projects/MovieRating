@@ -1,13 +1,13 @@
-#!/venv/bin/python
 # -*- coding: utf-8 -*-
+import sys
+import pytest
 
-from movie_rating.movie_rating import get_imdb_id_by_url
-from movie_rating.movie_rating import get_movie_details_by_id
-from movie_rating.movie_rating import get_movie_name_and_year
-from movie_rating.movie_rating import create_query
-from movie_rating.movie_rating import get_release_year_by_date
-from movie_rating.movie_rating import get_movie_rating_by_url
-from movie_rating.movie_rating import get_movies
+from ..movie_rating.movie_rating import get_imdb_id_by_url
+from ..movie_rating.movie_rating import get_movie_details_by_id
+from ..movie_rating.movie_rating import get_movie_name_and_year
+from ..movie_rating.movie_rating import create_query
+from ..movie_rating.movie_rating import get_release_year_by_date
+from ..movie_rating.movie_rating import get_movie_rating_by_url
 
 
 def test_create_query():
@@ -16,22 +16,31 @@ def test_create_query():
     test_cases = [
         {
             "title": "The Lego Batman Movie",
+            "series": None,
             "year": "2017",
             "expected_query": "The Lego Batman Movie 2017"
         },
         {
             "title": "Assassin's Creed",
+            "series": None,
             "year": "2016",
             "expected_query": "Assassin's Creed 2016"
         },
         {
             "title": "Moonlight",
+            "series": None,
             "year": "2016",
             "expected_query": "Moonlight 2016"
+        },
+        {
+            "title": "Daddys Home",
+            "series": "2",
+            "year": "2017",
+            "expected_query": "Daddys Home 2 2017"
         }
     ]
     for test in test_cases:
-        actual_query = create_query(test["title"], test["year"])
+        actual_query = create_query(test["title"], test["series"], test["year"])
         assert actual_query == test["expected_query"], \
             "Expected query: [{}], but got: [{}]".format(test["expected_query"], actual_query)
 
@@ -67,8 +76,14 @@ def test_get_movie_details_by_id():
         "original_language": "en",
         "imdb_id": "tt4116284",
         "production_countries": [
-            "Denmark",
-            "United States of America"
+            {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+            },
+            {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+            }
         ]
     }
     actual_details = get_movie_details_by_id(movie_id)
@@ -76,6 +91,7 @@ def test_get_movie_details_by_id():
         assert expected_value == actual_details.get(key), \
             "Expected movie details: [{}] is [{}], but got: [{}]".format(key, expected_value, actual_details.get(key))
 
+@pytest.mark.skip(reason='get_movie_name_and_year is depricated')
 def test_get_movie_name_and_year():
     """
     """
