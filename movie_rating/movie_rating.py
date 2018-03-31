@@ -69,7 +69,7 @@ def clean_up_string_between_year_and_resolution(movie_name):
         else:
             title_and_year.append(item)
 
-    year = title_and_year[-1]
+    year = f'y:{title_and_year[-1]}'
     series = title_and_year[-2]
     title = ''
     if series.isdigit():
@@ -134,6 +134,8 @@ def create_query(movie_title, series, year):
     movie_name: dotted notation name
     return query with name in + fashion
     """
+    if not year.startswith('y:'):
+        year = f'y:{year}'
     query = []
     # -1 is used to exclude year
     for i in movie_title.split(" "):
@@ -185,59 +187,93 @@ def log_error(e):
     print(e)
 
 
-def get_movie_url(movie_title, series, year):
+def get_search_results(movie_title, series, year):
     """
+    Get parsered html from search result
+    :param movie_title:
+    :param series:
+    :param year:
+    :return:
     """
-    movie_url = "http://www.imdb.com"
+    movie_url = "http://www.themoviedb.org"
     logger.info("Get movie url from {}".format(movie_url))
-    movie_href = ""
     query = create_query(movie_title, series, year)
 
-    url = "http://www.imdb.com/find?ref_=nv_sr_fn&q={}&s=tt&ttype=ft&ref_=fn_ft".format(query)
+    url = 'https://www.themoviedb.org/search/movie?query="{}"'.format(query)
     print(url)
     logger.info("Searching for movie: {}".format(url))
-    expected_title = "{}".format(movie_title.lower())
-    expected_series = series
-    expected_year = "({})".format(year)
     response = simple_get(url)
     html = BeautifulSoup(response, "html.parser")
-    if html.find("div", {"class": "findNoResults"}):
-        url = "http://www.imdb.com/find?ref_=nv_sr_fn&q={}&s=tt".format(query)
-        response=simple_get(url)
-        html = BeautifulSoup(response, "html.parser")
+    # if html.find("div", {"class": "flex"}):
+    #     url = 'https://www.themoviedb.org/search/movie?query="{}"'.format(query)
+    #     response = simple_get(url)
+    #     html = BeautifulSoup(response, "html.parser")
 
-    table = html.find('table', {'class': 'findList'})
-    if table:
-        rows = table.findAll('tr')
-        found = False
-        for tr in rows:
-            cols = tr.findAll('td')
-            for col in cols:
-                col_text = \
-                    str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
-                if col_text:
-                    for s in BLACKLISTED_STR:
-                        col_text = col_text.replace(s, "").replace("'", '')
-                    col_text = col_text.strip().lower()
-                    # NB: identify movie in there
-                    # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
-                    print(col_text)
-                    if expected_series:
-                        res = set(col_text.split(" ")) - \
-                              set(
-                                  expected_title.split(" ") +
-                                  [expected_series] + [expected_year]
-                              )
-                    else:
-                        res = set(col_text.split(" ")) - \
-                              set(expected_title.split(" ") + [expected_year])
-                    if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
-                        movie_href = cols[1].find('a').get("href") or (not res in expected_title)
-                        found = True
-                        break
-            if found:
-                break
-    movie_url += movie_href
+
+    return html
+
+
+def find_match_movie_from_search_result(html):
+    """
+    """
+    result = html.find("div", {"class": "flex"})
+    result = [i for i in result.find("div", {"class": "flex"}).children]
+    title =  result[1].get_text()
+
+
+    import ipdb;ipdb.set_trace()
+
+    sys.exit()
+    # movie_url = "http://www.imdb.com"
+    # logger.info("Get movie url from {}".format(movie_url))
+    # movie_href = ""
+    # query = create_query(movie_title, series, year)
+    #
+    # url = 'https://www.themoviedb.org/search/movie?query="{}"'.format(query)
+    # print(url)
+    # logger.info("Searching for movie: {}".format(url))
+    # expected_title = "{}".format(movie_title.lower())
+    # expected_series = series
+    # expected_year = "({})".format(year)
+    # response = simple_get(url)
+    # html = BeautifulSoup(response, "html.parser")
+    # if html.find("div", {"class": "findNoResults"}):
+    #     url = "http://www.imdb.com/find?ref_=nv_sr_fn&q={}&s=tt".format(query)
+    #     response=simple_get(url)
+    #     html = BeautifulSoup(response, "html.parser")
+    #
+    # table = html.find('table', {'class': 'findList'})
+    # if table:
+    #     rows = table.findAll('tr')
+    #     found = False
+    #     for tr in rows:
+    #         cols = tr.findAll('td')
+    #         for col in cols:
+    #             col_text = \
+    #                 str(col.text.encode('utf-8').decode('ascii', 'ignore').strip())
+    #             if col_text:
+    #                 for s in BLACKLISTED_STR:
+    #                     col_text = col_text.replace(s, "").replace("'", '')
+    #                 col_text = col_text.strip().lower()
+    #                 # NB: identify movie in there
+    #                 # if col_text.startswith(expected_title) and col_text.endswith(expected_year):
+    #                 print(col_text)
+    #                 if expected_series:
+    #                     res = set(col_text.split(" ")) - \
+    #                           set(
+    #                               expected_title.split(" ") +
+    #                               [expected_series] + [expected_year]
+    #                           )
+    #                 else:
+    #                     res = set(col_text.split(" ")) - \
+    #                           set(expected_title.split(" ") + [expected_year])
+    #                 if (not res) or (res & set([x.lower() for x in ALLOWED_CHAR])):
+    #                     movie_href = cols[1].find('a').get("href") or (not res in expected_title)
+    #                     found = True
+    #                     break
+    #         if found:
+    #             break
+    # movie_url += movie_href
     return movie_url
 
 
@@ -383,7 +419,8 @@ def main():
         print(name)
         movie_title, series, year = clean_up_string_between_year_and_resolution(name)
         # movie_title, series, year = get_movie_name_and_year(name)
-        movie_url = get_movie_url(movie_title, series, year)
+        html_result = get_search_results(movie_title, series, year)
+        movie_url = find_match_movie_from_search_result(html_result)
         imdb_id = get_imdb_id_by_url(movie_url)
         if not imdb_id:
             print("No IMDB ID found.\n")

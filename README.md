@@ -6,3 +6,4 @@ Find the movie rating from IMDB
 ```bash
 pytest --cov -v ./tests/test_movie_rating.py
 ```
+
