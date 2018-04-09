@@ -4,6 +4,7 @@
 import logging
 import re
 import sys
+import requests
 from requests import get
 from os import listdir
 from os.path import isdir, join
@@ -207,23 +208,14 @@ def get_search_results(movie_title, series, year):
     :param year:
     :return:
     """
-    # movie_url = "http://www.themoviedb.org"
-    # http://www.imdb.com/search/title?title=A+Better+Tomorrow&title_type=feature&release_date=1986-01-01,1986-12-31
+    search_title = f'{movie_title} {series}' if series else f'{movie_title}'
     url = \
-    f"http://www.imdb.com/search/title?title={movie_title}&title_type=feature&release_date={year}-01-01,{year}-12-31"
+        f'http://www.imdb.com/search/title?title={search_title}&' + \
+        f'title_type=feature&release_date={year}-01-01,{year}-12-31'
     logger.info("Get movie url from {}".format(url))
-    # query = create_query(movie_title, series, year)
-
-    # url = 'https://www.themoviedb.org/search/movie?query="{}"'.format(query)
-    print(url)
     logger.info("Searching for movie: {}".format(url))
     response = simple_get(url)
     html = BeautifulSoup(response, "html.parser")
-    # if html.find("div", {"class": "flex"}):
-    #     url = 'https://www.themoviedb.org/search/movie?query="{}"'.format(query)
-    #     response = simple_get(url)
-    #     html = BeautifulSoup(response, "html.parser")
-
 
     return html
 
@@ -296,9 +288,10 @@ def get_imdb_id_by_url(url):
     """
     http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
     """
+    
     if url and url.split("/")[-2].startswith("tt"):
         logger.info("Get movie id from: {}".format(url))
-        return url.split("/")[-2].startswith("tt")
+        return url.split("/")[-2]
     else:
         return None
 
@@ -313,7 +306,6 @@ def get_movie_details_by_id(imdb_id):
     production_countries: list of dictionary
     original_language: string
     """
-    import requests
     url = "https://api.themoviedb.org/3/movie/{}?api_key=c73d7f19c33a3c43d4f4f66a80cde8d7&format=json".format(imdb_id)
     logger.info("Send GET request: {}".format(url))
     response = requests.get(url)
@@ -425,24 +417,24 @@ def create_parsed_args():
                         default=None,
                         help='To find a single given movie rating'
                        )
-    parser.add_argument('--path',
+    parser.add_argument('-p', '--path',
                         default=MOVIE_ROOT,
                         help='To find all movies\'s rating in the given directory path'
                        )
-    parser.add_argument('--poster',
-                        default=False,
-                        help=\
-                        'Find movie rating and its poster link, and download it.'
-                       )
-    parser.add_argument('--preview',
-                        default=False,
-                        help='Find movie rating and its previw'
-                       )
-    parser.add_argument('--verify',
-                        default=False,
+    parser.add_argument('-v', '--verify',
+                        default='True',
                         help='Verify movie\'s id from www.themoviedb.org'
                        )
     return parser.parse_args()
+
+
+def parse_verify(verify_arg):
+    """
+    """
+    if verify_arg.lower() in ['1', 'y', 'yes', 't', 'true']:
+        return True
+    else:
+        return False
 
 
 def main():
@@ -450,7 +442,7 @@ def main():
     """
     parsed_args = create_parsed_args()
     movies = []
-    verify = True if parsed_args.verify else False
+    verify = True if parse_verify(parsed_args.verify) else False
     # A movie name from command line
     if parsed_args.single:
         movies = [parsed_args.single]
@@ -474,6 +466,8 @@ def main():
                 found_it = True
                 rating = get_movie_rating_by_url(movie_url, verify)
                 print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
+                # if verify_search_result():
+                    # print(dumps(get_movie_details_by_id(imdb_id), indent=4))
             else:
                 print(f"\nOriginal Movie: [{name}] wasn't found;\n")
                 if input("Countinue search: yes/no\n") in ['yes', 'y']:
