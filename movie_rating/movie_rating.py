@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import logging
@@ -6,16 +7,19 @@ import sys
 from requests import get
 from os import listdir
 from os.path import isdir, join
+import argparse
 
 from bs4 import BeautifulSoup
 from contextlib import closing
 from json import dumps
 from pyquery import PyQuery as pq
+from pprint import pprint
 
 from requests.exceptions import RequestException
 
 
-MOVIE_ROOT = '/run/media/nathan/Seagate4Tb/MOVIES/Movies'
+MOVIE_ROOT = '/run/media/nathan/Seagate2Tb/HDerNew'
+#'/run/media/nathan/Seagate4Tb/MOVIES/Movies'
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -44,8 +48,14 @@ def get_movies(folder_path):
     files = []
     print("\nTotal Movie: {}\n".format(len(listdir(folder_path))))
     try:
-        files = [f for f in listdir(folder_path) if isdir(join(folder_path, f))
-            and not f.endswith(".srt")]
+        for f in listdir(folder_path):
+            if isdir(join(folder_path, f)):
+                for ff in listdir(join(folder_path, f)):
+                    if ff.endswith('.mkv'):
+                        files.append(ff.replace('.mkv', ''))
+            else:
+                if f.endswith('.mkv'):
+                    files.append(f.replace('.mkv', ''))
     except OSError as msg:
         logger.info("No movies were found in: {}".format(folder_path))
     logger.info("Get movies in directory: {}".format(folder_path))
@@ -63,13 +73,15 @@ def clean_up_string_between_year_and_resolution(movie_name):
     """
     title_and_year = []
     for item in movie_name.split("."):
+        #import  ipdb; ipdb.set_trace()
+        item = item.replace('(', '').replace(')', '')
         if item.isdigit() and len(item)==4:
             title_and_year.append(item)
             break
         else:
             title_and_year.append(item)
 
-    year = f'y:{title_and_year[-1]}'
+    year = f'{title_and_year[-1]}'
     series = title_and_year[-2]
     title = ''
     if series.isdigit():
@@ -195,11 +207,14 @@ def get_search_results(movie_title, series, year):
     :param year:
     :return:
     """
-    movie_url = "http://www.themoviedb.org"
-    logger.info("Get movie url from {}".format(movie_url))
-    query = create_query(movie_title, series, year)
+    # movie_url = "http://www.themoviedb.org"
+    # http://www.imdb.com/search/title?title=A+Better+Tomorrow&title_type=feature&release_date=1986-01-01,1986-12-31
+    url = \
+    f"http://www.imdb.com/search/title?title={movie_title}&title_type=feature&release_date={year}-01-01,{year}-12-31"
+    logger.info("Get movie url from {}".format(url))
+    # query = create_query(movie_title, series, year)
 
-    url = 'https://www.themoviedb.org/search/movie?query="{}"'.format(query)
+    # url = 'https://www.themoviedb.org/search/movie?query="{}"'.format(query)
     print(url)
     logger.info("Searching for movie: {}".format(url))
     response = simple_get(url)
@@ -216,15 +231,15 @@ def get_search_results(movie_title, series, year):
 def find_match_movie_from_search_result(html):
     """
     """
-    result = html.find("div", {"class": "flex"})
-    result = [i for i in result.find("div", {"class": "flex"}).children]
-    title =  result[1].get_text()
+    result = html.find("h3", {"class": "lister-item-header"})
+    # result = [i for i in result.find("div", {"class": "flex"}).children]
+    # title =  result[1].get_text()
+    # https://www.imdb.com/search/title?title=The+Hobbit+An+Unexpected+Journey&title_type=feature&release_date=2012-01-01,2012-12-31
+    if not result:
+        return None
+    movie_href= result.find(href=True).get("href", None)
 
-
-    import ipdb;ipdb.set_trace()
-
-    sys.exit()
-    # movie_url = "http://www.imdb.com"
+    movie_url = "http://www.imdb.com"
     # logger.info("Get movie url from {}".format(movie_url))
     # movie_href = ""
     # query = create_query(movie_title, series, year)
@@ -273,7 +288,7 @@ def find_match_movie_from_search_result(html):
     #                     break
     #         if found:
     #             break
-    # movie_url += movie_href
+    movie_url += movie_href
     return movie_url
 
 
@@ -281,10 +296,9 @@ def get_imdb_id_by_url(url):
     """
     http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
     """
-    logger.info("Get movie id from: {}".format(url))
-    imdb_id = url.split("/")[-2]
-    if imdb_id.startswith("tt"):
-        return imdb_id
+    if url and url.split("/")[-2].startswith("tt"):
+        logger.info("Get movie id from: {}".format(url))
+        return url.split("/")[-2].startswith("tt")
     else:
         return None
 
@@ -326,6 +340,7 @@ def get_movie_details_by_id(imdb_id):
             refined_data[key] = data.get(key)
         refined_data["production_countries"] = production_countries
     logger.info(dumps(refined_data, indent=4))
+    # pprint(refined_data)
     return data
 
 
@@ -367,7 +382,6 @@ def verify_searched_results(url, soup_html):
         print("\tFailed: {}".format(msg))
     else:
         print("\tPASSED!!!")
-    from pprint import pprint
     pprint(verified_data)
 
 
@@ -391,48 +405,89 @@ def get_movie_poster_from_tmdb(poster_path, movie_path):
     # urllib.request.urlretrieve(poster_url, poster)
     logger.info("Movie poster was saved in: {}".format(poster))
 
+def create_parsed_args():
+    """
+    --single: Find one given movie's rating
+    --path: Find all movies' rating in the given path
+    --poster: Find movie rating with poster path
+    --preview: Find movie rating with preview link
+    --verify: Verify the found movie's id at www.themoviedb.org
+    """
+
+    parser = argparse.ArgumentParser(
+        prog='Movie Rating Finder',
+        description='This simple web crawler find the given movies rating '\
+            'from IMDB site. It will be used as part of the UI project.',
+        usage='python movie_rating.py [OPTION] [VALUE]'
+    )
+
+    parser.add_argument('-s', '--single',
+                        default=None,
+                        help='To find a single given movie rating'
+                       )
+    parser.add_argument('--path',
+                        default=MOVIE_ROOT,
+                        help='To find all movies\'s rating in the given directory path'
+                       )
+    parser.add_argument('--poster',
+                        default=False,
+                        help=\
+                        'Find movie rating and its poster link, and download it.'
+                       )
+    parser.add_argument('--preview',
+                        default=False,
+                        help='Find movie rating and its previw'
+                       )
+    parser.add_argument('--verify',
+                        default=False,
+                        help='Verify movie\'s id from www.themoviedb.org'
+                       )
+    return parser.parse_args()
+
 
 def main():
+    """
+    """
+    parsed_args = create_parsed_args()
     movies = []
-    verify = False
-    path = MOVIE_ROOT
-    logger.info("Scanning movies in: {}".format(path))
+    verify = True if parsed_args.verify else False
     # A movie name from command line
-    if len(sys.argv) == 2:
-        if sys.argv[1] == '--verify':
-            verify = True
-            movies = get_movies(path)
-        elif sys.argv[1] == "--poster":
-            movies = get_movies(path)
-        else:
-            movies = [sys.argv[-1]]
-    elif len(sys.argv) == 3:
-        if sys.argv[1] == "--verify":
-            verify = True
-        movies = [sys.argv[-1]]
+    if parsed_args.single:
+        movies = [parsed_args.single]
     # A directory of movies
     else:
+        path = parsed_args.path
         movies = get_movies(path)
-
+        logger.info("Scanning movies in: {}".format(path))
     # Lookup movies
     for name in movies:
         print(name)
         movie_title, series, year = clean_up_string_between_year_and_resolution(name)
         # movie_title, series, year = get_movie_name_and_year(name)
-        html_result = get_search_results(movie_title, series, year)
-        movie_url = find_match_movie_from_search_result(html_result)
-        imdb_id = get_imdb_id_by_url(movie_url)
-        if not imdb_id:
-            print("No IMDB ID found.\n")
-            continue
-        if set(sys.argv) & set(["--poster"]):
-            path = input("Movie's parent folder?")
-            if path and movies:
-                poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
-                movie_path = "{}/{}".format(path, name)
-                get_movie_poster_from_tmdb(poster_path, movie_path)
-        rating = get_movie_rating_by_url(movie_url, verify)
-        print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
-
+        found_it = False
+        while not found_it:
+            html_result = get_search_results(movie_title, series, year)
+            if html_result:
+                movie_url = find_match_movie_from_search_result(html_result)
+                imdb_id = get_imdb_id_by_url(movie_url)
+            if movie_url and imdb_id:
+                found_it = True
+                rating = get_movie_rating_by_url(movie_url, verify)
+                print("{} ({}): {} / 10.0\n\n".format(movie_title, year, rating))
+            else:
+                print(f"\nOriginal Movie: [{name}] wasn't found;\n")
+                if input("Countinue search: yes/no\n") in ['yes', 'y']:
+                    movie_title = input("Enter movie title:\n")
+                    series = input("Enter series: \n")
+                    year = input("Enter year of relase: \n")
+                else:
+                    found_it = True
+                    continue
+        # if set(sys.argv) & set(["--poster"]):
+            # path = input("Movie's parent folder?")
+            # if path and movies:
+            #     poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
+            #     movie_path = "{}/{}".format(path, name)
+            #     get_movie_poster_from_tmdb(poster_path, movie_path)
 if __name__ == '__main__':
     main()

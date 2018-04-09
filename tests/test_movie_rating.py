@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
 import pytest
@@ -42,7 +43,10 @@ def test_create_query():
     for test in test_cases:
         actual_query = create_query(test["title"], test["series"], test["year"])
         assert actual_query == test["expected_query"], \
-            "Expected query: [{}], but got: [{}]".format(test["expected_query"], actual_query)
+            "Expected query: [{}], but got: [{}]".format(
+                test["expected_query"], 
+                actual_query
+            )
 
 
 def test_get_imdb_id_by_url():
@@ -52,7 +56,8 @@ def test_get_imdb_id_by_url():
     movie_url = "http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1"
     expected_id = "tt6255746"
     actual_id = get_imdb_id_by_url(movie_url)
-    assert expected_id == actual_id, "Expected movie id: [{}], but got: [{}]".format(expected_id, actual_id)
+    assert expected_id == actual_id, \
+        "Expected movie id: [{}], but got: [{}]".format(expected_id, actual_id)
 
 
 @pytest.mark.skip(reason='skip for now')
@@ -62,8 +67,13 @@ def test_get_movie_rating_by_url():
     movie_url = "http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1"
     actual_rating = get_movie_rating_by_url(movie_url)
     expected_rating = "6.4"
-    assert actual_rating, "Expected movie rating is a digit, but got: [{}]".format(actual_rating)
-    assert expected_rating == actual_rating, "Expected rating: [{}], but got: [{}]".format(expected_rating, actual_rating)
+    assert actual_rating, \
+        "Expected movie rating is a digit, but got: [{}]".format(actual_rating)
+    assert expected_rating == actual_rating, \
+        "Expected rating: [{}], but got: [{}]".format(
+            expected_rating,
+            actual_rating
+        )
 
 
 def test_get_movie_details_by_id():
@@ -93,7 +103,11 @@ def test_get_movie_details_by_id():
     actual_details = get_movie_details_by_id(movie_id)
     for key, expected_value in expected_movie_details.items():
         assert expected_value == actual_details.get(key), \
-            "Expected movie details: [{}] is [{}], but got: [{}]".format(key, expected_value, actual_details.get(key))
+            "Expected movie details: [{}] is [{}], but got: [{}]".format(
+                key,
+                expected_value,
+                actual_details.get(key)
+            )
 
 @pytest.mark.skip(reason='get_movie_name_and_year is depricated')
 def test_get_movie_name_and_year():
@@ -133,9 +147,15 @@ def test_get_movie_name_and_year():
         expected_year = expected_results[ind]["year"]
         actual_name, actual_year = get_movie_name_and_year(name)
         assert expected_name == actual_name, \
-            "Expected name: [{}], but got: [{}]".format(expected_name, actual_name)
+            "Expected name: [{}], but got: [{}]".format(
+                expected_name,
+                actual_name
+            )
         assert expected_year == actual_year, \
-            "Expected year: [{}], but got: [{}]".format(expected_name, actual_year)
+            "Expected year: [{}], but got: [{}]".format(
+                expected_name,
+                actual_year
+            )
     # The same name should be returned
     irregular_name = "Some.Name.Without.Resolution.2014.WEB-DL.DD5.1.H264-FGT"
     actual_name, actual_year = get_movie_name_and_year(irregular_name)
@@ -143,7 +163,11 @@ def test_get_movie_name_and_year():
     expected_year = "2014"
     assert expected_name == actual_name, \
         "Expected name: [{}], but got: [{}]".format(expected_name, actual_name)
-    assert expected_year == actual_year, "Expected year was [{}], but got: [{}]".format(expected_year, actual_year)
+    assert expected_year == actual_year, \
+            "Expected year was [{}], but got: [{}]".format(
+                expected_year,
+                actual_year
+            )
 
 def test_get_release_year_by_date():
     """
@@ -157,4 +181,8 @@ def test_get_release_year_by_date():
     for date in test_dates:
         actual_year = get_release_year_by_date(date)
         expected_year = date.split("-")[0]
-        assert expected_year == actual_year, "Expected year: [{}], but got: [{}]".format(expected_year, actual_year)
+        assert expected_year == actual_year, \
+                "Expected year: [{}], but got: [{}]".format(
+                    expected_year,
+                    actual_year
+                )
