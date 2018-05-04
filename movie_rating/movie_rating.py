@@ -5,6 +5,7 @@ import logging
 import re
 import sys
 import requests
+import json
 from requests import get
 from os import listdir
 from os.path import isdir, join
@@ -288,7 +289,7 @@ def get_imdb_id_by_url(url):
     """
     http://www.imdb.com/title/tt6255746/?ref_=fn_ft_tt_1
     """
-    
+
     if url and url.split("/")[-2].startswith("tt"):
         logger.info("Get movie id from: {}".format(url))
         return url.split("/")[-2]
@@ -374,7 +375,7 @@ def verify_searched_results(url, soup_html):
         print("\tFailed: {}".format(msg))
     else:
         print("\tPASSED!!!")
-    pprint(verified_data)
+    print(json.dumps(verified_data,indent=4))
 
 
 def get_release_year_by_date(release_date):
@@ -396,6 +397,22 @@ def get_movie_poster_from_tmdb(poster_path, movie_path):
     poster = "{}/{}.jpg".format(movie_path, movie_folder_name)
     # urllib.request.urlretrieve(poster_url, poster)
     logger.info("Movie poster was saved in: {}".format(poster))
+
+
+def get_poster_url_by_imdb_id(imdb_id):
+    """
+    Get poster url from omdbapi
+    http://omdbapi.com/?apikey=f6539eee&i=tt1507571&format=json
+    :param imdb_id:
+    :return: poster url
+    """
+    url =f'http://omdbapi.com/?apikey=f6539eee&i={imdb_id}&format=json'
+    response = requests.get(url)
+    response =json.loads(response.content)
+    img_url = response.get("Poster", None)
+
+    return img_url
+
 
 def create_parsed_args():
     """
