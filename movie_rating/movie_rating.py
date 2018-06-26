@@ -474,6 +474,8 @@ def main():
         movie_title, series, year = clean_up_string_between_year_and_resolution(name)
         # movie_title, series, year = get_movie_name_and_year(name)
         found_it = False
+        movie_url = None
+        imdb_id = None
         while not found_it:
             html_result = get_search_results(movie_title, series, year)
             if html_result:
@@ -494,11 +496,5 @@ def main():
                 else:
                     found_it = True
                     continue
-        # if set(sys.argv) & set(["--poster"]):
-            # path = input("Movie's parent folder?")
-            # if path and movies:
-            #     poster_path = get_movie_details_by_id(imdb_id).get("poster_path")
-            #     movie_path = "{}/{}".format(path, name)
-            #     get_movie_poster_from_tmdb(poster_path, movie_path)
 if __name__ == '__main__':
     main()
