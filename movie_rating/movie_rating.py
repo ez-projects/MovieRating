@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import re
-import sys
 import requests
 import json
 from requests import get
@@ -15,7 +13,7 @@ from bs4 import BeautifulSoup
 from contextlib import closing
 from json import dumps
 from pyquery import PyQuery as pq
-from pprint import pprint
+
 
 from requests.exceptions import RequestException
 
