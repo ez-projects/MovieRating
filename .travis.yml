@@ -8,5 +8,7 @@ install:
     - pip install -r requirements.txt
 
 script:
+    - mkdir log
+    - touch ./log/movie_rating.log
     - pytest -v  ./tests/test_movie_rating.py
 
