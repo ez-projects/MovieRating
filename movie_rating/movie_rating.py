@@ -12,11 +12,7 @@ import argparse
 from bs4 import BeautifulSoup
 from contextlib import closing
 from json import dumps
-from pyquery import PyQuery as pq
-
-
 from requests.exceptions import RequestException
-
 
 MOVIE_ROOT = '/run/media/nathan/Seagate2Tb/HDerNew'
 #'/run/media/nathan/Seagate4Tb/MOVIES/Movies'
@@ -341,7 +337,8 @@ def get_movie_rating_by_url(url, verify=False):
     Get movie rating
     """
     logger.info("Get movie rating from: {}".format(url))
-    doc=pq(url, method="get", verify=True)
+    doc = simple_get(url)
+    # doc=pq(url, method="get", verify=True)
     soup = BeautifulSoup(doc.html(), "html.parser")
     rating_div = soup.find('span', {"itemprop": 'ratingValue'})
     rating_str = str(rating_div)
