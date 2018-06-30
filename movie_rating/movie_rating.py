@@ -338,8 +338,8 @@ def get_movie_rating_by_url(url, verify=False):
     """
     logger.info("Get movie rating from: {}".format(url))
     doc = simple_get(url)
-    # doc=pq(url, method="get", verify=True)
-    soup = BeautifulSoup(doc.html(), "html.parser")
+    import ipdb;ipdb.set_trace()
+    soup = BeautifulSoup(doc, "html.parser")
     rating_div = soup.find('span', {"itemprop": 'ratingValue'})
     rating_str = str(rating_div)
     if verify:
