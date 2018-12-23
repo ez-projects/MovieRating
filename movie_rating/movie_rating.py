@@ -367,7 +367,7 @@ def verify_searched_results(url, soup_html):
         print("\tFailed: {}".format(msg))
     else:
         print("\tPASSED!!!")
-    print(json.dumps(verified_data,indent=4))
+    print(json.dumps(verified_data, indent=4))
 
 
 def get_release_year_by_date(release_date):
