@@ -69,7 +69,6 @@ def clean_up_string_between_year_and_resolution(movie_name):
     """
     title_and_year = []
     for item in movie_name.split("."):
-        #import  ipdb; ipdb.set_trace()
         item = item.replace('(', '').replace(')', '')
         if item.isdigit() and len(item)==4:
             title_and_year.append(item)
@@ -87,12 +86,11 @@ def clean_up_string_between_year_and_resolution(movie_name):
         series = None
 
     # In the case there is no year info in the name
-    if len(title_and_year) == len(movie_name.split(".")) and not \
-        title_and_year[-1].isdigit():
+    if len(title_and_year) == len(movie_name.split(".")) and not title_and_year[-1].isdigit():
         print("\nERROR: Invalid movie name: No year info was found\n")
         title_and_year = []
 
-    return (' '.join(title), series, year)
+    return ' '.join(title), series, year
 
 
 def get_movie_name_and_year(name):
@@ -338,7 +336,6 @@ def get_movie_rating_by_url(url, verify=False):
     """
     logger.info("Get movie rating from: {}".format(url))
     doc = simple_get(url)
-    import ipdb;ipdb.set_trace()
     soup = BeautifulSoup(doc, "html.parser")
     rating_div = soup.find('span', {"itemprop": 'ratingValue'})
     rating_str = str(rating_div)
@@ -357,7 +354,7 @@ def verify_searched_results(url, soup_html):
     print("Verifying... ...")
     imdb_id = get_imdb_id_by_url(url)
     verified_data = get_movie_details_by_id(imdb_id)
-    title_div = soup_html.find("h1", {"itemprop":"name"}).get_text().encode('utf-8').decode('ascii', 'ignore')
+    title_div = soup_html.find("h1", {"itemprop":""}).get_text().encode('utf-8').decode('ascii', 'ignore')
     title_str = title_div.lower()
     # Verify movie title and year
     release_year = get_release_year_by_date(verified_data.get("release_date"))
@@ -491,5 +488,7 @@ def main():
                 else:
                     found_it = True
                     continue
+
+
 if __name__ == '__main__':
     main()
