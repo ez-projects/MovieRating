@@ -43,7 +43,7 @@ pre_window: source venv/bin/activate
 # post: tmux -CC attach -t yy
 
 windows:
-  - editor:
+  - MovieRating:
       layout: main-horizontal # main-horizontal, main-vertical, even-horizontal, even-vertical, title
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
